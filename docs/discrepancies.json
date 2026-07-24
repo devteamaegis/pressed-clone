@@ -1,0 +1,484 @@
+{
+ "01-home": [
+  {
+   "component": "Brand logo (header + footer)",
+   "severity": "high",
+   "whatDiffers": "The 'pressed JUICERY' wordmark is absent from the header and the circular leaf mark is absent from the footer; both render on live.",
+   "fixHint": "Capture replaced them with a transparent 1x1 GIF \u2014 restore the real inline SVG via the icon registry."
+  },
+  {
+   "component": "Global typography",
+   "severity": "high",
+   "whatDiffers": "All headings/bold text render in Helvetica/Arial rather than the brand sans, visibly heavier and wider.",
+   "fixHint": "Markup requests regola-neue-semibold/-medium/-regular but no @font-face declared them; self-host the real faces under those exact names."
+  },
+  {
+   "component": "Footer legal bar",
+   "severity": "high",
+   "whatDiffers": "The black footer background stops mid-way through the copyright line, slicing it in half; the second legal line is not visible.",
+   "fixHint": "Set the legal bar to height:auto with padding and remove the fixed height/overflow:hidden on the black footer container."
+  },
+  {
+   "component": "Footer social icons",
+   "severity": "high",
+   "whatDiffers": "Instagram, Facebook, X/Twitter and YouTube icons at the right of the legal bar are missing entirely.",
+   "fixHint": "Restore the four social icon sources (blank 1x1 GIF placeholders) via the icon registry."
+  },
+  {
+   "component": "Header cart icon",
+   "severity": "high",
+   "whatDiffers": "The far-right shopping-bag icon is missing; only the account icon renders.",
+   "fixHint": "Restore the 'Go to cart' icon source from the registry."
+  },
+  {
+   "component": "Hero media + play/pause control",
+   "severity": "med",
+   "whatDiffers": "The hero is a static poster image where live plays a looping video, and the pause control is an empty white circle.",
+   "fixHint": "Replace the empty <mux-player> custom element with a real <video autoplay muted loop playsinline poster=...> and restore the pause glyph."
+  },
+  {
+   "component": "Pressed Rewards CTA button",
+   "severity": "med",
+   "whatDiffers": "The pill button label reads 'Join For' instead of 'Join For Free' \u2014 the word 'Free' is clipped.",
+   "fixHint": "Remove the fixed width on the pill; use padding with white-space:nowrap."
+  },
+  {
+   "component": "Announcement bar carousel controls",
+   "severity": "med",
+   "whatDiffers": "The prev/next/pause controls at the right edge of the promo bar are missing.",
+   "fixHint": "Restore the three control icon sources from the registry."
+  },
+  {
+   "component": "Product row card alignment",
+   "severity": "med",
+   "whatDiffers": "In the second product row, the card whose title wraps to three lines drops its price and CTA ~25px below its neighbours, breaking the shared baseline.",
+   "fixHint": "Make each card display:flex; flex-direction:column; height:100% and push the price/CTA group down with margin-top:auto."
+  },
+  {
+   "component": "Footer link columns",
+   "severity": "med",
+   "whatDiffers": "Footer columns are ~70-90px narrower than live, wrapping 'Find a Store', 'Juice Cleanses', 'Member Terms and Conditions' and 'VIP Terms and Conditions' onto two lines.",
+   "fixHint": "Widen the footer grid to the full container width and let the link columns size to content."
+  },
+  {
+   "component": "Section photography crop",
+   "severity": "low",
+   "whatDiffers": "Photos are scaled ~8-10% larger inside identically-sized frames, cropping subjects tighter than live.",
+   "fixHint": "Match live's object-fit/aspect-ratio on the image frames instead of the upscaled background-size."
+  },
+  {
+   "component": "'Learn More' button",
+   "severity": "low",
+   "whatDiffers": "Renders as a ~8px rounded rectangle where live uses a fully-rounded pill.",
+   "fixHint": "Set border-radius: 9999px to match the other CTAs."
+  }
+ ],
+ "02-shop": [
+  {
+   "component": "Footer",
+   "severity": "high",
+   "whatDiffers": "The clone has no footer at all on /shop \u2014 the page ends after the last product card with ~1450px of blank white, while live renders the full dark footer.",
+   "fixHint": "Ensure the footer partial renders on the shop route and remove the trailing whitespace."
+  },
+  {
+   "component": "Product grid columns",
+   "severity": "high",
+   "whatDiffers": "The grid uses auto-fit so short sections stretch: Gift Cards (1 item) renders as a single ~1270px-wide tile, Supplements (2) as two ~600px tiles, versus a fixed 6-column ~166px card on live. Main cause of ~3300px extra page height.",
+   "fixHint": "Use grid-template-columns: repeat(6, minmax(0,1fr)) with justify-items:start and pin the tile aspect-ratio."
+  },
+  {
+   "component": "Header logo",
+   "severity": "high",
+   "whatDiffers": "Empty gap at header top-left where live shows the wordmark.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Filter sidebar \u2014 missing groups",
+   "severity": "high",
+   "whatDiffers": "The sidebar shows only a 14-item Product Type list; the 'Gift Cards' row and the entire second 'Function' filter group are missing.",
+   "fixHint": "Render the full 26-chip taxonomy across both Product Type and Function groups."
+  },
+  {
+   "component": "Filter checkboxes",
+   "severity": "med",
+   "whatDiffers": "Each filter row shows a ~4x18px solid dark bar where live shows a 20x20px outlined checkbox.",
+   "fixHint": "Restore the checkbox box model: appearance:none; width/height 20px; border:1.5px solid; flex:0 0 20px."
+  },
+  {
+   "component": "Header cart icon",
+   "severity": "med",
+   "whatDiffers": "The shopping-bag icon right of the account icon is missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Product card vertical alignment",
+   "severity": "med",
+   "whatDiffers": "Within a row, price and quantity-stepper rows stagger by 20-40px depending on title wrap, where live aligns every row.",
+   "fixHint": "Card as flex column with min-height on the title block and margin-top:auto on the price/stepper group."
+  },
+  {
+   "component": "Filter sidebar width",
+   "severity": "med",
+   "whatDiffers": "The sidebar is ~162px wide vs ~224px on live, wrapping the heading and long labels; the grid starts at x=267 instead of x=328.",
+   "fixHint": "Set the sidebar track to 224px with a ~72px column gap."
+  },
+  {
+   "component": "Product title typography",
+   "severity": "med",
+   "whatDiffers": "Product-card titles render bold where live is regular/medium at the same size.",
+   "fixHint": "Set the card title to the regular weight."
+  },
+  {
+   "component": "Gift card product card",
+   "severity": "med",
+   "whatDiffers": "The 'Gift of Wellness' card shows only the title \u2014 the price block and 'Shop now' pill that live renders are absent.",
+   "fixHint": "Ensure the price + CTA block renders for gift-card products."
+  },
+  {
+   "component": "Acai & Smoothie Bowls spacing",
+   "severity": "low",
+   "whatDiffers": "~560px of empty white before the next heading where live has a ~90px section gap.",
+   "fixHint": "Remove the empty extra grid row / fixed min-height on that section wrapper."
+  }
+ ],
+ "03-our-journey": [
+  {
+   "component": "Our Journey video embed",
+   "severity": "high",
+   "whatDiffers": "The 476px-tall video embed renders as a completely blank off-white block \u2014 no poster, no play button, no iframe chrome.",
+   "fixHint": "Restore the embed in its 16:9 wrapper, or a static poster plus play-button overlay if third-party frames are stripped."
+  },
+  {
+   "component": "Main content container width",
+   "severity": "high",
+   "whatDiffers": "The page wrapper is capped at 1280px and left-aligned: the anchor-nav and hero run to x=1279 where live is full-bleed to 1439, leaving a 160px empty right strip.",
+   "fixHint": "Remove the max-width on the page wrapper; make hero and anchor-nav full-bleed and centre the inner text container."
+  },
+  {
+   "component": "Header brand logo",
+   "severity": "high",
+   "whatDiffers": "The wordmark occupying x=49-169 on live is entirely absent; the header starts at the 'Shop' link.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Hero H1 line wrapping",
+   "severity": "med",
+   "whatDiffers": "Live breaks the h1 into three lines at ~980px; the clone stretches it to the full 1240px hero and breaks differently.",
+   "fixHint": "Add max-width:980px; margin-inline:auto to the hero h1."
+  },
+  {
+   "component": "Footer social icons",
+   "severity": "med",
+   "whatDiffers": "The four social icons at the right of the legal bar are missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer brand mark",
+   "severity": "med",
+   "whatDiffers": "The circular leaf logo at the footer top-left is absent, leaving that grid cell empty.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Header cart/bag icon",
+   "severity": "med",
+   "whatDiffers": "Live shows account and bag icons; the clone drops the bag.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer column layout",
+   "severity": "med",
+   "whatDiffers": "Footer columns end at x=1217 instead of 1376, wrapping four link labels onto two lines.",
+   "fixHint": "Widen the footer grid to the full container."
+  },
+  {
+   "component": "Anchor sub-nav spacing",
+   "severity": "med",
+   "whatDiffers": "The four anchor links span 722px versus 610px on live \u2014 ~18% wider gaps.",
+   "fixHint": "Use flex with justify-content:center and a fixed gap instead of an evenly-distributed grid."
+  },
+  {
+   "component": "Our Values photo aspect",
+   "severity": "low",
+   "whatDiffers": "The photo is 7px taller than live at the same width.",
+   "fixHint": "Pin the aspect-ratio with object-fit:cover."
+  }
+ ],
+ "04-locations": [
+  {
+   "component": "Header logo",
+   "severity": "high",
+   "whatDiffers": "The header top-left is empty where live shows the wordmark.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Bold font weight (site-wide)",
+   "severity": "high",
+   "whatDiffers": "Every bold string renders at regular weight \u2014 headings, the Filters label and all footer column headings \u2014 while letterforms otherwise match.",
+   "fixHint": "The 600/700 brand faces were never declared; self-host regola-neue-semibold/-medium under the requested family names."
+  },
+  {
+   "component": "Locator section / map height",
+   "severity": "high",
+   "whatDiffers": "The map is 597px tall versus 693px on live (100vh minus header), the entire 100px page shortfall, clipping the store link row out of view.",
+   "fixHint": "Replace the fixed map height with calc(100vh - header) on the two-column wrapper."
+  },
+  {
+   "component": "Page container max-width",
+   "severity": "high",
+   "whatDiffers": "The locator grid is capped at 1152px leaving a 225px empty right gutter; live is full-bleed with 64px padding.",
+   "fixHint": "Remove the max-width cap on the locator section wrapper."
+  },
+  {
+   "component": "Header cart/bag icon",
+   "severity": "med",
+   "whatDiffers": "Only the account icon renders; the bag icon is missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer brand mark",
+   "severity": "med",
+   "whatDiffers": "The circular leaf logo is missing from the footer top-left.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer social icons",
+   "severity": "med",
+   "whatDiffers": "The four social icons are absent from the bottom bar.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer link grid widths",
+   "severity": "med",
+   "whatDiffers": "Columns are compressed, forcing wraps that live does not have.",
+   "fixHint": "Drop the 1152px cap on the footer nav grid."
+  },
+  {
+   "component": "Google Map chrome",
+   "severity": "med",
+   "whatDiffers": "Zoom controls are empty white boxes with no +/- glyphs and the Google watermark is absent (map tiles are unpainted in BOTH captures, so the blank canvas itself is not clone-specific).",
+   "fixHint": "Third-party Google Maps chrome; documented as a known static-clone gap."
+  },
+  {
+   "component": "Map container corners",
+   "severity": "low",
+   "whatDiffers": "The map panel has a ~12px border-radius; live is square-cornered.",
+   "fixHint": "Set border-radius:0 on the map wrapper."
+  },
+  {
+   "component": "Promo banner carousel controls",
+   "severity": "low",
+   "whatDiffers": "The prev/next/pause controls at the far right of the promo bar are missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Live capture backdrop (audit artifact)",
+   "severity": "low",
+   "whatDiffers": "The live screenshot's viewport is uniformly darkened to 75% brightness because a modal scrim was open during capture, so global colour deltas on this page are false positives.",
+   "fixHint": "No clone change; re-capture live with the modal dismissed before trusting colour diffs here."
+  }
+ ],
+ "05-flavor-quiz": [
+  {
+   "component": "Quiz body (lightbox iframe)",
+   "severity": "high",
+   "whatDiffers": "The entire quiz UI is absent \u2014 the lightbox iframe has no src, rendering an empty region between header and footer where live loads the embedded quiz form.",
+   "fixHint": "Third-party lightbox embed; supply the embed URL or a static stand-in, and document as a known gap."
+  },
+  {
+   "component": "Header wordmark logo",
+   "severity": "high",
+   "whatDiffers": "The wordmark is the transparent 1x1 GIF placeholder and the sibling <source> has no srcSet.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Page background / modal scrim",
+   "severity": "high",
+   "whatDiffers": "Live renders the whole page at #BFBFBF because the quiz modal's 25% black scrim is open; the clone is pure white.",
+   "fixHint": "Audit artifact plus the missing modal \u2014 colour deltas on this page are not independent defects."
+  },
+  {
+   "component": "Header cart/bag icon",
+   "severity": "high",
+   "whatDiffers": "The shopping-bag icon is the 1x1 GIF placeholder.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer leaf mark",
+   "severity": "med",
+   "whatDiffers": "The circular footer logo is the 1x1 GIF placeholder, leaving a blank 40px square.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer social icons",
+   "severity": "med",
+   "whatDiffers": "All four social icons are invisible because the shared logo component hard-codes the 1x1 GIF for every item.",
+   "fixHint": "Change the component to resolve its src from the icon registry by aria-label."
+  },
+  {
+   "component": "Footer link-column grid",
+   "severity": "med",
+   "whatDiffers": "Columns are ~70px narrower than live, forcing four labels onto two lines and the Membership paragraph to four lines.",
+   "fixHint": "Replace the captured fixed pixel grid columns with minmax(0,1fr) and fixed px gaps."
+  },
+  {
+   "component": "Semibold headings (font fallback)",
+   "severity": "med",
+   "whatDiffers": "Every semibold heading renders at regular weight; markup asks for regola-neue-semibold which had no @font-face and fell back to sans-serif.",
+   "fixHint": "Declare the missing faces under the requested family names."
+  },
+  {
+   "component": "Promo bar carousel controls",
+   "severity": "low",
+   "whatDiffers": "The prev/next/pause controls render the 1x1 GIF.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Registered-trademark glyph",
+   "severity": "low",
+   "whatDiffers": "The registered mark renders at full body size rather than as a raised superscript.",
+   "fixHint": "Restore the superscript styling on that glyph."
+  }
+ ],
+ "06-catering": [
+  {
+   "component": "Header logo",
+   "severity": "high",
+   "whatDiffers": "The wordmark is completely absent from the header; the left slot renders empty white.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer social icons",
+   "severity": "high",
+   "whatDiffers": "The four social icons on the right of the legal bar are entirely missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Start Your Order CTA",
+   "severity": "high",
+   "whatDiffers": "The pill button label wraps onto two lines, inflating the button into a ~110px tall blob and pushing the page 44px taller.",
+   "fixHint": "Add white-space:nowrap and explicit horizontal padding with width:auto."
+  },
+  {
+   "component": "Footer link columns",
+   "severity": "high",
+   "whatDiffers": "Columns are too narrow and shifted ~75px left, wrapping four labels onto two lines while ~200px of dead space sits at the right edge.",
+   "fixHint": "Match live's grid across the full content width."
+  },
+  {
+   "component": "Footer brand mark",
+   "severity": "med",
+   "whatDiffers": "The circular leaf logo at the footer top-left is missing entirely.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Header cart icon",
+   "severity": "med",
+   "whatDiffers": "Only the account icon renders; the bag icon is missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Menu card captions",
+   "severity": "med",
+   "whatDiffers": "All six 'Explore our menu' captions render bold versus regular/medium on live.",
+   "fixHint": "Set the caption weight to regular."
+  },
+  {
+   "component": "Footer column headings",
+   "severity": "med",
+   "whatDiffers": "Footer headings render regular weight but are bold on live.",
+   "fixHint": "Apply the semibold face to the footer column headings."
+  },
+  {
+   "component": "Hero H1",
+   "severity": "med",
+   "whatDiffers": "The headline is heavier and ~4% wider than live.",
+   "fixHint": "Match live's weight and tracking."
+  },
+  {
+   "component": "Promo bar carousel controls",
+   "severity": "low",
+   "whatDiffers": "The prev/next/pause controls at the right of the promo bar are absent.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Hero subhead",
+   "severity": "low",
+   "whatDiffers": "The subhead is ~7px narrower and slightly lighter than live at the same size.",
+   "fixHint": "Match live's body size and letter-spacing."
+  }
+ ],
+ "07-membership": [
+  {
+   "component": "Tier card benefit lists",
+   "severity": "high",
+   "whatDiffers": "Every benefit bullet is missing its filled check-circle icon; the clone renders indented plain text where live shows a black check badge.",
+   "fixHint": "Restore the check icon per list item with flex alignment."
+  },
+  {
+   "component": "Pricing tier cards \u2014 alignment",
+   "severity": "high",
+   "whatDiffers": "The three cards are neither top-aligned nor equal-height: card 1's border starts 39px below its siblings and the 'Most Popular' banner is separated from card 2 by a ~19px white gap.",
+   "fixHint": "Use grid with align-items:stretch, attach the ribbon to the card, and give the price header a common min-height."
+  },
+  {
+   "component": "Typography / brand webfont",
+   "severity": "high",
+   "whatDiffers": "The clone falls back to Helvetica/Arial and loses heading weight across the page.",
+   "fixHint": "Self-host the brand faces under the requested family names."
+  },
+  {
+   "component": "VIP Pricing CTA buttons",
+   "severity": "high",
+   "whatDiffers": "'Sign Up For Yearly' and 'Sign Up For Monthly' are stacked vertically and stretched full width versus two auto-width pills side by side on live.",
+   "fixHint": "Wrap in a flex row with width:auto buttons."
+  },
+  {
+   "component": "'Earn and Redeem Points' heading",
+   "severity": "med",
+   "whatDiffers": "The heading wraps to four lines instead of two, pushing the section 58px taller than live.",
+   "fixHint": "Widen the text column and restore the heading weight and CTA margin."
+  },
+  {
+   "component": "Points reward cards",
+   "severity": "med",
+   "whatDiffers": "Cards are 146x249px versus live's 113x196px, leaving ~90px of empty space below each label.",
+   "fixHint": "Constrain the card track width and min-height."
+  },
+  {
+   "component": "VIP Pricing product grid width",
+   "severity": "med",
+   "whatDiffers": "The tile grid stops at x=1250 versus x=1418 on live, leaving a ~168px empty right gutter.",
+   "fixHint": "Remove the max-width on the tile wrapper so tiles reach the container edge."
+  },
+  {
+   "component": "Header cart/bag icon",
+   "severity": "med",
+   "whatDiffers": "The bag icon is absent; only the person icon renders.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer social icons",
+   "severity": "med",
+   "whatDiffers": "The four social icons on the right of the copyright bar are missing.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Footer link columns",
+   "severity": "med",
+   "whatDiffers": "Columns are narrower and clustered left, wrapping four labels onto two lines.",
+   "fixHint": "Widen the footer grid to the full container."
+  },
+  {
+   "component": "Promo banner carousel controls",
+   "severity": "med",
+   "whatDiffers": "The prev/next/pause control cluster is absent from the promo bar.",
+   "fixHint": "Restore via the icon registry."
+  },
+  {
+   "component": "Compact tier card row",
+   "severity": "low",
+   "whatDiffers": "Card 1 floats 22px higher than its siblings and ends 11px short.",
+   "fixHint": "Apply the same stretch/ribbon-spacer fix as the main tier row."
+  }
+ ]
+}

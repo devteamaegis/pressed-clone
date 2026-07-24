@@ -1,0 +1,23 @@
+{
+	"short_name": "Pressed Juicery®",
+	"name": "Pressed Juicery®",
+	"prefer_related_applications": true,
+	"display": "standalone",
+	"start_url": "/",
+	"scope": "/",
+	"background_color": "#FFFFFF",
+	"icons": [{
+		"src": "/pressed-192px.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	}, {
+		"src": "/pressed-512px.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	}],
+	"related_applications": [{
+		"platform": "play",
+		"url": "https://play.google.com/store/apps/details?id=com.pressedjuicery.app",
+		"id": "com.pressedjuicery.app"
+	}]
+}

@@ -1,0 +1,100 @@
+/* Styles for the hand-rebuilt interactions. Scoped to `.cloned-*` so nothing here
+   can perturb the captured layout that the pixel audit measures. */
+
+/* ---- Header mega-menu (rebuilt: live keeps it off-canvas, capture dropped it) ---- */
+.cloned-megamenu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 200;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.cloned-megamenu[hidden] { display: none; }
+.cloned-megamenu__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 64px 32px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px 32px;
+}
+.cloned-megamenu a {
+  font-size: 15px;
+  line-height: 2;
+  color: inherit;
+  text-decoration: none;
+}
+.cloned-megamenu a:hover { text-decoration: underline; }
+
+/* ---- Mobile drawer (rebuilt) ---- */
+.cloned-drawer { position: fixed; inset: 0; z-index: 999; }
+.cloned-drawer[hidden] { display: none; }
+.cloned-drawer__scrim { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.4); }
+.cloned-drawer__panel {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: min(86vw, 360px);
+  background: #fff;
+  padding: 24px 24px 40px;
+  overflow-y: auto;
+  animation: cloned-drawer-in 220ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+@keyframes cloned-drawer-in { from { transform: translateX(-100%); } to { transform: none; } }
+.cloned-drawer__close {
+  position: absolute; top: 12px; right: 16px;
+  font-size: 30px; line-height: 1; background: none; border: 0; cursor: pointer;
+}
+.cloned-drawer ul { list-style: none; margin: 0; padding: 0; }
+.cloned-drawer > nav > ul { margin-top: 40px; }
+.cloned-drawer a,
+.cloned-drawer__sub {
+  display: flex; justify-content: space-between; align-items: center; width: 100%;
+  padding: 14px 0; font-size: 18px; color: inherit; text-decoration: none;
+  background: none; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  cursor: pointer; text-align: left; font: inherit;
+}
+.cloned-drawer__submenu { padding-left: 16px; }
+.cloned-drawer__submenu[hidden] { display: none; }
+.cloned-drawer__submenu a { font-size: 16px; padding: 10px 0; border-bottom: 0; }
+
+/* ---- Cart badge ---- */
+.cloned-cart-badge {
+  position: absolute; top: -6px; right: -8px; min-width: 18px; height: 18px;
+  padding: 0 5px; border-radius: 9px; background: #111; color: #fff;
+  font-size: 11px; line-height: 18px; text-align: center; font-weight: 600;
+  pointer-events: none;
+}
+.cloned-cart-badge[hidden] { display: none; }
+.cloned-cart-badge.is-bump { animation: cloned-bump 260ms ease-out; }
+@keyframes cloned-bump { 0% { transform: scale(1); } 40% { transform: scale(1.35); } 100% { transform: scale(1); } }
+
+/* ---- Product card image hover-swap ---- */
+.cloned-hoverswap img:nth-of-type(2) { opacity: 0; transition: opacity 220ms ease; }
+.cloned-hoverswap:hover img:nth-of-type(2) { opacity: 1; }
+
+/* ---- Carousel arrows ---- */
+.cloned-carousel-btn {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 5;
+  width: 40px; height: 40px; border-radius: 50%; border: 0;
+  background: rgba(255, 255, 255, 0.94); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  font-size: 22px; line-height: 1; cursor: pointer; color: #111;
+}
+.cloned-carousel-btn--prev { left: 8px; }
+.cloned-carousel-btn--next { right: 8px; }
+.cloned-carousel-btn:hover { background: #fff; }
+
+/* ---- Shop filter chips ---- */
+li[data-cloned-filter-active="true"] { font-weight: 600; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cloned-drawer__panel { animation: none; }
+  .cloned-cart-badge.is-bump { animation: none; }
+  .cloned-hoverswap img:nth-of-type(2) { transition: none; }
+}
+
+/* Tailwind display utilities are author styles and beat the UA [hidden] rule, so
+   filtered-out sections need an explicit, !important class. */
+.cloned-hidden { display: none !important; }
