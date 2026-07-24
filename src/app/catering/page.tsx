@@ -241,7 +241,7 @@ export default function Page() {
           </a>
           <a className="block text-center underline cursor-pointer" data-ditto-id="style-div-6" data-component="button" href="javascript:void(0)" role="button">
             <span className="inline">
-              Do not sell or share my personal information
+              Do Not Sell or Share My Personal Information
             </span>
           </a>
         </div>
@@ -279,7 +279,7 @@ export default function Page() {
                       </div>
                       <a className="block cursor-pointer aspect-[3.605] max-lg:aspect-[1.86]" data-ditto-id="style-pressed-juicery-home-2" data-component="link" aria-label="Pressed Juicery Home" href="/">
                         <picture className="inline">
-                          <source className="inline" data-ditto-id="style-source" media="(min-width: 1000px)" />
+                          <source className="inline" data-ditto-id="style-source" media="(min-width: 1000px)" srcSet="/assets/cloned/images/pressed-wordmark.png" />
                           <img className="w-[9.6875rem] h-9.5 inline max-w-full px-4 overflow-clip max-lg:w-20" data-component="image" src={iconFor("Pressed Juicery Home")} />
                         </picture>
                       </a>
@@ -339,7 +339,7 @@ export default function Page() {
                     <div className="grid gap-x-18 mx-auto grid-cols-2 max-md:gap-y-10 max-md:text-center max-md:grid-cols-1">
                       <div className="block mx-auto" data-ditto-id="style-div-34">
                         <h1 className="block mb-4 text-5xl font-bold leading-14 max-md:mb-2 max-md:[font-family:regola-neue-medium,_sans-serif] max-md:text-[2rem] max-md:leading-10" data-ditto-id="style-heading-28" data-component="heading">
-                          {"Catering rooted in"}
+                          {"Catering rooted in "}
                           <span className="inline whitespace-nowrap" data-ditto-id="style-br-23">
                             well-being
                           </span>
@@ -366,7 +366,7 @@ export default function Page() {
                       <ul className="flex mb-8 flex-wrap justify-center gap-4 [list-style-type:none]" data-ditto-id="style-link-12">
                         {ListRow2_data.map((d, i) => <ListRow2 key={i} d={d} />)}
                       </ul>
-                      <a className="w-48 border-2 border-solid border-clr-7 inline-block mb-16 px-8 rounded-full text-background leading-11 bg-foreground cursor-pointer" data-ditto-id="style-image-5" data-component="button" href="https://pressedjuicerycatering.olo.com/">
+                      <a className="whitespace-nowrap border-2 border-solid border-clr-7 inline-block mb-16 px-8 rounded-full text-background leading-11 bg-foreground cursor-pointer" data-ditto-id="style-image-5" data-component="button" href="https://pressedjuicerycatering.olo.com/">
                         Start Your Order
                       </a>
                     </div>
@@ -390,7 +390,7 @@ export default function Page() {
                       </ul>
                     </div>
                     <div className="block" data-ditto-id="style-div-95">
-                      {" For last minute order accommodations or onsite events, email"}
+                      {" For last minute order accommodations or onsite events, email "}
                       <a className="inline underline cursor-pointer" data-ditto-id="style-div-29" data-component="link" href="mailto:catering@pressed.com">
                         catering@pressed.com
                       </a>

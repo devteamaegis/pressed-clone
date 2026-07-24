@@ -249,7 +249,7 @@ export default function Page() {
                       </div>
                       <a className="block cursor-pointer aspect-[3.605] max-lg:aspect-[1.86]" data-ditto-id="style-pressed-juicery-home" data-component="link" aria-label="Pressed Juicery Home" href="/">
                         <picture className="inline" data-ditto-id="motion-picture">
-                          <source className="inline" data-ditto-id="style-source-2" media="(min-width: 1000px)" />
+                          <source className="inline" data-ditto-id="style-source-2" media="(min-width: 1000px)" srcSet="/assets/cloned/images/pressed-wordmark.png" />
                           <img className="w-[9.6875rem] h-9.5 inline max-w-full px-4 overflow-clip max-lg:w-20" data-ditto-id="motion-image" data-component="image" src={iconFor("Pressed Juicery Home")} />
                         </picture>
                       </a>

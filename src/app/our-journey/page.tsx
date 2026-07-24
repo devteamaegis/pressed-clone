@@ -246,7 +246,7 @@ export default function Page() {
                       </div>
                       <a className="block cursor-pointer aspect-[3.605] max-lg:aspect-[1.86]" data-ditto-id="style-pressed-juicery-home" data-component="link" aria-label="Pressed Juicery Home" href="/">
                         <picture className="inline" data-ditto-id="motion-picture">
-                          <source className="inline" data-ditto-id="style-source-2" media="(min-width: 1000px)" />
+                          <source className="inline" data-ditto-id="style-source-2" media="(min-width: 1000px)" srcSet="/assets/cloned/images/pressed-wordmark.png" />
                           <img className="w-[9.6875rem] h-9.5 inline max-w-full px-4 overflow-clip max-lg:w-20" data-ditto-id="motion-image" data-component="image" src={iconFor("Pressed Juicery Home")} />
                         </picture>
                       </a>
@@ -348,7 +348,10 @@ export default function Page() {
                         <div className="flex min-w-0 flex-col basis-[calc(1000%_+_180px)] col-start-[span_10] max-lg:mx-auto max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-p-14">
                           <figure className="box-content h-full block shrink-0 [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-93">
                             <code className="box-content h-full flex relative items-stretch [font-family:monospace,_monospace] [pointer-events:all] aspect-video before:content-[''] before:block before:w-0 before:pt-[56.25%]" data-ditto-id="style-div-21">
-                              <iframe className="box-content w-[52.9375rem] h-119 min-h-full block absolute min-w-full max-w-full max-h-full overflow-clip [pointer-events:all] max-md:w-[20.1875rem] max-md:h-45.5 md:max-lg:w-179 md:max-lg:h-[25.1875rem]" data-ditto-id="style-heading-19" height="315" title="Our Journey - Pressed" width="560" />
+                              <button type="button" aria-label="Play video: Our Journey - Pressed" data-yt-facade="bQy-tJkYr24" className="box-content w-[52.9375rem] h-119 block relative overflow-clip [pointer-events:all] p-0 border-0 cursor-pointer max-md:w-[20.1875rem] max-md:h-45.5 md:max-lg:w-179 md:max-lg:h-[25.1875rem]" data-ditto-id="style-heading-19">
+                                <img className="block w-full h-full object-cover" src="/assets/cloned/video/our-journey-poster.jpg" alt="Our Journey - Pressed" />
+                                <span className="cloned-yt-play" aria-hidden="true" />
+                              </button>
                             </code>
                           </figure>
                         </div>
@@ -604,7 +607,7 @@ export default function Page() {
                           <div className="grid mb-6.5 shrink-0 gap-x-5 grid-cols-10 max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-heading-5">
                             <div className="flex min-w-0 flex-col basis-[calc(1000%_+_180px)] col-start-[span_10] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-strong-5">
                               <h2 className="box-content min-h-9.5 block mb-3 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-lg:min-h-7 max-lg:[font-family:FTRegolaNeue-Medium,_stk] max-lg:text-2xl max-lg:leading-7" data-ditto-id="style-p-21" data-component="heading" id="Our_Philosophy">
-                                {"Our"}
+                                {"Our "}
                                 <strong className="box-content min-h-9.5 inline [pointer-events:all] max-lg:min-h-7" data-ditto-id="style-br-57">
                                   Product Philosophy
                                 </strong>
@@ -704,7 +707,7 @@ export default function Page() {
                                 Our modern, streamlined stores are here to support you on your wellness journey. With a knowledgeable team ready to offer personalized guidance and fresh recommendations tailored to your daily routine, we're here to help you thrive.
                               </p>
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]">
-                                {"Find your"}
+                                {"Find your "}
                                 <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-div-61" data-component="link" href="https://pressed.com/pages/juice-bar-locations">
                                   <u className="box-content min-h-6 inline mb-6.5 underline [pointer-events:all]" data-ditto-id="style-div-71">
                                     local Pressed

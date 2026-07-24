@@ -98,3 +98,18 @@ li[data-cloned-filter-active="true"] { font-weight: 600; }
 /* Tailwind display utilities are author styles and beat the UA [hidden] rule, so
    filtered-out sections need an explicit, !important class. */
 .cloned-hidden { display: none !important; }
+
+/* ---- YouTube facade play button (Our Journey) ---- */
+[data-yt-facade] { position: absolute; background: #000; }
+.cloned-yt-play {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 68px; height: 48px; border-radius: 12px;
+  background: #f00; pointer-events: none;
+}
+[data-yt-facade]:hover .cloned-yt-play { background: #cc0000; }
+.cloned-yt-play::after {
+  content: ""; position: absolute; top: 50%; left: 50%;
+  transform: translate(-40%, -50%);
+  border-style: solid; border-width: 11px 0 11px 19px;
+  border-color: transparent transparent transparent #fff;
+}

@@ -364,8 +364,29 @@
     });
   }
 
+  /* ---------------- 9. YouTube facade ------------------------------------- */
+  /* The captured Our Journey <iframe> lost its src, so the embed rendered blank.
+     Show the real poster (matches live at rest) and swap in the YouTube player on
+     click — a facade, so no third-party frame loads until the user asks for it. */
+  function youtubeFacade() {
+    $$("[data-yt-facade]").forEach(function (el) {
+      el.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = el.getAttribute("data-yt-facade");
+        var f = d.createElement("iframe");
+        f.className = el.className;
+        f.setAttribute("src", "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0");
+        f.setAttribute("title", el.getAttribute("aria-label") || "Video");
+        f.setAttribute("frameborder", "0");
+        f.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+        f.setAttribute("allowfullscreen", "");
+        el.parentNode.replaceChild(f, el);
+      });
+    });
+  }
+
   onReady(function () {
-    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo]
+    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade]
       .forEach(function (fn) { try { fn(); } catch (err) { if (window.__CLONED_DEBUG) console.error("[cloned-interactions]", fn.name, err); } });
   });
 })();

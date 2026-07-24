@@ -730,7 +730,7 @@ export default function Page() {
                       </div>
                       <a className="block cursor-pointer aspect-[3.605] max-lg:aspect-[1.86]" data-ditto-id="style-pressed-juicery-home" data-component="link" aria-label="Pressed Juicery Home" href="/">
                         <picture className="inline" data-ditto-id="motion-picture">
-                          <source className="inline" data-ditto-id="style-source-2" media="(min-width: 1000px)" />
+                          <source className="inline" data-ditto-id="style-source-2" media="(min-width: 1000px)" srcSet="/assets/cloned/images/pressed-wordmark.png" />
                           <img className="w-[9.6875rem] h-9.5 inline max-w-full px-4 overflow-clip max-lg:w-20" data-ditto-id="motion-image" data-component="image" src={iconFor("Pressed Juicery Home")} />
                         </picture>
                       </a>
@@ -789,7 +789,7 @@ export default function Page() {
                   <div className="block">
                     <div className="block max-w-360 mt-14 mb-20 px-8 mx-auto">
                       <div className="flex gap-18 mx-auto">
-                        <div className="w-56 shrink-0 h-[1012.9375rem] block max-md:w-px max-md:h-px max-md:absolute max-md:top-52 max-md:left-8 max-md:min-w-0 max-md:-m-px max-md:overflow-hidden max-md:whitespace-nowrap md:max-lg:h-[22842.9px]" data-ditto-id="style-div-12">
+                        <div className="w-56 shrink-0 self-start block max-md:w-px max-md:h-px max-md:absolute max-md:top-52 max-md:left-8 max-md:min-w-0 max-md:-m-px max-md:overflow-hidden max-md:whitespace-nowrap" data-ditto-id="style-div-12">
                           <h1 className="border-b border-solid border-b-clr-2 block pb-6 text-[2rem] leading-10 max-md:[font-family:regola-neue-medium,_sans-serif]" data-ditto-id="style-heading-17" data-component="heading">
                             Shop
                           </h1>

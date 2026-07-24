@@ -308,7 +308,7 @@ export default function Page() {
           </a>
           <a className="block text-center underline cursor-pointer" data-ditto-id="style-div-6" data-component="button" href="javascript:void(0)" role="button">
             <span className="inline">
-              Do not sell or share my personal information
+              Do Not Sell or Share My Personal Information
             </span>
           </a>
         </div>
@@ -346,7 +346,7 @@ export default function Page() {
                       </div>
                       <a className="block cursor-pointer aspect-[3.605] max-lg:aspect-[1.86]" data-ditto-id="style-pressed-juicery-home-2" data-component="link" aria-label="Pressed Juicery Home" href="/">
                         <picture className="inline">
-                          <source className="inline" data-ditto-id="style-source" media="(min-width: 1000px)" />
+                          <source className="inline" data-ditto-id="style-source" media="(min-width: 1000px)" srcSet="/assets/cloned/images/pressed-wordmark.png" />
                           <img className="w-[9.6875rem] h-9.5 inline max-w-full px-4 overflow-clip max-lg:w-20" data-component="image" src={iconFor("Pressed Juicery Home")} />
                         </picture>
                       </a>
@@ -570,7 +570,7 @@ export default function Page() {
                           {" Monthly and Yearly members save up to 25% on juices, smoothies, shots, treats, + more—because wellness should feel rewarding."}
                         </div>
                         <div className="block">
-                          <div className="flex flex-col gap-3 md:max-lg:gap-4 md:max-lg:[flex-direction:initial]" data-ditto-id="style-br-8">
+                          <div className="flex flex-wrap gap-3 md:max-lg:gap-4" data-ditto-id="style-br-8">
                             <button className="h-10 border border-solid border-foreground flex pb-1 px-6 rounded-full justify-center items-center text-background leading-[1.125rem] tracking-[normal] text-center whitespace-nowrap bg-foreground cursor-pointer" data-ditto-id="style-br-72" data-component="button" aria-label="Sign Up For a Yearly Subscription" role="button">
                               {" Sign Up For Yearly"}
                             </button>

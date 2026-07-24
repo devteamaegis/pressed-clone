@@ -1,15 +1,15 @@
-.cn0{height:1579.41px;display:block;overflow-x:hidden;overflow-y:hidden;color:var(--foreground);font-family:regola-neue-regular, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:24px;letter-spacing:0.54px;word-spacing:0px;text-align:start;text-transform:none;white-space:normal;word-break:normal;overflow-wrap:normal;text-indent:0px;text-shadow:none;font-variant-caps:normal;font-feature-settings:normal;list-style-position:outside;writing-mode:horizontal-tb;direction:ltr}
+.cn0{height:auto;display:block;overflow-x:hidden;overflow-y:hidden;color:var(--foreground);font-family:regola-neue-regular, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:24px;letter-spacing:0.54px;word-spacing:0px;text-align:start;text-transform:none;white-space:normal;word-break:normal;overflow-wrap:normal;text-indent:0px;text-shadow:none;font-variant-caps:normal;font-feature-settings:normal;list-style-position:outside;writing-mode:horizontal-tb;direction:ltr}
 
 @media (max-width: 571px) {
 .cn0{height:auto;overflow-x:initial;overflow-y:initial}
 }
 
 @media (min-width: 572px) and (max-width: 1024px) {
-.cn0{height:2474.19px}
+.cn0{height:auto}
 }
 
 @media (min-width: 1601px) {
-.cn0{height:1449.08px}
+.cn0{height:auto}
 }
 
 /* Stage 4 — interaction states (hover/focus + eased transitions) */
