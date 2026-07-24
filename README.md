@@ -4,7 +4,8 @@ A pixel-audited static clone of **[pressed.com](https://pressed.com)** (Pressed 
 produced with the [Ditto](https://github.com/ion-design/ditto.site) deterministic cloner
 and then hand-corrected against the live site.
 
-🔗 **Live demo:** _(deploying — link added below)_
+🔗 **Live demo:** **https://pressed-clone.vercel.app**
+· **Source:** https://github.com/devteamaegis/pressed-clone
 
 > **This is a clone built as an engineering exercise** in deterministic site capture, not
 > an official Pressed Juicery property and not affiliated with the company. There is no real
