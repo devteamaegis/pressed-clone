@@ -316,7 +316,7 @@ export default function Page() {
           This website uses cookies and other tracking technology
         </div>
         <div className="block mb-6">
-          {"We use cookies and other tracking technology to personalize content and ads, provide social media features and to analyze our traffic. We also share information about you and your use of our site with our social media, advertising and analytics partners who may combine this information with other information that you have provided to them or that they have collected from your use of their services, as detailed in our"}
+          {"We use cookies and other tracking technology to personalize content and ads, provide social media features and to analyze our traffic. We also share information about you and your use of our site with our social media, advertising and analytics partners who may combine this information with other information that you have provided to them or that they have collected from your use of their services, as detailed in our "}
           <a className="inline underline cursor-pointer" data-ditto-id="style-default-layout-header-wrapper" data-component="link" href="https://pressed.com/legal/privacy-policy">
             Privacy Policy
           </a>

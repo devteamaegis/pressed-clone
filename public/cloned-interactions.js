@@ -385,8 +385,29 @@
     });
   }
 
+  /* ---------------- 10. Cookie consent banner ----------------------------- */
+  /* Live's Cookiebot banner was captured as static markup on several pages, with dead
+     `javascript:void(0)` buttons — so it could never be dismissed. Wire "Continue to site"
+     (and "Do Not Sell") to close it, and persist the choice in localStorage so it stays
+     dismissed across every page and revisit. Real content links (Privacy Policy) still work. */
+  function cookieBanner() {
+    var KEY = "pressed-clone-cookie-dismissed";
+    var banner = d.getElementById("cookie-banner");
+    if (!banner) return;
+    var dismissed = false;
+    try { dismissed = localStorage.getItem(KEY) === "1"; } catch (e) {}
+    if (dismissed) { banner.style.display = "none"; return; }
+    function hide() { banner.style.display = "none"; try { localStorage.setItem(KEY, "1"); } catch (e) {} }
+    // Only the non-navigating action controls dismiss; the Privacy Policy link keeps its href.
+    $$('a[href^="javascript"], [role="button"], button', banner).forEach(function (el) {
+      el.addEventListener("click", function (e) { e.preventDefault(); hide(); });
+    });
+    // Esc also dismisses.
+    d.addEventListener("keydown", function (e) { if (e.key === "Escape") hide(); });
+  }
+
   onReady(function () {
-    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade]
+    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade, cookieBanner]
       .forEach(function (fn) { try { fn(); } catch (err) { if (window.__CLONED_DEBUG) console.error("[cloned-interactions]", fn.name, err); } });
   });
 })();
