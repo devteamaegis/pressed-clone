@@ -40,26 +40,30 @@
     var prev = $('[aria-label="View previous offer"]');
     var next = $('[aria-label="View next offer"]');
     var pause = $('[aria-label="Pause offer carousel"]');
-    if (!prev && !next && !pause) return;
 
-    // The bar is captured showing a single offer. Live rotates through several;
-    // recover the set from the captured copy plus the offers live cycles.
-    var host = prev || next || pause;
-    var bar = host.closest("div");
-    while (bar && bar.parentElement && bar.getBoundingClientRect().width < 400) bar = bar.parentElement;
-    var slot = null, best = 0;
-    $$("a,p,span,div", bar || d.body).forEach(function (el) {
-      var t = txt(el);
-      if (t && t.length > best && t.length < 120 && el.children.length <= 2) { best = t.length; slot = el; }
-    });
+    // The offer text and the "View All Offers" link are two SEPARATE spans inside the
+    // "View all offers Carousel" region (live keeps them spaced, the link underlined).
+    // Rotate ONLY the offer-text span — overwriting the whole region flattens both into
+    // one run and drops the underlined link. Target the span that is not the persistent
+    // #viewAllOffersElement.
+    var region = $('[aria-label*="offers Carousel" i]') || $('[aria-live="polite"][role="region"]');
+    var slot = null;
+    if (region) {
+      $$("span", region).forEach(function (s) {
+        if (s.id === "viewAllOffersElement" || s.closest("#viewAllOffersElement")) return;
+        if (/view all offers/i.test(txt(s))) return;
+        if (!slot || txt(s).length > txt(slot).length) slot = s;
+      });
+    }
     if (!slot) return;
 
+    // Offer text only — the "View All Offers" link is a separate, untouched span.
     var OFFERS = [
       txt(slot),
-      "$5 Off on Pickup Orders of $50 or More View All Offers",
-      "FREE Shipping on Orders $125+ View All Offers",
-      "7 shots for $22 View All Offers",
-      "Free Local Delivery on Orders $75+ View All Offers"
+      "$5 Off on Pickup Orders of $50 or More",
+      "FREE Shipping on Orders $125+",
+      "7 shots for $22",
+      "Free Local Delivery on Orders $75+"
     ].filter(function (v, i, a) { return v && a.indexOf(v) === i; });
 
     var i = 0, timer = null, paused = false;

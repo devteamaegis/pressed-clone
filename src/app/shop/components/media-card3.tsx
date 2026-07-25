@@ -21,7 +21,7 @@ export default function MediaCard3({ d, styles }: { d: MediaCard3Data; styles: M
           {d.title}
         </h3>
       </a>
-      <div className={cn("block mb-4 px-4", styles.className2)}>
+      <div className={cn("block mb-4 px-4 mt-auto", styles.className2)}>
         <div className="flex mb-4 justify-center">
           <div className="grow basis-0 block text-center">
             <div className="block">

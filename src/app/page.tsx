@@ -378,7 +378,7 @@ export default function Page() {
                             Everyday Wellness Favorites
                           </h2>
                           <p className="block mb-[1.33rem] leading-[1.4375rem]" data-ditto-id="style-strong-6">
-                            {"Explore functional resets and nutrient-packed sips for your daily glow."}
+                            {"Explore functional resets and nutrient-packed sips for your daily glow. "}
                             <strong className="inline font-bold" data-ditto-id="style-link-10">
                               Get $5 off pickup orders $50+.
                             </strong>
@@ -562,19 +562,19 @@ export default function Page() {
                               Pressed Catering
                             </h2>
                             <p className="block mb-[1.33rem] leading-[1.4375rem]">
-                              {"From"}
+                              {"From "}
                               <strong className="inline font-bold" data-ditto-id="style-br-39">
                                 weddings
                               </strong>
-                              {" and"}
+                              {" and "}
                               <strong className="inline font-bold">
                                 wellness retreats
                               </strong>
-                              {" to"}
+                              {" to "}
                               <strong className="inline font-bold" data-ditto-id="style-br-50">
                                 corporate gatherings
                               </strong>
-                              {" and"}
+                              {" and "}
                               <strong className="inline font-bold" data-ditto-id="style-br-40">
                                 parties
                               </strong>
