@@ -29,10 +29,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang={"en"}>
       <head>
         <link rel="stylesheet" href="/cloned-interactions.css" />
-        <script
-          key="cloned-interactions-boot"
-          dangerouslySetInnerHTML={{ __html: "(function(){function go(){if(window.__clonedInteractionsLoaded)return;window.__clonedInteractionsLoaded=1;var s=document.createElement('script');s.src='/cloned-interactions.js';document.body.appendChild(s);}if(document.readyState==='complete'){requestAnimationFrame(go);}else{window.addEventListener('load',function(){requestAnimationFrame(go);});}})();" }}
-        />
+        {/* Framework-free interaction runtime. A plain external <script async>
+            (not next/script, not an inline injector) is hoisted by React 19 into
+            the static HTML head as a real tag, so the browser loads and runs it at
+            parse — independent of hydration. An earlier dynamically-appended
+            <script> raced React 19 hydration on Vercel and got dropped. The script
+            itself waits for DOMContentLoaded before touching the DOM. */}
+        <script async src="/cloned-interactions.js" />
         <script
           key="ditto-json-ld-0"
           type="application/ld+json"
