@@ -338,7 +338,7 @@ export default function Page() {
                     <div className="block max-w-360">
                       <div className="block relative -mb-1 aspect-[51/25] leading-0 bg-foreground bg-cover [background-position:50%_50%] bg-no-repeat" style={{ backgroundImage:"url(\"/assets/cloned/images/f288f993670f.jpg\")" }}>
                         <video
-                          className="w-full inline-block aspect-[51/25] object-cover"
+                          className="w-full inline-block aspect-[51/25] object-fill"
                           data-ditto-id="style-div-12"
                           data-cloned-hero-video=""
                           autoPlay
