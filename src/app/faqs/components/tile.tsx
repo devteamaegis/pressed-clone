@@ -10,7 +10,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 }
 export default function Tile({ d, styles }: { d: TileData; styles: TileStyles }) {
   return (
-    <button className={cn("block justify-center items-center tracking-[normal] text-center whitespace-nowrap bg-background cursor-pointer", styles.className)} data-component="button" aria-controls={d.ariacontrols} aria-selected={d.ariaselected} role="tab" type="button">
+    <button className={cn("w-full block text-left tracking-[normal] bg-background cursor-pointer", styles.className)} data-component="button" aria-controls={d.ariacontrols} aria-selected={d.ariaselected} role="tab" type="button">
       {d.label}
     </button>
   );

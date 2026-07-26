@@ -86,3 +86,18 @@
 [data-ditto-id="style-br-10"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
 [data-ditto-id="style-div-100"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
 [data-ditto-id="style-div-101"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
+
+/* ---- FAQ interactive behaviour (accordion + category tabs) ---- */
+.faq-tab{padding:2px 0 2px 4px;border-left:4px solid transparent;}
+.faq-tab[aria-selected="true"]{
+  border-left:4px solid var(--foreground,#1e1e1e);
+  margin-left:-14px;
+  padding-left:10px;
+  font-family:regola-neue-semibold,sans-serif;
+}
+[data-faq-q]{-webkit-tap-highlight-color:transparent;}
+[data-faq-chevron]{transition:transform .2s ease;transform:rotate(180deg);}
+[data-faq-q][aria-expanded="true"] [data-faq-chevron]{transform:rotate(0deg);}
+@media (max-width:1023px){
+  .faq-cats.faq-cats-open{display:block !important;margin-bottom:1.5rem;}
+}

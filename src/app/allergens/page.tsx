@@ -295,11 +295,7 @@ export default function Page() {
                 <div className="block" data-ditto-id="style-font">
                   <div className="block">
                     <div className="grid relative px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
-                      <div className="grid min-w-0 max-w-255 px-5 justify-center gap-x-5 col-span-full bg-cover [background-position:50%_50%] bg-no-repeat grid-cols-12 max-lg:hidden" style={{ backgroundImage:"url(\"/assets/cloned/images/817961f30cf0.png\")" }} data-ditto-id="style-div-34">
-                        <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12] max-lg:hidden" data-ditto-id="style-heading-28">
-                          <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-br-23" />
-                        </div>
-                      </div>
+                      <img className="w-full block mb-6 col-start-2 max-lg:hidden" data-ditto-id="style-div-34" alt="" src="/assets/cloned/images/allergens-hero.png" />
                       <div className="grid min-w-0 gap-x-5 col-start-2 grid-cols-12 grid-rows-1 aspect-[4.198] max-lg:hidden" data-ditto-id="style-p-49">
                         <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-p-25">
                           <p className="box-content min-h-6 block mb-6.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-22" />

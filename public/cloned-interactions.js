@@ -389,6 +389,54 @@
     });
   }
 
+  /* ---------------- 11. FAQ page: category tabs + accordions -------------- */
+  /* Live's FAQ is a Nuxt tab+accordion widget; the capture kept only the question
+     headings (no answer panels, no JS). The clone now renders all 14 categories and
+     their answers (from faq-data.ts), collapsed, and this wires the behaviour:
+     click a question to reveal its answer, click a category to switch panels. */
+  function faqPage() {
+    // Accordions.
+    $$("[data-faq-q]").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        var panel = d.getElementById(btn.getAttribute("aria-controls"));
+        var open = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!open));
+        if (panel) panel.classList.toggle("hidden", open);
+      });
+    });
+    // Category tabs.
+    var tabs = $$('[role="tab"][aria-controls]');
+    var panels = $$("[data-faq-panel]");
+    if (tabs.length && panels.length) {
+      tabs.forEach(function (tab) {
+        tab.addEventListener("click", function (e) {
+          e.preventDefault();
+          var id = tab.getAttribute("aria-controls");
+          tabs.forEach(function (t) { t.setAttribute("aria-selected", t === tab ? "true" : "false"); });
+          panels.forEach(function (p) { p.classList.toggle("hidden", p.id !== id); });
+          // Collapse any open answers when switching category.
+          $$('[data-faq-q][aria-expanded="true"]').forEach(function (b) {
+            b.setAttribute("aria-expanded", "false");
+            var pp = d.getElementById(b.getAttribute("aria-controls"));
+            if (pp) pp.classList.add("hidden");
+          });
+          var cats0 = $(".faq-cats");
+          if (cats0) cats0.classList.remove("faq-cats-open");
+        });
+      });
+    }
+    // Mobile "Categories" button reveals the desktop-hidden category list.
+    var toggle = $("[data-faq-cats-toggle]");
+    var catsBox = $(".faq-cats");
+    if (toggle && catsBox) {
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        catsBox.classList.toggle("faq-cats-open");
+      });
+    }
+  }
+
   /* ---------------- 10. Cookie consent banner ----------------------------- */
   /* Live's Cookiebot banner was captured as static markup on several pages, with dead
      `javascript:void(0)` buttons — so it could never be dismissed. Wire "Continue to site"
@@ -411,7 +459,7 @@
   }
 
   onReady(function () {
-    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade, cookieBanner]
+    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade, faqPage, cookieBanner]
       .forEach(function (fn) { try { fn(); } catch (err) { if (window.__CLONED_DEBUG) console.error("[cloned-interactions]", fn.name, err); } });
   });
 })();

@@ -5,6 +5,7 @@ import Logo from"./components/logo";
 import ListRow from"./components/list-row";
 import Tile from"./components/tile";
 import MediaCard from"./components/media-card";
+import { FAQ_CATEGORIES } from"./faq-data";
 import ListRow2 from"./components/list-row2";
 import ListRow3 from"./components/list-row3";
 import ListRow4 from"./components/list-row4";
@@ -40,15 +41,6 @@ const Tile_data = [
     { ariacontrols:"tabpanel11", ariaselected:"false", label:"Recurring Order FAQs" },
     { ariacontrols:"tabpanel12", ariaselected:"false", label:"Wholesale Questions" },
     { ariacontrols:"tabpanel13", ariaselected:"false", label:"Pressed® App" }
-];
-const MediaCard_data = [
-    { ariacontrols:"content-0", id:"accordion-0", title:"Where do I select my store location or my shipping address?" },
-    { ariacontrols:"content-1", id:"accordion-1", title:"Where do I select or change my fulfillment method?" },
-    { ariacontrols:"content-2", id:"accordion-2", title:"What is the difference between pick up, delivery and shipping?" },
-    { ariacontrols:"content-3", id:"accordion-3", title:"Why does it show that a product is unavailable?" },
-    { ariacontrols:"content-4", id:"accordion-4", title:"Why does it show that a product is stocked out?" },
-    { ariacontrols:"content-5", id:"accordion-5", title:"How is Pressed Juicery® supporting sustainability?" },
-    { ariacontrols:"content-6", id:"accordion-6", title:"Why do Pressed Juicery® bottles feel and look different than before?" }
 ];
 const ListRow2_data = [
     { href:"https://pressed.com/shop", label:"Shop All" },
@@ -182,31 +174,9 @@ const Logo_styles = [
     { className:"w-2 h-3" },
     { className:"w-3.5 h-4" }
 ];
-const Tile_styles = [
-    { className:"border-l-4 border-solid border-l-foreground relative right-2.5 -left-2.5 mb-2 pl-1 [font-family:regola-neue-semibold,_sans-serif]" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    { className:"mb-2" },
-    {  }
-];
-const MediaCard_styles = [
-    { className:"border-b border-solid border-b-surface" },
-    { className:"border-b border-solid border-b-surface" },
-    { className:"border-b border-solid border-b-surface" },
-    { className:"border-b border-solid border-b-surface" },
-    { className:"border-b border-solid border-b-surface" },
-    { className:"border-b border-solid border-b-surface" },
-    {  }
-];
+// Uniform tab styling; the active accent bar is applied by CSS on [aria-selected="true"]
+// so JS can move the selection between categories (see .faq-tab in globals.css).
+const Tile_styles = Array.from({ length: 14 }, () => ({ className: "faq-tab block text-left mb-2 pl-1" }));
 const ListRow2_styles = [
     { className:"w-[92.7031px] pb-2 max-md:w-[150.406px] md:max-lg:w-[323.828px]" },
     { className:"w-[92.7px] pb-2 max-md:w-[calc(46.01vw_-_22.126px)] md:max-lg:w-[calc(46vw_-_29.45px)]" },
@@ -372,10 +342,10 @@ export default function Page() {
                   <div className="block mt-20 mb-30 max-lg:mt-24">
                     <div className="block max-w-360 px-16 mx-auto max-md:px-6 md:max-lg:px-8">
                       <div className="grid gap-16 mx-auto grid-cols-[1fr_2fr] max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-div-34">
-                        <button className="w-[134.594px] h-12 border-2 border-solid border-foreground flex fixed top-[9.6875rem] z-1 min-w-0 pb-1 px-6 rounded-3xl justify-center items-center overflow-hidden [font-family:regola-neue-semibold,_sans-serif] leading-[1.1875rem] tracking-[normal] text-center whitespace-nowrap bg-background cursor-pointer max-md:top-43 md:max-lg:top-[9.1875rem]" data-ditto-id="style-heading-28">
+                        <button className="w-[134.594px] h-12 border-2 border-solid border-foreground flex fixed top-[9.6875rem] z-1 min-w-0 pb-1 px-6 rounded-3xl justify-center items-center overflow-hidden [font-family:regola-neue-semibold,_sans-serif] leading-[1.1875rem] tracking-[normal] text-center whitespace-nowrap bg-background cursor-pointer lg:hidden max-md:top-43 md:max-lg:top-[9.1875rem]" data-ditto-id="style-heading-28" data-faq-cats-toggle type="button">
                           Categories
                         </button>
-                        <div className="block max-lg:hidden" data-ditto-id="style-br-23">
+                        <div className="faq-cats block max-lg:hidden" data-ditto-id="style-br-23">
                           <h1 className="block mb-10 text-[2rem] leading-10" data-ditto-id="style-p-49" data-component="heading" id="faqs">
                             Frequently Asked Questions
                           </h1>
@@ -386,13 +356,19 @@ export default function Page() {
                         <div className="hidden min-w-0 max-lg:block max-lg:mb-10 max-md:[font-family:regola-neue-medium,_sans-serif] max-md:text-2xl max-md:leading-[2rem] md:max-lg:text-[2rem] md:max-lg:leading-10" data-ditto-id="style-div-77">
                           Frequently Asked Questions
                         </div>
-                        <div className="block" aria-labelledby="faq0" id="tabpanel0" role="tabpanel">
-                          <h2 className="block mb-4 [font-family:regola-neue-medium,_sans-serif] text-2xl leading-[2rem]" data-ditto-id="style-div-150" data-component="heading">
-                            General FAQs
-                          </h2>
-                          <div className="block" data-ditto-id="style-div-78">
-                            {MediaCard_data.map((d, i) => <MediaCard key={i} d={d} styles={MediaCard_styles[i]} />)}
-                          </div>
+                        <div className="block min-w-0">
+                          {FAQ_CATEGORIES.map((cat, ci) => (
+                            <div key={cat.panelId} className={ci === 0 ? "block" : "hidden"} data-faq-panel aria-labelledby={cat.tabId} id={cat.panelId} role="tabpanel">
+                              <h2 className="block mb-4 [font-family:regola-neue-medium,_sans-serif] text-2xl leading-[2rem]" data-component="heading">
+                                {cat.label}
+                              </h2>
+                              <div className="block">
+                                {cat.qa.map((qa, qi) => (
+                                  <MediaCard key={qi} d={{ q: qa.q, a: qa.a, answerId: cat.panelId + "-a" + qi }} last={qi === cat.qa.length - 1} />
+                                ))}
+                              </div>
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>

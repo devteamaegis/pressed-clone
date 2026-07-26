@@ -349,7 +349,7 @@ export default function Page() {
                           poster="/assets/cloned/images/hero-poster.jpg"
                           src="/assets/cloned/video/hero-wicked-wonderland.mp4"
                         />
-                        <div className="w-9 h-9 flex absolute top-6 left-305 opacity-50 rounded-full justify-center items-center bg-background max-md:left-[19.6875rem] md:max-lg:left-177" data-ditto-id="style-heading-17" data-component="button" role="button">
+                        <div className="w-9 h-9 flex absolute top-6 left-305 rounded-full justify-center items-center max-md:left-[19.6875rem] md:max-lg:left-177" style={{ backgroundColor: "rgba(255,255,255,0.6)" }} data-ditto-id="style-heading-17" data-component="button" role="button">
                           <img className="w-5 h-5 block max-w-full overflow-clip" data-component="image" alt="Pause" src={iconFor("Pause")} />
                         </div>
                       </div>
