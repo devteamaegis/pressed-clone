@@ -2,6 +2,7 @@ import "./globals.css";
 // Hand-rebuilt interaction runtime: pressed.com is a Nuxt SPA and none of its
 // behaviour survives a static clone (Ditto's motion capture was empty for this site).
 import type { ReactNode } from "react";
+import ClonedInteractionsLoader from "./cloned-interactions-loader";
 
 export const metadata = {
   "title": "Pressed Juicery® - Cold-Pressed Juices, Smoothies & Plant-Based Foods",
@@ -29,13 +30,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang={"en"}>
       <head>
         <link rel="stylesheet" href="/cloned-interactions.css" />
-        {/* Framework-free interaction runtime. A plain external <script async>
-            (not next/script, not an inline injector) is hoisted by React 19 into
-            the static HTML head as a real tag, so the browser loads and runs it at
-            parse — independent of hydration. An earlier dynamically-appended
-            <script> raced React 19 hydration on Vercel and got dropped. The script
-            itself waits for DOMContentLoaded before touching the DOM. */}
-        <script async src="/cloned-interactions.js" />
         <script
           key="ditto-json-ld-0"
           type="application/ld+json"
@@ -44,6 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
       <body className="cn0">
         {children}
+        <ClonedInteractionsLoader />
       </body>
     </html>
   );
