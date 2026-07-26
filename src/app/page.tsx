@@ -336,7 +336,7 @@ export default function Page() {
                 <div className="block mx-auto">
                   <div className="block">
                     <div className="block max-w-360">
-                      <div className="block relative -mb-1 aspect-[51/25] leading-0 bg-foreground bg-cover [background-position:50%_50%] bg-no-repeat" style={{ backgroundImage:"url(\"/assets/cloned/images/f288f993670f.jpg\")" }}>
+                      <div className="block relative -mb-1 aspect-[51/25] leading-0 bg-foreground bg-cover [background-position:50%_50%] bg-no-repeat" style={{ backgroundImage:"url(\"/assets/cloned/images/hero-poster.jpg\")" }}>
                         <video
                           className="w-full inline-block aspect-[51/25] object-fill"
                           data-ditto-id="style-div-12"
@@ -346,7 +346,7 @@ export default function Page() {
                           muted
                           playsInline
                           preload="auto"
-                          poster="/assets/cloned/images/f288f993670f.jpg"
+                          poster="/assets/cloned/images/hero-poster.jpg"
                           src="/assets/cloned/video/hero-wicked-wonderland.mp4"
                         />
                         <div className="w-9 h-9 flex absolute top-6 left-305 opacity-50 rounded-full justify-center items-center bg-background max-md:left-[19.6875rem] md:max-lg:left-177" data-ditto-id="style-heading-17" data-component="button" role="button">
