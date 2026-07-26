@@ -389,6 +389,29 @@
     });
   }
 
+  /* ---------------- 9b. Video facade -------------------------------------- */
+  /* Show a poster still at rest and load + play the real <video> on click, the
+     way live does. A bare <video preload="none" poster> renders blank in some
+     browsers, and eagerly shipping the multi-MB file is wasteful — the facade
+     avoids both. */
+  function videoFacade() {
+    $$("[data-video-facade]").forEach(function (el) {
+      el.addEventListener("click", function () {
+        var src = el.getAttribute("data-video-facade");
+        var v = d.createElement("video");
+        v.src = src;
+        v.controls = true;
+        v.autoplay = true;
+        v.playsInline = true;
+        v.className = el.className.replace(/\bcursor-pointer\b/, "").replace(/\bbg-cover\b/, "").replace(/\bbg-center\b/, "") + " object-cover";
+        v.style.backgroundColor = "#000";
+        el.parentNode.replaceChild(v, el);
+        var p = v.play();
+        if (p && p.catch) p.catch(function () {});
+      });
+    });
+  }
+
   /* ---------------- 11. FAQ page: category tabs + accordions -------------- */
   /* Live's FAQ is a Nuxt tab+accordion widget; the capture kept only the question
      headings (no answer panels, no JS). The clone now renders all 14 categories and
@@ -459,7 +482,7 @@
   }
 
   onReady(function () {
-    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade, faqPage, cookieBanner]
+    [promoBar, megaMenu, mobileDrawer, shopFilters, cart, hoverSwap, carousels, heroVideo, youtubeFacade, videoFacade, faqPage, cookieBanner]
       .forEach(function (fn) { try { fn(); } catch (err) { if (window.__CLONED_DEBUG) console.error("[cloned-interactions]", fn.name, err); } });
   });
 })();

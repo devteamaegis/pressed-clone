@@ -378,7 +378,11 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="block mb-25 aspect-video max-lg:aspect-[1.75]" data-ditto-id="style-u">
-                      <video className="w-full h-[40.8125rem] inline max-w-full overflow-clip object-cover max-md:h-[19.6875rem] md:max-lg:h-108" data-ditto-id="style-br-65" controls playsInline poster="/assets/cloned/images/careers-video-poster.jpg" preload="none" src="/assets/cloned/video/careers-page.mp4" />
+                      <div className="w-full h-[40.8125rem] flex relative max-w-full justify-center items-center overflow-clip bg-cover bg-center cursor-pointer max-md:h-[19.6875rem] md:max-lg:h-108" style={{ backgroundImage: "url('/assets/cloned/images/careers-video-poster.jpg')" }} data-video-facade="/assets/cloned/video/careers-page.mp4" role="button" aria-label="Play video">
+                        <span className="w-20 h-20 flex justify-center items-center rounded-full" style={{ backgroundColor: "rgba(0,0,0,0.55)" }}>
+                          <svg width="26" height="30" viewBox="0 0 26 30" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M25 13.27a2 2 0 0 1 0 3.46L3 29.32A2 2 0 0 1 0 27.6V2.4A2 2 0 0 1 3 .68l22 12.6z" /></svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
