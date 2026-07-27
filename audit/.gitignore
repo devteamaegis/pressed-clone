@@ -6,3 +6,7 @@ _small/
 _after/
 _tmp/
 _audit.html
+
+# Composed audit report (large) — regenerate with
+# ditto.site/compiler/scripts/pressedComposeAuditPdf.mjs
+*.pdf
