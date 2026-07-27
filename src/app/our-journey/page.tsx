@@ -303,8 +303,8 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block">
                   <div className="block">
-                    <div className="grid relative px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] leading-4 bg-primary mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
-                      <div className="grid min-w-0 mx-auto px-5 justify-center gap-x-5 col-span-full [background-size:100%] [background-position:50%_50%] bg-no-repeat grid-cols-12 max-lg:hidden" style={{ backgroundImage:"url(\"/assets/cloned/images/4aa942598164.png\")" }}>
+                    <div className="grid relative px-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] leading-4 bg-primary mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
+                      <div className="grid min-w-0 -mx-5 px-5 justify-center gap-x-5 col-span-full [background-size:100%] [background-position:50%_50%] bg-no-repeat grid-cols-[repeat(12,_minmax(0px,_66.6667px))] max-lg:hidden" style={{ backgroundImage:"url(\"/assets/cloned/images/4aa942598164.png\")" }}>
                         <div className="flex min-w-0 py-23.5 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-div-12">
                           <div className="box-content min-h-24 block py-3 shrink-0 max-w-[63.75rem] mx-auto text-background [font-family:FTRegolaNeue-Regular,_stk] text-[5rem] leading-24 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-17" data-component="heading">
                             <p className="box-content min-h-6 block mb-3 text-base leading-[1.5625rem] [pointer-events:all]">
@@ -316,7 +316,7 @@ export default function Page() {
                           </div>
                         </div>
                       </div>
-                      <div className="border-t border-solid border-t-foreground border-b border-b-foreground grid min-w-0 mb-6.5 -mx-5 px-5 justify-center gap-x-5 col-span-full grid-cols-12 max-lg:hidden">
+                      <div className="border-t border-solid border-t-foreground border-b border-b-foreground grid min-w-0 mb-6.5 -mx-5 px-5 justify-center gap-x-5 col-span-full grid-cols-[repeat(12,_minmax(0px,_66.6667px))] max-lg:hidden">
                         <div className="flex min-w-0 flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:hidden" data-ditto-id="style-font">
                           <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                         </div>

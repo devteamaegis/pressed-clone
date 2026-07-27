@@ -68,9 +68,9 @@ const ListRow3_data3 = [
     { text:"9-10pm", text2:" Unwind Shot" }
 ];
 const MediaTile_data = [
-    { description:"Probiotics", description2:" help populate the gut with beneficial bacteria." },
-    { description:"Prebiotic fiber", description2:" helps nourish those bacteria to thrive." },
-    { description:"Sulforaphane", description2:" supports the body’s natural detox pathways." }
+    { description:"Probiotics", description2:" help populate the gut with beneficial bacteria.", src:"/assets/cloned/images/gut-icon-probiotics.svg" },
+    { description:"Prebiotic fiber", description2:" helps nourish those bacteria to thrive.", src:"/assets/cloned/images/gut-icon-prebiotic-fiber.svg" },
+    { description:"Sulforaphane", description2:" supports the body’s natural detox pathways.", src:"/assets/cloned/images/gut-icon-sulforaphane.svg" }
 ];
 const MediaTile2_data = [
     { ariacontrols:"content-0", id:"accordion-0", text:"What is the 2-Day Pro Cleanse+?" },
@@ -441,7 +441,7 @@ export default function Page() {
                         </strong>
                         , the most advanced cleanse in our lineup. Designed to help you reset and rebalance from within.
                       </p>
-                      <ul className="block mb-[1.33rem] list-inside" data-ditto-id="style-strong-6">
+                      <ul className="block mb-[1.33rem] list-disc list-inside" data-ditto-id="style-strong-6">
                         {ListRow2_data.map((d, i) => <ListRow2 key={i} d={d} />)}
                       </ul>
                       <p className="block mb-[1.33rem] leading-[1.4375rem]" data-ditto-id="style-strong-8">
@@ -453,10 +453,10 @@ export default function Page() {
                         Start My 2-Day Reset
                       </a>
                     </div>
-                    <img className="w-134 h-[29.9375rem] block max-w-full overflow-clip object-cover object-[95%_50%] max-lg:hidden" data-ditto-id="style-link" data-component="image" src="/assets/cloned/images/9ef2f5e87cd7.jpg" />
+                    <img className="w-full h-auto block max-w-full overflow-clip object-cover object-[95%_50%] max-lg:hidden" data-ditto-id="style-link" data-component="image" src="/assets/cloned/images/9ef2f5e87cd7.jpg" />
                   </div>
                 </div>
-                <div className="block bg-color-009 max-md:hidden" data-ditto-id="style-div-91">
+                <div className="block bg-[#122300] max-md:hidden" data-ditto-id="style-div-91">
                   <div className="flex relative overflow-x-hidden overflow-y-auto" data-ditto-id="style-figure-11">
                     <div className="h-full block absolute top-0 inset-x-0 min-w-0" data-ditto-id="style-div-92" aria-hidden="true" />
                     {Tile_data.map((d, i) => <Tile key={i} d={d} styles={Tile_styles[i]} />)}
@@ -465,7 +465,7 @@ export default function Page() {
                 <div className="block max-w-360 px-4 mx-auto" data-ditto-id="style-div-95">
                   <div className="grid max-w-360 mt-16 mb-24 items-center gap-12 grid-cols-[1fr_1.222fr] max-md:my-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mt-8 md:max-lg:mb-12" data-ditto-id="style-div-29">
                     <div className="block max-lg:hidden">
-                      <img className="w-135 h-90 inline max-w-full overflow-clip" data-ditto-id="style-div-116" data-component="image" src="/assets/cloned/images/1e0cb16672bb.jpg" />
+                      <img className="w-full h-auto inline max-w-full overflow-clip" data-ditto-id="style-div-116" data-component="image" src="/assets/cloned/images/1e0cb16672bb.jpg" />
                     </div>
                     <div className="block" data-ditto-id="style-div-96">
                       <div className="block mb-12" data-ditto-id="style-a-5">
@@ -508,7 +508,7 @@ export default function Page() {
                         Gut Support Meets Performance Nutrition
                       </h2>
                       <p className="block mb-[1.33rem] leading-[1.4375rem]" data-ditto-id="style-div-117">
-                        {"Here's how the"}
+                        {"Here's how the "}
                         <strong className="inline font-bold" data-ditto-id="style-image-10">
                           2-Day Pro Cleanse+
                         </strong>
@@ -526,7 +526,7 @@ export default function Page() {
                 <div className="block max-w-360 px-4 mx-auto" data-ditto-id="style-strong-40">
                   <div className="grid max-w-360 mt-16 mb-24 items-center gap-12 grid-cols-[1.222fr_1fr] max-md:my-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mt-8 md:max-lg:mb-12" data-ditto-id="style-p-9">
                     <div className="block order-[2] aspect-[1.184] max-lg:hidden" data-ditto-id="style-link-2">
-                      <img className="w-135 h-[28.1875rem] inline max-w-full overflow-clip" data-ditto-id="style-div-23" data-component="image" src="/assets/cloned/images/610a99e1142f.jpg" />
+                      <img className="w-full h-auto inline max-w-full overflow-clip" data-ditto-id="style-div-23" data-component="image" src="/assets/cloned/images/610a99e1142f.jpg" />
                     </div>
                     <div className="block" data-ditto-id="style-div-13">
                       <div className="block mb-12" data-ditto-id="style-p-15">
@@ -658,7 +658,7 @@ export default function Page() {
                           Start My 2-Day Reset
                         </a>
                       </div>
-                      <img className="w-138.5 h-145.5 block max-w-full overflow-clip object-cover object-[28%_50%] max-md:w-[21.4375rem] max-md:h-90 md:max-lg:w-81 md:max-lg:h-163" data-component="image" src="/assets/cloned/images/a25f18dee818.jpg" />
+                      <img className="w-full h-auto block max-w-full overflow-clip object-cover object-[28%_50%] max-md:w-[21.4375rem] max-md:h-90 md:max-lg:w-81 md:max-lg:h-163" data-component="image" src="/assets/cloned/images/a25f18dee818.jpg" />
                     </div>
                   </div>
                 </div>

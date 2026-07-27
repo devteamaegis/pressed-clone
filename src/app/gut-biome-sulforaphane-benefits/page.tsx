@@ -204,9 +204,9 @@ const Tile_styles = [
     { className:"max-md:hidden", className2:"max-md:hidden", className3:"max-md:hidden", className4:"max-md:hidden", className5:"max-md:hidden", className6:"max-md:hidden", className7:"max-md:hidden", className8:"max-md:hidden", className9:"max-md:hidden", className10:"max-md:hidden" }
 ];
 const Tile2_styles = [
-    { className:"w-71 h-[23.6875rem] block max-h-106 max-md:hidden md:max-lg:w-48 md:max-lg:h-64" },
-    { className:"w-71 h-[23.6875rem] block max-h-106 max-md:hidden md:max-lg:w-48 md:max-lg:h-64" },
-    { className:"w-71 h-[23.6875rem] block max-h-106 max-md:hidden md:max-lg:w-48 md:max-lg:h-64" },
+    { className:"w-[19.875rem] h-106 block max-h-106 max-md:hidden md:max-lg:w-48 md:max-lg:h-64" },
+    { className:"w-[19.875rem] h-106 block max-h-106 max-md:hidden md:max-lg:w-48 md:max-lg:h-64" },
+    { className:"w-[19.875rem] h-106 block max-h-106 max-md:hidden md:max-lg:w-48 md:max-lg:h-64" },
     { className:"w-full hidden min-w-0 max-md:h-[8.4375rem] max-md:block" },
     { className:"w-full hidden min-w-0 max-md:h-[8.4375rem] max-md:block" },
     { className:"w-full hidden min-w-0 max-md:h-[8.4375rem] max-md:block" }
@@ -391,7 +391,7 @@ export default function Page() {
                     <img className="hidden min-w-0 max-w-full overflow-clip max-md:w-[21.4375rem] max-md:h-[21.4375rem] max-md:block" src="/assets/cloned/images/ec290f0529f7.jpg" />
                     <div className="block py-5" data-ditto-id="style-div-34">
                       <h1 className="block mb-6 text-[2.5rem] leading-12 max-md:[font-family:regola-neue-medium,_sans-serif]" data-ditto-id="style-heading-28" data-component="heading">
-                        {"Science Meets Gut Support:"}
+                        {"Science Meets Gut Support: "}
                         <span className="inline whitespace-nowrap" data-ditto-id="style-br-23">
                           Gut Biome+
                         </span>
@@ -402,7 +402,7 @@ export default function Page() {
                       <p className="block mb-[1.33rem] leading-[1.4375rem]" data-ditto-id="style-p-25">
                         Gut Biome+ is a triple-action shot powered by sulforaphane, probiotics, and prebiotic fiber to detox, rebalance, and glow from within.
                       </p>
-                      <ul className="block mb-[1.33rem] list-inside" data-ditto-id="style-p-22">
+                      <ul className="block mb-[1.33rem] list-disc list-inside" data-ditto-id="style-p-22">
                         <li className="list-item" data-ditto-id="style-strong-6">
                           {"Assists natural cleansing processes & detox pathways"}
                         </li>
@@ -419,10 +419,10 @@ export default function Page() {
                         Shop Gut Biome+ Shots
                       </a>
                     </div>
-                    <img className="w-134 h-134 block max-w-full overflow-clip object-cover max-md:hidden md:max-lg:w-76.5 md:max-lg:h-140.5" data-ditto-id="style-link-12" data-component="image" src="/assets/cloned/images/ec290f0529f7.jpg" />
+                    <img className="w-full aspect-square block max-w-full overflow-clip object-cover max-md:hidden md:max-lg:w-76.5 md:max-lg:h-140.5" data-ditto-id="style-link-12" data-component="image" src="/assets/cloned/images/ec290f0529f7.jpg" />
                   </div>
                 </div>
-                <div className="block bg-color-009 max-md:hidden" data-ditto-id="style-br-12">
+                <div className="block bg-[rgb(18,35,0)] max-md:hidden" data-ditto-id="style-br-12">
                   <div className="flex relative overflow-x-hidden overflow-y-auto" data-ditto-id="style-link">
                     <div className="h-full block absolute top-0 inset-x-0 min-w-0" data-ditto-id="style-div-91" aria-hidden="true" />
                     {Tile_data.map((d, i) => <Tile key={i} d={d} styles={Tile_styles[i]} />)}
@@ -431,7 +431,7 @@ export default function Page() {
                 <div className="block max-w-360 px-4 mx-auto" data-ditto-id="style-div-29">
                   <div className="grid max-w-360 mt-16 mb-24 items-center gap-12 grid-cols-[1fr_1.222fr] max-md:mb-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mb-12">
                     <div className="block max-lg:hidden" data-ditto-id="style-div-116">
-                      <img className="w-135 h-135 inline max-w-full overflow-clip" data-ditto-id="style-div-96" data-component="image" src="/assets/cloned/images/4f7b1a6f9f08.jpg" />
+                      <img className="w-full aspect-square inline max-w-full overflow-clip" data-ditto-id="style-div-96" data-component="image" src="/assets/cloned/images/4f7b1a6f9f08.jpg" />
                     </div>
                     <div className="block" data-ditto-id="style-a-5">
                       <div className="block mb-12" data-ditto-id="style-u">
@@ -459,14 +459,14 @@ export default function Page() {
                           <span className="inline whitespace-nowrap" data-ditto-id="style-div-30">
                             What Is Sulforaphane
                           </span>
-                          {""}
+                          {" "}
                           <span className="inline whitespace-nowrap" data-ditto-id="style-div-27">
                             {"& Why Should You Care?"}
                           </span>
                         </h2>
                         <div className="block" data-ditto-id="style-p-38">
                           <p className="block mb-[1.33rem] leading-[1.4375rem]" data-ditto-id="style-figure-13">
-                            {"Broccoli seeds are packed with glucoraphanin, which your body converts into sulforaphane. Sulforaphane"}
+                            {"Broccoli seeds are packed with glucoraphanin, which your body converts into sulforaphane. Sulforaphane "}
                             <strong className="inline font-bold" data-ditto-id="style-div-117">
                               supports cellular defense pathways
                             </strong>
@@ -488,22 +488,22 @@ export default function Page() {
                     </div>
                   </div>
                   <div className="grid max-w-360 mb-24 gap-3 grid-cols-[1fr_2.333fr] max-md:mb-8 max-lg:grid-cols-1 max-lg:gap-[initial] md:max-lg:mb-12" data-ditto-id="style-p-7">
-                    <div className="block p-8 rounded-2xl text-background bg-color-009 max-lg:p-0 max-lg:text-[color:inherit] max-lg:bg-[initial]" data-ditto-id="style-div-31">
+                    <div className="block p-8 rounded-2xl text-background bg-[rgb(18,35,0)] max-lg:p-0 max-lg:text-[color:inherit] max-lg:bg-[initial]" data-ditto-id="style-div-31">
                       <h2 className="block mb-2 text-[2.5rem] leading-12 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-xl max-lg:leading-7 max-lg:mb-0" data-ditto-id="style-p-51" data-component="heading">
                         The Benefits of Sulforaphane
                       </h2>
                     </div>
                     <div className="block rounded-2xl overflow-hidden aspect-[3/2] max-lg:aspect-[5/4]" data-ditto-id="style-figure-12">
-                      <img className="w-full h-[36.0625rem] block max-w-full overflow-clip object-cover max-lg:hidden" data-ditto-id="style-div-22" data-component="image" src="/assets/cloned/images/706c02dbf2d2.jpg" />
+                      <img className="w-full aspect-[3/2] block max-w-full overflow-clip object-cover max-lg:hidden" data-ditto-id="style-div-22" data-component="image" src="/assets/cloned/images/706c02dbf2d2.jpg" />
                       <img className="w-full h-full hidden max-w-full overflow-clip max-md:w-[21.4375rem] max-md:h-68.5 max-lg:block md:max-lg:w-184 md:max-lg:h-[36.8125rem]" data-ditto-id="style-image-11" src="/assets/cloned/images/2f82806078fe.jpg" />
                     </div>
                   </div>
                 </div>
-                <div className="block mb-24 bg-color-011 max-md:mb-8 max-md:bg-[initial] md:max-lg:mb-12" data-ditto-id="style-heading-22">
+                <div className="block mb-24 bg-color-005 max-md:mb-8 max-md:bg-[initial] md:max-lg:mb-12" data-ditto-id="style-heading-22">
                   <div className="block max-w-360 mx-auto" data-ditto-id="style-strong-3">
-                    <div className="grid items-center gap-x-24 text-2xl leading-8 grid-cols-[1.5fr_1fr] grid-rows-1 aspect-[2.703] max-lg:gap-x-8 max-lg:text-xl max-lg:leading-7 max-md:grid-cols-1 max-md:aspect-[1.103] md:max-lg:aspect-[2.259]" data-ditto-id="style-p-60">
+                    <div className="grid items-center gap-x-24 text-2xl leading-8 grid-cols-[1.5fr_1fr] grid-rows-1 max-lg:gap-x-8 max-lg:text-xl max-lg:leading-7 max-md:grid-cols-1 max-md:aspect-[1.103] md:max-lg:aspect-[2.259]" data-ditto-id="style-p-60">
                       <blockquote className="block py-8 px-4 basis-3/5" data-ditto-id="style-div-118">
-                        <img className="w-11 h-9 block max-w-full mb-6 overflow-clip max-lg:w-7.5 max-lg:h-6 max-lg:mb-4" data-ditto-id="style-p-8" data-component="image" alt="" aria-hidden="true" src={iconFor("Go to cart")} />
+                        <img className="w-[45px] h-9 block max-w-full mb-6 overflow-clip max-lg:w-7.5 max-lg:h-6 max-lg:mb-4" data-ditto-id="style-p-8" data-component="image" alt="" aria-hidden="true" src="/assets/cloned/images/quote-mark.svg" />
                         <span className="inline" data-ditto-id="style-figure-2">
                           Sulforaphane from broccoli seeds helps maintain your body’s defenses by supporting glutathione, the master antioxidant that helps your body process toxins.
                         </span>
@@ -518,7 +518,7 @@ export default function Page() {
                         </div>
                       </blockquote>
                       <div className="block aspect-square max-md:hidden md:max-lg:aspect-[0.866]" data-ditto-id="style-strong-40">
-                        <img className="w-full h-118.5 block max-w-full overflow-clip object-cover md:max-lg:h-85" data-ditto-id="style-p-9" data-component="image" src="/assets/cloned/images/5acff578beac.jpg" />
+                        <img className="w-full aspect-square block max-w-full overflow-clip object-cover md:max-lg:h-85" data-ditto-id="style-p-9" data-component="image" src="/assets/cloned/images/5acff578beac.jpg" />
                       </div>
                     </div>
                   </div>
@@ -533,7 +533,7 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
-                <div className="block text-background bg-color-009" data-ditto-id="style-p-18">
+                <div className="block text-background bg-[rgb(18,35,0)]" data-ditto-id="style-p-18">
                   <div className="grid max-w-360 mx-auto grid-cols-[1.5fr_1fr_1fr_1fr] max-md:grid-cols-1 md:max-lg:grid-cols-[1fr_1fr_1fr_1fr]" data-ditto-id="style-br-20">
                     <div className="block p-4" data-ditto-id="style-br-2">
                       <h2 className="block text-[3.5rem] leading-16 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-[2rem] max-lg:leading-10" data-ditto-id="style-br-21" data-component="heading">
@@ -558,7 +558,7 @@ export default function Page() {
                         </h2>
                         <div className="block" data-ditto-id="style-p-20">
                           <p className="block mb-[1.33rem] leading-[1.4375rem]" data-ditto-id="style-br-6">
-                            {"Support your gut with our"}
+                            {"Support your gut with our "}
                             <strong className="inline font-bold" data-ditto-id="style-br-15">
                               Gut Biome+ Detox
                             </strong>
@@ -594,7 +594,7 @@ export default function Page() {
                     </div>
                   </div>
                   <div className="grid max-w-360 mb-24 gap-3 grid-cols-[1fr_2.333fr] max-md:mb-8 max-lg:grid-cols-1 max-lg:gap-[initial] md:max-lg:mb-12" data-ditto-id="style-image-16">
-                    <div className="block p-8 rounded-2xl text-background bg-color-009" data-ditto-id="style-p-11">
+                    <div className="block p-8 rounded-2xl text-background bg-[rgb(18,35,0)]" data-ditto-id="style-p-11">
                       <h2 className="block mb-2 text-[2.5rem] leading-12 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-xl max-lg:leading-7 max-lg:mb-0" data-ditto-id="style-strong-23" data-component="heading">
                         Gut Biome+ tastes like:
                       </h2>
@@ -603,15 +603,15 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="block rounded-2xl overflow-hidden">
-                      <img className="w-full h-131 block max-w-full overflow-clip object-cover max-lg:hidden" data-ditto-id="style-br-8" data-component="image" src="/assets/cloned/images/b97f376fc50d.jpg" />
+                      <img className="w-full aspect-[33/20] block max-w-full overflow-clip object-cover max-lg:hidden" data-ditto-id="style-br-8" data-component="image" src="/assets/cloned/images/b97f376fc50d.jpg" />
                     </div>
                   </div>
                 </div>
-                <div className="block mb-24 bg-color-011 max-md:mb-8 max-md:bg-[initial] md:max-lg:mb-12" data-ditto-id="style-br-72">
+                <div className="block mb-24 bg-color-005 max-md:mb-8 max-md:bg-[initial] md:max-lg:mb-12" data-ditto-id="style-br-72">
                   <div className="block max-w-360 mx-auto" data-ditto-id="style-br-9">
                     <div className="grid items-center gap-x-24 text-2xl leading-8 grid-cols-[1fr_1.5fr] max-lg:gap-x-8 max-lg:text-xl max-lg:leading-7 max-md:grid-cols-1" data-ditto-id="style-link-5">
                       <blockquote className="block py-8 px-4 basis-3/5 order-[2]" data-ditto-id="style-br-29">
-                        <img className="w-11 h-9 block max-w-full mb-6 overflow-clip max-lg:w-7.5 max-lg:h-6 max-lg:mb-4" data-component="image" alt="" aria-hidden="true" src={iconFor("Go to cart")} />
+                        <img className="w-[45px] h-9 block max-w-full mb-6 overflow-clip max-lg:w-7.5 max-lg:h-6 max-lg:mb-4" data-component="image" alt="" aria-hidden="true" src="/assets/cloned/images/quote-mark.svg" />
                         <span className="inline" data-ditto-id="style-div-56">
                           Broccoli seed extract delivers glucoraphanin, a precursor to sulforaphane that helps support digestion, detox, and cellular health — carefully selected for science and taste.
                         </span>
@@ -626,7 +626,7 @@ export default function Page() {
                         </div>
                       </blockquote>
                       <div className="block order-[1] aspect-square max-md:hidden md:max-lg:aspect-[0.866]" data-ditto-id="style-strong-24">
-                        <img className="w-full h-118.5 block max-w-full overflow-clip object-cover md:max-lg:h-85" data-component="image" src="/assets/cloned/images/6148b03576e4.jpg" />
+                        <img className="w-full aspect-square block max-w-full overflow-clip object-cover md:max-lg:h-85" data-component="image" src="/assets/cloned/images/6148b03576e4.jpg" />
                       </div>
                     </div>
                   </div>
@@ -641,10 +641,10 @@ export default function Page() {
                       {MediaTile_data.map((d, i) => <MediaTile key={i} d={d} styles={MediaTile_styles[i]} />)}
                     </div>
                   </div>
-                  <div className="block mb-4 text-clr-14" data-ditto-id="style-hr-3">
+                  <div className="block mb-4 text-[rgb(128,128,128)]" data-ditto-id="style-hr-3">
                     *TrueBroc® is a registered trademark of Brassica Protection Products LLC.
                   </div>
-                  <div className="block mb-4 text-clr-14" data-ditto-id="style-div-60">
+                  <div className="block mb-4 text-[rgb(128,128,128)]" data-ditto-id="style-div-60">
                     *This content is for general wellness and educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Products are not intended to diagnose, treat, cure, or prevent any disease. Individual experiences may vary. Quotes and testimonials are from Pressed employees and affiliates. Educational graphics are illustrative and for general wellness education.
                   </div>
                 </div>

@@ -296,7 +296,40 @@ export default function Page() {
                     <div className="w-full block absolute top-0 left-0 bg-clr-6 mx-auto" />
                   </div>
                   <div className="min-h-187.5 block relative min-w-200 max-w-2500 max-h-187.5 max-lg:min-h-175 max-lg:min-w-90 max-lg:max-h-175" data-ditto-id="style-div-34" aria-label="Inline Form" id="lightbox-dac0f2e5-c7f4-4568-b018-23747dd578b4-1784916096846" role="dialog">
-                    <iframe className="w-320 h-187.5 block absolute overflow-clip max-md:w-[23.4375rem] max-lg:h-175 md:max-lg:w-192" data-ditto-id="style-heading-28" aria-label="Modal Overlay Box Frame" height="100%" id="lightbox-iframe-dac0f2e5-c7f4-4568-b018-23747dd578b4" title="Pressed Quiz (updated version)" width="100%" />
+                    <div className="w-full h-187.5 block absolute top-0 left-0 overflow-hidden tracking-[normal] fq-layout max-lg:h-175" data-ditto-id="style-heading-28" aria-label="Pressed Quiz (updated version)" id="lightbox-iframe-dac0f2e5-c7f4-4568-b018-23747dd578b4">
+                      <div className="w-[calc(100%_-_40px)] h-13 block absolute top-[15px] left-5" id="html1_wrapper">
+                        <div className="block my-1.5 mx-auto [font-family:regola-neue-regular,_sans-serif] text-[1.125rem] leading-[normal] text-center text-foreground">
+                          1 / 5
+                        </div>
+                        <div className="w-full h-2.5 block rounded-[20px] bg-[rgba(0,0,0,0.2)]" aria-label="Quiz progress 20 percent">
+                          <div className="w-1/5 h-full block rounded-[20px] bg-foreground" />
+                        </div>
+                      </div>
+                      <div className="w-200 h-187.5 block absolute top-0 left-1/2 -translate-x-1/2">
+                        <div className="w-[750px] h-12.5 block absolute top-[186px] left-[25px]" id="text1_wrapper">
+                          <div className="block [font-family:regola-neue-semibold,_sans-serif] text-[2rem] leading-10 text-center text-foreground">
+                            Have you tried Pressed before?
+                          </div>
+                        </div>
+                        <div className="w-[150px] h-[175px] block absolute top-[267px] left-[141px]" id="button8_wrapper">
+                          <button className="w-full h-full border border-solid border-foreground block relative pt-30 px-1 pb-1 rounded-[10px] text-background [font-family:regola-neue-regular,_sans-serif] text-base leading-[normal] text-center bg-foreground cursor-pointer fq-answer fq-answer-1 hover:bg-[#333333]" data-component="button" aria-label="Yes, I'm a regular" type="button">
+                            {"Yes, I'm a regular"}
+                          </button>
+                        </div>
+                        <div className="w-[150px] h-[175px] block absolute top-[266px] left-[325px]" id="button9_wrapper">
+                          <button className="w-full h-full border border-solid border-foreground block relative pt-30 px-1 pb-1 rounded-[10px] text-background [font-family:regola-neue-regular,_sans-serif] text-base leading-[normal] text-center bg-foreground cursor-pointer fq-answer fq-answer-2 hover:bg-[#333333]" data-component="button" aria-label="I've tried it once or twice" type="button">
+                            {"I've tried it once "}
+                            <br />
+                            or twice
+                          </button>
+                        </div>
+                        <div className="w-[150px] h-[175px] block absolute top-[267px] left-[513px]" id="button10_wrapper">
+                          <button className="w-full h-full border border-solid border-foreground block relative pt-30 px-1 pb-1 rounded-[10px] text-background [font-family:regola-neue-regular,_sans-serif] text-base leading-[normal] text-center bg-foreground cursor-pointer fq-answer fq-answer-3 hover:bg-[#333333]" data-component="button" aria-label="Not yet - this will be my first time" type="button">
+                            Not yet - this will be my first time
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </main>
@@ -348,7 +381,7 @@ export default function Page() {
                         </ul>
                       </div>
                     </div>
-                    <div className="grid gap-x-[5%] grid-cols-[3224fr_1184fr_1475fr_1097fr_3100fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-p-14">
+                    <div className="grid gap-x-[5%] grid-cols-[3223fr_1184fr_1475fr_1097fr_3021fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-p-14">
                       <div className="block max-lg:border-b max-lg:border-solid max-lg:border-b-background max-lg:mb-6 max-lg:pb-6" data-ditto-id="style-div-93">
                         <h2 className="block pb-2 [font-family:regola-neue-semibold,_sans-serif]" data-ditto-id="style-div-21" data-component="heading">
                           Membership

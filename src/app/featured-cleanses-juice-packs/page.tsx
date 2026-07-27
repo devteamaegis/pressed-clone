@@ -293,14 +293,14 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block" data-ditto-id="style-font">
                   <div className="block">
-                    <div className="grid relative px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
-                      <div className="grid min-w-0 gap-x-5 col-start-2 bg-contain [background-position:50%_50%] bg-no-repeat mx-auto grid-cols-12 max-lg:hidden" style={{ backgroundImage:"url(\"/assets/cloned/images/ecfac2a731aa.jpg\")" }} data-ditto-id="style-div-34">
+                    <div className="grid relative px-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
+                      <div className="grid min-w-0 gap-x-5 col-start-2 bg-contain [background-position:50%_50%] bg-no-repeat mx-auto grid-cols-12 grid-rows-1 aspect-[3.129] max-lg:hidden" style={{ backgroundImage:"url(\"/assets/cloned/images/ecfac2a731aa.jpg\")" }} data-ditto-id="style-div-34">
                         <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-heading-28">
                           <div className="grid shrink-0 gap-x-5 grid-cols-12" data-ditto-id="style-br-23">
                             <div className="flex min-w-0 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-p-49">
                               <p className="box-content min-h-6 block mb-19.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-25" />
                               <p className="box-content min-h-16 block pl-10 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] text-[2.5rem] leading-16 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-22">
-                                {"Cleanse"}
+                                {"Cleanse "}
                                 <em className="box-content min-h-16 inline -ml-2 italic [pointer-events:all]" data-ditto-id="style-strong-6">
                                   {"Your"}
                                 </em>

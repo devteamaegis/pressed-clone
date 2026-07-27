@@ -417,7 +417,7 @@ export default function Page() {
                 <section className="block py-26 max-lg:py-16" data-ditto-id="style-br-23">
                   <div className="block max-w-360 px-8" data-ditto-id="style-p-49">
                     <div className="grid gap-x-10 grid-cols-3 max-lg:justify-center max-lg:grid-cols-1" data-ditto-id="style-p-25">
-                      <div className="grid row-start-[span_3] grid-cols-1 max-lg:mb-10" data-ditto-id="style-p-22">
+                      <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid max-lg:mb-10" data-ditto-id="style-p-22">
                         <div className="block" data-ditto-id="style-strong-6" />
                         <div className="border border-solid border-foreground block relative rounded-tl-2xl rounded-tr-2xl bg-color-006" data-ditto-id="style-link-10">
                           <div className="block pt-10 pb-8 px-8 max-md:px-4" data-ditto-id="style-strong-7">
@@ -452,7 +452,7 @@ export default function Page() {
                           </div>
                         </div>
                       </div>
-                      <div className="grid row-start-[span_3] grid-cols-1 max-lg:mb-10" data-ditto-id="style-div-79">
+                      <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid max-lg:mb-10" data-ditto-id="style-div-79">
                         <div className="block" data-ditto-id="style-image-15">
                           <div className="border-t border-solid border-t-foreground border-r border-r-foreground border-l border-l-foreground block p-1 rounded-tl-2xl rounded-tr-2xl text-background text-center bg-clr-9" data-ditto-id="style-div-114">
                             Most Popular
@@ -500,7 +500,7 @@ export default function Page() {
                           </div>
                         </div>
                       </div>
-                      <div className="grid row-start-[span_3] grid-cols-1" data-ditto-id="style-strong-40">
+                      <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid" data-ditto-id="style-strong-40">
                         <div className="block" data-ditto-id="style-p-9">
                           <div className="border-t border-solid border-t-foreground border-r border-r-foreground border-l border-l-foreground block p-1 rounded-tl-2xl rounded-tr-2xl text-background text-center bg-clr-11" data-ditto-id="style-link-2">
                             Best Value
@@ -561,7 +561,7 @@ export default function Page() {
                 </section>
                 <section className="block py-18 bg-primary max-lg:py-16">
                   <div className="block max-w-360 px-8" data-ditto-id="style-link-16">
-                    <div className="grid gap-6 grid-cols-[411.031px_780.953px] max-lg:gap-4 max-lg:grid-cols-1" data-ditto-id="style-image-16">
+                    <div className="grid gap-6 grid-cols-[1fr_1.9fr] max-lg:gap-4 max-lg:grid-cols-1" data-ditto-id="style-image-16">
                       <div className="block p-2 max-lg:pb-6 max-lg:pt-0" data-ditto-id="style-p-11">
                         <h2 className="block mb-6 [font-family:regola-neue-semibold,_sans-serif] text-[2rem] leading-10" data-ditto-id="style-strong-23" data-component="heading">
                           VIP Pricing? Say Less.
@@ -606,7 +606,7 @@ export default function Page() {
                 <section className="block py-26 max-lg:py-16" data-ditto-id="style-strong-18">
                   <div className="block max-w-360 px-8" data-ditto-id="style-p-39">
                     <div className="grid gap-x-10 grid-cols-3 max-lg:justify-center max-lg:grid-cols-1" data-ditto-id="style-div-62" title="Ready To Glow Up Your Wellness?">
-                      <div className="grid row-start-[span_3] grid-cols-1 max-lg:mb-10">
+                      <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid max-lg:mb-10">
                         <div className="block" data-ditto-id="style-heading-14" />
                         <div className="border border-solid border-foreground block relative rounded-2xl bg-color-006" data-ditto-id="style-strong-22">
                           <div className="block pt-10 pb-8 px-8 max-md:px-4" data-ditto-id="style-br-37">
@@ -642,7 +642,7 @@ export default function Page() {
                           <div className="flex mt-3 px-8 items-center gap-8" data-ditto-id="style-heading-15" />
                         </div>
                       </div>
-                      <div className="grid row-start-[span_3] grid-cols-1 max-lg:mb-10">
+                      <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid max-lg:mb-10">
                         <div className="block" data-ditto-id="style-br-24">
                           <div className="border-t border-solid border-t-foreground border-r border-r-foreground border-l border-l-foreground block p-1 rounded-tl-2xl rounded-tr-2xl text-background text-center bg-clr-9" data-ditto-id="style-p-26">
                             Most Popular
@@ -691,7 +691,7 @@ export default function Page() {
                           <div className="flex mt-3 px-8 items-center gap-8" data-ditto-id="style-image-9" />
                         </div>
                       </div>
-                      <div className="grid row-start-[span_3] grid-cols-1" data-ditto-id="style-div-74">
+                      <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid" data-ditto-id="style-div-74">
                         <div className="block" data-ditto-id="style-heading-21">
                           <div className="border-t border-solid border-t-foreground border-r border-r-foreground border-l border-l-foreground block p-1 rounded-tl-2xl rounded-tr-2xl text-background text-center bg-clr-11" data-ditto-id="style-strong-44">
                             Best Value
@@ -836,7 +836,7 @@ export default function Page() {
                         </ul>
                       </div>
                     </div>
-                    <div className="grid gap-x-[5%] grid-cols-[3224fr_1184fr_1475fr_1097fr_3100fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-p-4">
+                    <div className="grid gap-x-[5%] grid-cols-[minmax(0,1fr)_92.7031px_115.5px_85.9219px_236.578px] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-p-4">
                       <div className="block max-lg:border-b max-lg:border-solid max-lg:border-b-background max-lg:mb-6 max-lg:pb-6">
                         <h2 className="block pb-2 [font-family:regola-neue-semibold,_sans-serif]" data-ditto-id="style-p-5" data-component="heading">
                           Membership

@@ -8,7 +8,7 @@ export type MediaCardData = {
 export default function MediaCard({ d }: { d: MediaCardData }) {
   return (
     <div className="block">
-      <img className="w-100 h-100 inline max-w-full overflow-clip cursor-pointer max-md:w-[21.4375rem] max-md:h-[21.4375rem] md:max-lg:w-[14.3125rem] md:max-lg:h-[14.3125rem]" data-component="image" alt="" src={d.imgSrc} />
+      <img className="w-full aspect-square inline max-w-full overflow-clip cursor-pointer max-md:w-[21.4375rem] max-md:h-[21.4375rem] md:max-lg:w-[14.3125rem] md:max-lg:h-[14.3125rem]" data-component="image" alt="" src={d.imgSrc} />
       <h3 className="block mt-6 mb-2 font-bold cursor-pointer max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
         <a className="inline" data-component="link" href={d.href}>
           {d.title}

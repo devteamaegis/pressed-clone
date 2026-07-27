@@ -77,3 +77,11 @@
 [data-ditto-id="style-br-7"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
 [data-ditto-id="style-link-4"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
 [data-ditto-id="style-br-17"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
+
+/* Quiz step 1 — background layers lifted from the live Digioh lightbox stylesheet.
+   Layout + typography live in page.tsx; only the image layers are declared here. */
+.fq-layout{background-color:#f5f5f5;background-image:url("/assets/cloned/images/pressed-quiz-desktop-bg.png");background-position:center center;background-size:cover}
+.fq-answer{background-position:50% 15px;background-size:110px;background-repeat:no-repeat}
+.fq-answer-1{background-image:url("/assets/cloned/images/pressed-quiz-q1-img1.svg")}
+.fq-answer-2{background-image:url("/assets/cloned/images/pressed-quiz-q1-img2.svg")}
+.fq-answer-3{background-image:url("/assets/cloned/images/pressed-quiz-q1-img3.svg")}

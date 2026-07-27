@@ -17,14 +17,14 @@ export default function MediaCard6({ d, styles }: { d: MediaCard6Data; styles: M
   return (
     <div className="flex relative flex-col">
       <div className={cn("block rounded-2xl bg-primary cursor-pointer", styles.className)}>
-        <img className={cn("w-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 md:max-lg:w-40", styles.className2)} data-component="image" alt="" src={d.imgSrc} />
+        <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src={d.imgSrc} />
       </div>
       <a className={cn("block cursor-pointer", styles.className3)} data-component="link" href={d.href}>
         <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
           {d.title}
         </h3>
       </a>
-      <div className={cn("block mb-4 px-4", styles.className4)}>
+      <div className="block mb-4 px-4 mt-auto">
         <div className="flex mb-4 justify-center">
           <div className="grow basis-0 block text-center">
             <div className="block">

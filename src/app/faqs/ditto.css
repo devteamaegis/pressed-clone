@@ -88,11 +88,13 @@
 [data-ditto-id="style-div-101"]:focus{outline-color:rgb(0, 95, 204);outline-style:auto;outline-width:1px}
 
 /* ---- FAQ interactive behaviour (accordion + category tabs) ---- */
-.faq-tab{padding:2px 0 2px 4px;border-left:4px solid transparent;}
+.faq-tab{padding:0;border-left:0;}
+.faq-tab:not(:last-of-type){margin-bottom:8px;}
 .faq-tab[aria-selected="true"]{
   border-left:4px solid var(--foreground,#1e1e1e);
-  margin-left:-14px;
-  padding-left:10px;
+  padding-left:5px;
+  position:relative;
+  right:10px;
   font-family:regola-neue-semibold,sans-serif;
 }
 [data-faq-q]{-webkit-tap-highlight-color:transparent;}

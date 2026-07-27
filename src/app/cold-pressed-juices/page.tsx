@@ -307,8 +307,8 @@ export default function Page() {
                 <div className="block">
                   <div className="block">
                     <div className="block mx-auto">
-                      <div className="grid relative pl-5 grid-cols-[120px_1020px_120px] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:pl-2.5 max-lg:grid-cols-[auto_1fr_auto]">
-                        <div className="grid min-w-0 mb-6.5 -mx-5 px-5 justify-center gap-x-5 col-span-full bg-clr-9 grid-cols-12 max-lg:hidden" data-ditto-id="style-div-12">
+                      <div className="grid relative pl-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:pl-2.5 max-lg:grid-cols-[auto_1fr_auto]">
+                        <div className="grid min-w-0 mb-6.5 -mx-5 px-5 justify-center gap-x-5 col-span-full bg-[rgb(222,216,190)] grid-cols-12 max-lg:hidden" data-ditto-id="style-div-12">
                           <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6]" data-ditto-id="style-heading-17">
                             <p className="box-content min-h-6 block mb-6.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                             <p className="box-content min-h-18 block mb-6.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] text-6xl leading-18 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-span">
@@ -330,7 +330,7 @@ export default function Page() {
                             {""}
                           </div>
                         </div>
-                        <div className="hidden min-w-0 mb-6.5 -mx-5 px-5 justify-center gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-span-full bg-clr-9 bg-contain [background-position:50%_0%] bg-no-repeat max-lg:grid max-lg:-mx-2.5 max-lg:px-2.5 max-lg:flex-col max-lg:justify-stretch max-lg:gap-y-5 max-lg:grid-cols-1" style={{ backgroundImage:"url(\"/assets/cloned/images/6714bd16015c.png\")" }} data-ditto-id="style-br-23">
+                        <div className="hidden min-w-0 mb-6.5 -mx-5 px-5 justify-center gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-span-full bg-[rgb(222,216,190)] bg-contain [background-position:50%_0%] bg-no-repeat max-lg:grid max-lg:-mx-2.5 max-lg:px-2.5 max-lg:flex-col max-lg:justify-stretch max-lg:gap-y-5 max-lg:grid-cols-1" style={{ backgroundImage:"url(\"/assets/cloned/images/6714bd16015c.png\")" }} data-ditto-id="style-br-23">
                           <div className="flex flex-col basis-[calc(1200%_+_220px)] col-start-[span_12] text-center max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-p-49">
                             <p className="box-content min-h-6 block min-w-0 mb-26 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-25" />
                             <p className="box-content min-h-6 block min-w-0 mb-19.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-22" />
@@ -433,7 +433,7 @@ export default function Page() {
                           Cold Pressed Juice FAQs
                         </h2>
                         {""}
-                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-div-24" aria-hidden="true" role="presentation" />
+                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0 before:border-t-[1px] before:border-t-[rgb(0,0,0)]" data-ditto-id="style-div-24" aria-hidden="true" role="presentation" />
                         {""}
                         <h3 className="box-content block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Semibold,_stk] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-2" data-component="heading">
                           How long is cold-pressed juice good for?
@@ -442,7 +442,7 @@ export default function Page() {
                         <p className="box-content min-h-6 block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-br-13">
                           All Pressed juices, wellness shots and hydration shots are printed with"best by" dates. Our bottles have an imprint of"Best if Used By MM/DD/YY" on the back of the bottle. If you are buying our products at the grocery store, you'll find this date on top of the cap.
                         </p>
-                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-br" aria-hidden="true" role="presentation" />
+                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0 before:border-t-[1px] before:border-t-[rgb(0,0,0)]" data-ditto-id="style-br" aria-hidden="true" role="presentation" />
                         {""}
                         <h3 className="box-content block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Semibold,_stk] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-figure-4" data-component="heading">
                           Why is cold-pressed juice better?
@@ -451,7 +451,7 @@ export default function Page() {
                         <p className="box-content min-h-6 block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-15">
                           {"Unlike pasteurized juices, our cold-pressed juices are intended to preserve as many of the produce's nutrients as possible."}
                         </p>
-                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-link-14" aria-hidden="true" role="presentation" />
+                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0 before:border-t-[1px] before:border-t-[rgb(0,0,0)]" data-ditto-id="style-link-14" aria-hidden="true" role="presentation" />
                         {""}
                         <h3 className="box-content block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Semibold,_stk] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-image-3" data-component="heading">
                           Can I have cold-pressed juice when pregnant?
@@ -460,7 +460,7 @@ export default function Page() {
                         <p className="box-content min-h-6 block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-17">
                           Please consult your physician! We use a process called HPP (high pressure processing), so our juices are not raw.
                         </p>
-                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-strong-33" aria-hidden="true" role="presentation" />
+                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0 before:border-t-[1px] before:border-t-[rgb(0,0,0)]" data-ditto-id="style-strong-33" aria-hidden="true" role="presentation" />
                         {""}
                         <h3 className="box-content block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Semibold,_stk] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-18" data-component="heading">
                           How long can cold-pressed juice last unrefrigerated?
@@ -469,7 +469,7 @@ export default function Page() {
                         <p className="box-content min-h-6 block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-br-20">
                           Per FDA standards, perishable foods like cold-pressed juices should only be left at room temperature for up to two hours before considered unsafe to consume. However, if the temperature of the room is above 90° F, our products should not be left out of refirgeration for more than one hour.
                         </p>
-                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-br-2" aria-hidden="true" role="presentation" />
+                        <hr className="box-content w-255 h-5 min-h-5 flex relative min-w-0 mb-6.5 justify-center items-center col-start-2 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.8125rem] md:max-lg:w-189.5 before:content-[''] before:block before:w-full before:h-0 before:border-t-[1px] before:border-t-[rgb(0,0,0)]" data-ditto-id="style-br-2" aria-hidden="true" role="presentation" />
                         {""}
                         <p className="box-content min-h-6 block min-w-0 mb-6.5 col-start-2 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-br-21" />
                         <h2 className="box-content min-h-9.5 block min-w-0 mb-3 col-start-2 [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-lg:min-h-7 max-lg:[font-family:FTRegolaNeue-Medium,_stk] max-lg:text-2xl max-lg:leading-7" data-ditto-id="style-br-3" data-component="heading">
@@ -652,7 +652,7 @@ export default function Page() {
                         </ul>
                       </div>
                     </div>
-                    <div className="grid gap-x-[5%] grid-cols-[3224fr_1184fr_1475fr_1097fr_3100fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-br-41">
+                    <div className="grid gap-x-[5%] grid-cols-[3249fr_1193fr_1487fr_1106fr_3045fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-br-41">
                       <div className="block max-lg:border-b max-lg:border-solid max-lg:border-b-background max-lg:mb-6 max-lg:pb-6" data-ditto-id="style-br-68">
                         <h2 className="block pb-2 [font-family:regola-neue-semibold,_sans-serif]" data-ditto-id="style-p-61" data-component="heading">
                           Membership

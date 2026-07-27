@@ -369,7 +369,7 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block">
                   <div className="block">
-                    <div className="grid relative px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
+                    <div className="grid relative px-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
                       <div className="grid min-w-0 mb-6.5 gap-x-5 col-start-2 mx-auto grid-cols-12 max-lg:hidden">
                         <div className="flex min-w-0 p-6 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-div-12">
                           <h1 className="box-content block pt-7.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] text-[2.5rem] leading-20 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-17" data-component="heading">
@@ -388,7 +388,7 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="h-[clamp(482px,_62.5vh,_499.94px)] grid min-w-0 mb-10 gap-x-5 col-start-2 grid-cols-12 grid-rows-1 max-lg:hidden">
-                        <div className="flex min-w-0 flex-col justify-center basis-[calc(600%_+_100px)] col-start-[span_6] bg-clr-2" data-ditto-id="style-div-34">
+                        <div className="flex min-w-0 flex-col justify-center basis-[calc(600%_+_100px)] col-start-[span_6] bg-[#b7e3f3]" data-ditto-id="style-div-34">
                           <h2 className="box-content min-h-9.5 block mb-6.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-28" data-component="heading">
                             More Than A Pretty Bowl:
                             <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-23" />
@@ -401,19 +401,19 @@ export default function Page() {
                             No added sugar. No artificial anything. Just clean, functional nutrition to power your routine.
                           </p>
                           <p className="box-content min-h-6 block mb-6.5 px-12 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-22">
-                            {"Choose your bowl:"}
+                            {"Choose your bowl: "}
                             <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-strong-6">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-10" data-component="link" href="https://pressed.com/products/acai-bowl-original">
                                 Original
                               </a>
                             </strong>
-                            {","}
+                            {", "}
                             <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-strong-7">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-11" data-component="link" href="https://pressed.com/products/acai-bowl-power">
                                 Power
                               </a>
                             </strong>
-                            {", or"}
+                            {", or "}
                             <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-strong-8">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-12" data-component="link" href="https://pressed.com/products/acai-bowl-superfood">
                                 Superfood
@@ -430,7 +430,7 @@ export default function Page() {
                           <figure className="box-content h-full grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-11">
                             <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-92">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-13" data-component="link" href="https://pressed.com/shop?filters=acai_and_smoothie_bowls">
-                                <img className="box-content w-125 h-125 inline max-w-full aspect-[auto_941/941] align-top [pointer-events:all]" data-ditto-id="style-image-5" data-component="image" height="941" src="/assets/cloned/images/988426b567bd.png" width="941" />
+                                <img className="box-content w-125 h-125 inline max-w-full aspect-[auto_941/941] align-top [pointer-events:all]" data-ditto-id="style-image-5" data-component="image" height="941" src="/assets/cloned/images/acai-hero-bowl.png" width="941" />
                               </a>
                             </div>
                           </figure>
@@ -443,7 +443,7 @@ export default function Page() {
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-6" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-28">
-                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-4" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-4" aria-hidden="true" role="presentation" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="motion-div">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-14" />
@@ -468,7 +468,7 @@ export default function Page() {
                             </div>
                           </div>
                           <div className="grid mb-6.5 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[4.788] max-lg:hidden" data-ditto-id="style-div-30">
-                            <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-color-006" data-ditto-id="style-div-27">
+                            <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-[#f0dae6]" data-ditto-id="style-div-27">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-38" />
                               <figure className="box-content grid relative max-w-full mb-6.5 shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-13">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all] aspect-[9.607]" data-ditto-id="style-div-117">
@@ -485,7 +485,7 @@ export default function Page() {
                                 Cold-processed to preserve nutrients and creaminess.
                               </p>
                             </div>
-                            <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-color-006" data-ditto-id="style-div-31">
+                            <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-[#f0dae6]" data-ditto-id="style-div-31">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-51" />
                               <figure className="box-content grid relative max-w-full mb-6.5 shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-12">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all] aspect-[8.596]" data-ditto-id="style-div-22">
@@ -501,7 +501,7 @@ export default function Page() {
                                 Topped with functional ingredients that taste good and do good.
                               </p>
                             </div>
-                            <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-color-006" data-ditto-id="style-div-118">
+                            <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-[#f0dae6]" data-ditto-id="style-div-118">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-8" />
                               <figure className="box-content grid relative max-w-full mb-6.5 shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-2">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all] aspect-[9.332]" data-ditto-id="style-div-32">
@@ -526,7 +526,7 @@ export default function Page() {
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-15" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-97">
-                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-2" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-2" aria-hidden="true" role="presentation" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="style-div-33">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-16" />
@@ -540,7 +540,7 @@ export default function Page() {
                             Explore Our Acai Bowls: Your Personal Acai Adventure
                           </h2>
                           <div className="grid mb-6.5 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[1.154] max-lg:hidden" data-ditto-id="style-div-98">
-                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-clr-3" data-ditto-id="style-div-24">
+                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-[#734b87]" data-ditto-id="style-div-24">
                               <h2 className="box-content min-h-9.5 block mb-3 p-6 shrink-0 text-background [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-2" data-component="heading">
                                 Original Acai Bowl
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-13" />
@@ -549,7 +549,7 @@ export default function Page() {
                               <figure className="box-content grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-4">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-15">
                                   <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-14" data-component="link" href="https://pressed.com/products/acai-bowl-original">
-                                    <img className="box-content w-[20.4375rem] h-[20.4375rem] inline max-w-full aspect-[auto_1440/1440] align-top [pointer-events:all]" data-ditto-id="style-image-3" data-component="image" height="1440" src="/assets/cloned/images/588750d7bc74.png" width="1440" />
+                                    <img className="box-content w-[20.4375rem] h-[20.4375rem] inline max-w-full aspect-[auto_1440/1440] align-top [pointer-events:all]" data-ditto-id="style-image-3" data-component="image" height="1440" src="/assets/cloned/images/acai-card-original.png" width="1440" />
                                   </a>
                                 </div>
                               </figure>
@@ -575,7 +575,7 @@ export default function Page() {
                               </a>
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-19" />
                             </div>
-                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-clr-4" data-ditto-id="style-div-16">
+                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-[#b496cd]" data-ditto-id="style-div-16">
                               <h2 className="box-content min-h-9.5 block mb-3 p-6 shrink-0 text-background [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-4" data-component="heading">
                                 Acai Power Bowl
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-5" />
@@ -584,7 +584,7 @@ export default function Page() {
                               <figure className="box-content grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-3">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-25">
                                   <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-15" data-component="link" href="https://pressed.com/products/acai-bowl-power">
-                                    <img className="box-content w-[20.4375rem] h-[20.4375rem] inline max-w-full aspect-[auto_1440/1440] align-top [pointer-events:all]" data-ditto-id="style-image-6" data-component="image" height="1440" src="/assets/cloned/images/8728aef0518c.png" width="1440" />
+                                    <img className="box-content w-[20.4375rem] h-[20.4375rem] inline max-w-full aspect-[auto_1440/1440] align-top [pointer-events:all]" data-ditto-id="style-image-6" data-component="image" height="1440" src="/assets/cloned/images/acai-card-power.png" width="1440" />
                                   </a>
                                 </div>
                               </figure>
@@ -610,14 +610,14 @@ export default function Page() {
                               </a>
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-10" />
                             </div>
-                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-clr-5" data-ditto-id="style-div-26">
+                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-[#b982be]" data-ditto-id="style-div-26">
                               <h2 className="box-content min-h-9.5 block mb-3 p-6 shrink-0 text-background [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-component="heading">
                                 Acai Superfood Bowl
                               </h2>
                               <figure className="box-content grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-14">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]">
                                   <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-16" data-component="link" href="https://pressed.com/products/acai-bowl-superfood">
-                                    <img className="box-content w-[20.4375rem] h-[20.4375rem] inline max-w-full aspect-[auto_1440/1440] align-top [pointer-events:all]" data-ditto-id="style-image-16" data-component="image" height="1440" src="/assets/cloned/images/9f64bf66a8b2.png" width="1440" />
+                                    <img className="box-content w-[20.4375rem] h-[20.4375rem] inline max-w-full aspect-[auto_1440/1440] align-top [pointer-events:all]" data-ditto-id="style-image-16" data-component="image" height="1440" src="/assets/cloned/images/acai-card-superfood.png" width="1440" />
                                   </a>
                                 </div>
                               </figure>
@@ -645,7 +645,7 @@ export default function Page() {
                             </div>
                           </div>
                           <div className="grid mb-10 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[4.031] max-lg:hidden" data-ditto-id="style-div-56">
-                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-clr-3">
+                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-[#734b87]">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-10" data-component="heading" />
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-11" data-component="heading">
                                 <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-24">
@@ -664,7 +664,7 @@ export default function Page() {
                                 </div>
                               </div>
                             </div>
-                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-clr-4" data-ditto-id="style-div-151">
+                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] bg-[#b496cd]" data-ditto-id="style-div-151">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-9" data-component="heading">
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-56" />
                               </h3>
@@ -682,7 +682,7 @@ export default function Page() {
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-36" />
                               </p>
                             </div>
-                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-clr-5" data-ditto-id="style-div-99">
+                            <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-[#b982be]" data-ditto-id="style-div-99">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-6" data-component="heading">
                                 <br className="box-content inline [pointer-events:all]" />
                               </h3>
@@ -708,7 +708,7 @@ export default function Page() {
                                   <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-13" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="style-div-18">
                                   <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-35" />
@@ -727,7 +727,7 @@ export default function Page() {
                                   <div className="grid shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[4.975]" data-ditto-id="style-div-57">
                                     <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-div-69">
                                       <div className="grid shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[4.975]" data-ditto-id="style-div-20">
-                                        <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] bg-color-006" data-ditto-id="style-div-58">
+                                        <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] bg-[#f0dae6]" data-ditto-id="style-div-58">
                                           <h3 className="box-content min-h-7 block shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-26" data-component="heading">
                                             <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-41" />
                                             The Acai Experience:
@@ -738,7 +738,7 @@ export default function Page() {
                                             Think wild berries meets dark chocolate. Acai's bold, not-too-sweet flavor pairs perfectly with whatever toppings you’re craving.
                                           </p>
                                         </div>
-                                        <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] bg-color-006" data-ditto-id="style-div-81">
+                                        <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] bg-[#f0dae6]" data-ditto-id="style-div-81">
                                           <h3 className="box-content min-h-7 block shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-13" data-component="heading">
                                             <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-69" />
                                             From Berry To Bowl:
@@ -763,7 +763,7 @@ export default function Page() {
                           <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                         </div>
                         <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-35">
-                          <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-3" aria-hidden="true" role="presentation" />
+                          <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-3" aria-hidden="true" role="presentation" />
                         </div>
                         <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="style-div-60">
                           <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -774,7 +774,7 @@ export default function Page() {
                           <figure className="box-content grid relative max-w-full mb-6.5 shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1">
                             <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-129">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-17" data-component="link" href="https://pressed.com/shop?filters=acai_and_smoothie_bowls">
-                                <img className="box-content w-255 h-118.5 inline max-w-full aspect-[auto_2000/929] align-top [pointer-events:all]" data-ditto-id="style-image-7" data-component="image" height="929" src="/assets/cloned/images/b677282194af.png" width="2000" />
+                                <img className="box-content w-255 h-118.5 inline max-w-full aspect-[auto_2000/929] align-top [pointer-events:all]" data-ditto-id="style-image-7" data-component="image" height="929" src="/assets/cloned/images/8728aef0518c.png" width="2000" />
                               </a>
                             </div>
                           </figure>
@@ -787,7 +787,7 @@ export default function Page() {
                             No added sugars. No artificial additives. No filler ingredients. Just wholesome ingredients blended for taste, texture, and total nourishment. Our acai bowls feature:
                           </p>
                           <div className="grid mb-13 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[5.368]" data-ditto-id="style-div-62">
-                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] bg-color-006">
+                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] bg-[#f0dae6]">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-14" data-component="heading">
                                 <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-22">
                                   Real Ingredients, Bowled
@@ -798,7 +798,7 @@ export default function Page() {
                                 Thoughtful ingredients for taste and purpose. No fillers, just the good stuff.
                               </p>
                             </div>
-                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] bg-color-006" data-ditto-id="style-div-63">
+                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] bg-[#f0dae6]" data-ditto-id="style-div-63">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-27" data-component="heading">
                                 <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-19">
                                   Satisfying Plant Protein
@@ -809,7 +809,7 @@ export default function Page() {
                                 10–14g of protein to help satisfy + sustain—without weighing you down.
                               </p>
                             </div>
-                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] bg-color-006" data-ditto-id="style-div-132">
+                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] bg-[#f0dae6]" data-ditto-id="style-div-132">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-component="heading">
                                 <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-20">
                                   Balanced Sweetness
@@ -820,7 +820,7 @@ export default function Page() {
                                 No added sugars—just fruit and agave or coconut sugar.
                               </p>
                             </div>
-                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] text-center bg-color-006">
+                            <div className="flex min-w-0 p-6 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] text-center bg-[#f0dae6]">
                               <h3 className="box-content min-h-7 block mb-3 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-15" data-component="heading">
                                 <strong className="box-content min-h-7 inline [pointer-events:all]">
                                   Consistent Quality
@@ -839,7 +839,7 @@ export default function Page() {
                                   <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-65">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="style-div-66">
                                   <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-27" />
@@ -859,7 +859,7 @@ export default function Page() {
                               <figure className="box-content h-full grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-figure-9">
                                 <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-134">
                                   <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-18" data-component="link" href="https://pressed.com/shop?filters=acai_and_smoothie_bowls">
-                                    <img className="box-content w-125 h-[48.0625rem] inline max-w-full aspect-[auto_1408/2167] align-top [pointer-events:all]" data-ditto-id="style-image-9" data-component="image" height="2167" src="/assets/cloned/images/dc036a9c5d11.png" width="1408" />
+                                    <img className="box-content w-125 h-[48.0625rem] inline max-w-full aspect-[auto_1408/2167] align-top [pointer-events:all]" data-ditto-id="style-image-9" data-component="image" height="2167" src="/assets/cloned/images/9f64bf66a8b2.png" width="1408" />
                                   </a>
                                 </div>
                               </figure>
@@ -908,7 +908,7 @@ export default function Page() {
                                   Cold-Pressed Juice
                                 </strong>
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-26" />
-                                {"Try our"}
+                                {"Try our "}
                                 <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-link-19" data-component="link" href="https://pressed.com/products/kale-spinach-ginger-juice">
                                   Greens 3
                                 </a>
@@ -958,7 +958,7 @@ export default function Page() {
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-28" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-136">
-                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-5" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-5" aria-hidden="true" role="presentation" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="style-div-144">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -977,7 +977,7 @@ export default function Page() {
                             </strong>
                           </h2>
                           <div className="block shrink-0" data-ditto-id="style-div-145">
-                            <div className="border-t border-solid border-t-color-005 block">
+                            <div className="border-t border-solid border-t-[#cccccc] block">
                               {Tile_data.map((d, i) => <Tile key={i} d={d} />)}
                             </div>
                           </div>
@@ -992,7 +992,7 @@ export default function Page() {
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-55" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-37">
-                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-6" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 before:border-t before:border-t-black max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-hr-6" aria-hidden="true" role="presentation" />
                             </div>
                             <div className="flex min-w-0 flex-col basis-[calc(500%_+_80px)] col-start-[span_5] max-lg:hidden" data-ditto-id="style-div-148">
                               <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-42" />
@@ -1086,13 +1086,13 @@ export default function Page() {
                                 Original
                               </a>
                             </strong>
-                            {","}
+                            {", "}
                             <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-strong-29">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" href="https://pressed.com/products/acai-bowl-power">
                                 Power
                               </a>
                             </strong>
-                            {", or"}
+                            {", or "}
                             <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-strong-30">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-a-10" href="https://pressed.com/products/acai-bowl-superfood">
                                 Superfood
@@ -1127,7 +1127,7 @@ export default function Page() {
                           <div className="h-full hidden min-w-0 shrink-0 gap-x-5 grid-cols-12 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-div-88">
                             <div className="flex flex-col basis-[calc(1200%_+_220px)] col-start-[span_12] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]">
                               <div className="hidden min-w-0 mb-10 shrink-0 gap-x-5 grid-cols-12 max-lg:grid max-lg:flex-wrap max-lg:justify-between max-lg:gap-y-5 max-lg:grid-cols-2" data-ditto-id="style-div-89">
-                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
+                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-29" />
                                   <figure className="box-content grid relative min-w-0 max-w-full mb-6.5 shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1" data-ditto-id="style-figure-16">
                                     <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all]">
@@ -1144,7 +1144,7 @@ export default function Page() {
                                     Creamy, crave worthy, and no added sugars or artificial ingredients.
                                   </p>
                                 </div>
-                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
+                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                                   <figure className="box-content grid relative min-w-0 max-w-full mb-3 shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1">
                                     <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all] max-md:aspect-[4.295] md:max-lg:aspect-[9.333]" data-ditto-id="style-div-154">
@@ -1161,7 +1161,7 @@ export default function Page() {
                                     Your hustle, fueled. Enjoy 10–14g of plant protein in each bowl.
                                   </p>
                                 </div>
-                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
+                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                                   <figure className="box-content grid relative min-w-0 max-w-full mb-6.5 shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1" data-ditto-id="style-figure-15">
                                     <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all] max-md:aspect-[4.408] md:max-lg:aspect-[9.579]">
@@ -1177,7 +1177,7 @@ export default function Page() {
                                     Sweetened smarter—with agave, coconut sugar, and allulose.
                                   </p>
                                 </div>
-                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-140">
+                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-140">
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-63" />
                                   <figure className="box-content grid relative min-w-0 max-w-full mb-6.5 shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1">
                                     <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all] max-md:aspect-[4.408] md:max-lg:aspect-[9.579]" data-ditto-id="style-div-141">
@@ -1193,7 +1193,7 @@ export default function Page() {
                                     Topped with functional ingredients that taste + do good.
                                   </p>
                                 </div>
-                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-90">
+                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-90">
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
                                   <figure className="box-content grid relative min-w-0 max-w-full mb-6.5 shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1" data-ditto-id="style-figure-5">
                                     <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-41">
@@ -1210,7 +1210,7 @@ export default function Page() {
                                     Cold-processed to preserve nutrients and creaminess.
                                   </p>
                                 </div>
-                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
+                                <div className="flex flex-col justify-start basis-[calc(200%_+_20px)] col-start-[span_2] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-45" />
                                   <figure className="box-content grid relative min-w-0 max-w-full mb-6.5 shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1" data-ditto-id="style-figure-17">
                                     <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all]">
@@ -1258,14 +1258,14 @@ export default function Page() {
                           <div className="h-full hidden min-w-0 shrink-0 gap-x-5 grid-cols-12 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
                             <div className="flex flex-col basis-[calc(1200%_+_220px)] col-start-[span_12] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]">
                               <div className="h-full hidden min-w-0 shrink-0 gap-x-5 grid-cols-12 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
-                                <div className="flex p-6 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12] bg-clr-3 max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-156">
+                                <div className="flex p-6 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12] bg-[#734b87] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-156">
                                   <h2 className="box-content min-h-9.5 block min-w-0 mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-lg:min-h-7 max-lg:[font-family:FTRegolaNeue-Medium,_stk] max-lg:text-2xl max-lg:leading-7">
                                     Original Acai Bowl
                                   </h2>
                                   <figure className="box-content hidden relative min-w-0 max-w-full shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid max-lg:grid-cols-1">
                                     <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-157">
                                       <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-a-2" href="https://pressed.com/products/acai-bowl-original">
-                                        <img className="box-content w-60 inline max-w-full aspect-[auto_240/240] align-top [pointer-events:all] max-lg:h-60" height="240" src="/assets/cloned/images/89a7c0f9f931.png" width="240" />
+                                        <img className="box-content w-60 inline max-w-full aspect-[auto_240/240] align-top [pointer-events:all] max-lg:h-60" height="240" src="/assets/cloned/images/acai-card-original-240.png" width="240" />
                                       </a>
                                     </div>
                                   </figure>
@@ -1312,14 +1312,14 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-6.5 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
-                        <div className="flex p-6 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12] text-center bg-clr-4 max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-158">
+                        <div className="flex p-6 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12] text-center bg-[#b496cd] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-158">
                           <h2 className="box-content min-h-9.5 block min-w-0 mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-lg:min-h-7 max-lg:[font-family:FTRegolaNeue-Medium,_stk] max-lg:text-2xl max-lg:leading-7" data-ditto-id="style-h2-7">
                             Acai Power Bowl
                           </h2>
                           <figure className="box-content grid relative min-w-0 max-w-full shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1">
                             <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all]">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" href="https://pressed.com/products/acai-bowl-power">
-                                <img className="box-content w-60 inline max-w-full aspect-[auto_240/240] align-top [pointer-events:all] max-lg:h-60" data-ditto-id="style-img-3" height="240" src="/assets/cloned/images/37df47c8aeb1.png" width="240" />
+                                <img className="box-content w-60 inline max-w-full aspect-[auto_240/240] align-top [pointer-events:all] max-lg:h-60" data-ditto-id="style-img-3" height="240" src="/assets/cloned/images/acai-card-power-240.png" width="240" />
                               </a>
                             </div>
                           </figure>
@@ -1362,14 +1362,14 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-6.5 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
-                        <div className="flex p-6 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12] text-center bg-clr-5 max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]">
+                        <div className="flex p-6 flex-col justify-center basis-[calc(1200%_+_220px)] col-start-[span_12] text-center bg-[#b982be] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]">
                           <h2 className="box-content min-h-9.5 block min-w-0 mb-3 shrink-0 text-background [font-family:FTRegolaNeue-Regular,_stk] text-[2rem] leading-9.5 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-lg:min-h-7 max-lg:[font-family:FTRegolaNeue-Medium,_stk] max-lg:text-2xl max-lg:leading-7">
                             Acai Superfood Bowl
                           </h2>
                           <figure className="box-content grid relative min-w-0 max-w-full shrink-0 grid-cols-[1fr] [overflow-wrap:break-word] [pointer-events:all] max-lg:grid-cols-1" data-ditto-id="style-figure-6">
                             <div className="box-content block min-w-0 col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-44">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-a-4" href="https://pressed.com/products/acai-bowl-superfood">
-                                <img className="box-content w-60 inline max-w-full aspect-[auto_240/240] align-top [pointer-events:all] max-lg:h-60" data-ditto-id="style-img-4" height="240" src="/assets/cloned/images/e1f29e118804.png" width="240" />
+                                <img className="box-content w-60 inline max-w-full aspect-[auto_240/240] align-top [pointer-events:all] max-lg:h-60" data-ditto-id="style-img-4" height="240" src="/assets/cloned/images/acai-card-superfood-240.png" width="240" />
                               </a>
                             </div>
                           </figure>
@@ -1424,7 +1424,7 @@ export default function Page() {
                             Packed with bold flavor and feel-good function, our acai bowls are the perfect blend of refreshing, rich, and ridiculously satisfying. Each spoonful is loaded with better-for-you ingredients and tropical vibes — no passport required.
                           </p>
                           <div className="grid min-w-0 shrink-0 gap-x-5 grid-cols-12 max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1 max-lg:grid-rows-2">
-                            <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-color-006 max-lg:col-start-[span_1] max-lg:basis-[initial]">
+                            <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-[#f0dae6] max-lg:col-start-[span_1] max-lg:basis-[initial]">
                               <h3 className="box-content min-h-7 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-2">
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-28" />
                                 The Acai Experience:
@@ -1435,7 +1435,7 @@ export default function Page() {
                                 Think wild berries meets dark chocolate. Acai's bold, not-too-sweet flavor pairs perfectly with whatever toppings you’re craving.
                               </p>
                             </div>
-                            <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-color-006 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-104">
+                            <div className="flex min-w-0 flex-col basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-[#f0dae6] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-104">
                               <h3 className="box-content min-h-7 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-7">
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-30" />
                                 From Berry To Bowl:
@@ -1462,7 +1462,7 @@ export default function Page() {
                           <figure className="box-content grid relative min-w-0 mb-6.5 -mx-5 px-5 justify-center shrink-0 grid-cols-[1fr] col-span-full [overflow-wrap:break-word] [pointer-events:all] max-lg:-mx-2.5 max-lg:px-2.5 max-lg:justify-stretch max-lg:grid-cols-1" data-ditto-id="style-figure-7">
                             <div className="box-content block min-w-0 -mx-5 col-start-1 row-start-1 overflow-hidden [pointer-events:all] max-lg:-mx-2.5">
                               <a className="box-content inline cursor-pointer [pointer-events:all]" href="https://pressed.com/shop?filters=acai_and_smoothie_bowls">
-                                <img className="box-content w-full inline max-w-full aspect-[auto_2000/929] align-top [pointer-events:all] max-md:h-43.5 md:max-lg:h-[22.3125rem]" height="929" src="/assets/cloned/images/b677282194af.png" width="2000" />
+                                <img className="box-content w-full inline max-w-full aspect-[auto_2000/929] align-top [pointer-events:all] max-md:h-43.5 md:max-lg:h-[22.3125rem]" height="929" src="/assets/cloned/images/8728aef0518c.png" width="2000" />
                               </a>
                             </div>
                           </figure>
@@ -1477,7 +1477,7 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-3 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-wrap max-lg:justify-between max-lg:gap-y-5 max-lg:grid-cols-2" data-ditto-id="style-div-47">
-                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
+                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
                           <h3 className="box-content min-h-7 block min-w-0 p-6 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-3">
                             <strong className="box-content min-h-7 inline [pointer-events:all]">
                               Real Ingredients, Bowled
@@ -1488,7 +1488,7 @@ export default function Page() {
                             Thoughtful ingredients for taste and purpose. No fillers, just the good stuff.
                           </p>
                         </div>
-                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-123">
+                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-123">
                           <h3 className="box-content min-h-7 block min-w-0 p-6 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-11">
                             <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-41">
                               Satisfying Plant Protein
@@ -1501,7 +1501,7 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-6.5 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-wrap max-lg:justify-between max-lg:gap-y-5 max-lg:grid-cols-2" data-ditto-id="style-div-48">
-                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
+                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]">
                           <h3 className="box-content min-h-7 block min-w-0 p-6 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-4">
                             <strong className="box-content min-h-7 inline [pointer-events:all]">
                               Balanced Sweetness
@@ -1514,7 +1514,7 @@ export default function Page() {
                             No added sugars—just fruit and agave or coconut sugar.
                           </p>
                         </div>
-                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-161">
+                        <div className="flex flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-161">
                           <h3 className="box-content min-h-7 block min-w-0 p-6 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-5">
                             <strong className="box-content min-h-7 inline [pointer-events:all]">
                               Consistent Quality
@@ -1541,13 +1541,13 @@ export default function Page() {
                           </h2>
                           <figure className="box-content grid relative min-w-0 -mx-5 px-5 justify-center shrink-0 grid-cols-[1fr] col-span-full [overflow-wrap:break-word] [pointer-events:all] max-lg:-mx-2.5 max-lg:px-2.5 max-lg:justify-stretch max-lg:grid-cols-1" data-ditto-id="style-figure-8">
                             <div className="box-content block min-w-0 -mx-5 col-start-1 row-start-1 overflow-hidden [pointer-events:all] max-lg:-mx-2.5 max-lg:aspect-square">
-                              <img className="box-content w-full inline max-w-full align-top [pointer-events:all] max-md:h-[23.4375rem] md:max-lg:h-192" data-ditto-id="style-img-5" src="/assets/cloned/images/bdc922fcde42.png" />
+                              <img className="box-content w-full inline max-w-full align-top [pointer-events:all] max-md:h-[23.4375rem] md:max-lg:h-192" data-ditto-id="style-img-5" src="/assets/cloned/images/acai-serving-suggestion-mobile.png" />
                             </div>
                           </figure>
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-6.5 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-wrap max-lg:justify-between max-lg:gap-y-5 max-lg:grid-cols-2" data-ditto-id="style-div-162">
-                        <div className="flex p-6 flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-125">
+                        <div className="flex p-6 flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] text-center bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-125">
                           <h3 className="box-content min-h-7 block min-w-0 mb-6.5 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]">
                             <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-42">
                               The Perfect Time For An Acai Bowl
@@ -1555,7 +1555,7 @@ export default function Page() {
                           </h3>
                           {Tile2_data.map((d, i) => <Tile2 key={i} d={d} styles={Tile2_styles[i]} />)}
                         </div>
-                        <div className="flex p-6 flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] bg-color-006 max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-126">
+                        <div className="flex p-6 flex-col justify-start basis-[calc(600%_+_100px)] col-start-[span_6] bg-[#f0dae6] max-lg:min-w-0 max-lg:basis-[calc(50%_-_10px)] max-lg:col-start-[span_1]" data-ditto-id="style-div-126">
                           <h3 className="box-content min-h-7 block min-w-0 mb-6.5 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-2xl leading-7 tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h3-12">
                             <strong className="box-content min-h-7 inline [pointer-events:all]">
                               The Perfect Pairings For Acai Bowls
@@ -1567,7 +1567,7 @@ export default function Page() {
                               Cold-Pressed Juice
                             </strong>
                             <br className="box-content inline [pointer-events:all]" />
-                            {"Try our"}
+                            {"Try our "}
                             <a className="box-content inline cursor-pointer [pointer-events:all]" href="https://pressed.com/products/kale-spinach-ginger-juice">
                               Greens 3
                             </a>
@@ -1629,7 +1629,7 @@ export default function Page() {
                             </strong>
                           </h2>
                           <div className="block min-w-0 shrink-0" data-ditto-id="style-div-107">
-                            <div className="border-t border-solid border-t-color-005 block" data-ditto-id="style-div-55">
+                            <div className="border-t border-solid border-t-[#cccccc] block" data-ditto-id="style-div-55">
                               {Tile3_data.map((d, i) => <Tile3 key={i} d={d} />)}
                             </div>
                           </div>

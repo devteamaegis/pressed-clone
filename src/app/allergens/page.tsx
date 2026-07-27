@@ -294,11 +294,11 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block" data-ditto-id="style-font">
                   <div className="block">
-                    <div className="grid relative px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
-                      <img className="w-full block mb-6 col-start-2 max-lg:hidden" data-ditto-id="style-div-34" alt="" src="/assets/cloned/images/allergens-hero.png" />
+                    <div className="grid relative px-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
+                      <img className="w-full block col-start-2 max-lg:hidden" data-ditto-id="style-div-34" alt="" src="/assets/cloned/images/allergens-hero.png" />
                       <div className="grid min-w-0 gap-x-5 col-start-2 grid-cols-12 grid-rows-1 aspect-[4.198] max-lg:hidden" data-ditto-id="style-p-49">
                         <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-p-25">
-                          <p className="box-content min-h-6 block mb-6.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-22" />
+                          <p className="box-content min-h-[25px] block mb-6.5 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-22" />
                           <h1 className="box-content min-h-24 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] text-[5rem] leading-24 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-strong-6" data-component="heading">
                             <strong className="box-content min-h-24 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-link-10">
                               Pressed Juicery Nutritional Information
@@ -325,7 +325,7 @@ export default function Page() {
                         <div className="flex min-w-0 flex-col justify-center basis-[calc(400%_+_60px)] col-start-[span_4] text-center" data-ditto-id="style-div-92">
                           <figure className="box-content grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-link-13">
                             <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-image-5">
-                              <img className="box-content w-65.5 h-55.5 inline max-w-full aspect-[auto_262/222] align-top [pointer-events:all]" data-ditto-id="style-div-77" data-component="image" height="222" src="/assets/cloned/images/979d3348599d.png" width="262" />
+                              <img className="box-content w-65.5 h-55.5 inline max-w-full aspect-[auto_262/222] align-top [pointer-events:all]" data-ditto-id="style-div-77" data-component="image" height="222" src="/assets/cloned/images/allergens-img-11.png" width="262" />
                             </div>
                           </figure>
                         </div>
@@ -350,7 +350,7 @@ export default function Page() {
                             We’re here to help! If you have any questions or feedback, don’t hesitate to reach out to our Guest Service team, and we’ll be happy to assist you.
                           </p>
                           <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-21">
-                            {"Email us at"}
+                            {"Email us at "}
                             <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-heading-19" target="_blank">
                               info@pressed.com
                             </a>
@@ -360,12 +360,12 @@ export default function Page() {
                         <div className="flex min-w-0 flex-col justify-start basis-[calc(400%_+_60px)] col-start-[span_4]" data-ditto-id="style-strong-37">
                           <figure className="box-content grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="style-br-55">
                             <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]" data-ditto-id="style-div-119">
-                              <img className="box-content w-[15.1875rem] h-[13.4375rem] inline max-w-full aspect-[auto_243/215] align-top [pointer-events:all]" data-component="image" height="215" src="/assets/cloned/images/a025b63920ee.png" width="243" />
+                              <img className="box-content w-[15.1875rem] h-[13.4375rem] inline max-w-full aspect-[auto_243/215] align-top [pointer-events:all]" data-component="image" height="215" src="/assets/cloned/images/allergens-img-7.png" width="243" />
                             </div>
                           </figure>
                           <figure className="box-content grid relative max-w-full shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1" data-ditto-id="motion-div-2">
                             <div className="box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all] aspect-[1.414]" data-ditto-id="style-div-79">
-                              <img className="box-content w-58 h-[14.4375rem] inline max-w-full aspect-[auto_232/231] align-top [pointer-events:all]" data-ditto-id="style-image-15" data-component="image" height="231" src="/assets/cloned/images/e10970b2082e.png" width="232" />
+                              <img className="box-content w-58 h-[14.4375rem] inline max-w-full aspect-[auto_232/231] align-top [pointer-events:all]" data-ditto-id="style-image-15" data-component="image" height="231" src="/assets/cloned/images/979d3348599d.png" width="232" />
                             </div>
                           </figure>
                         </div>
@@ -419,7 +419,7 @@ export default function Page() {
                                     We’re here to help! If you have any questions or feedback, don’t hesitate to reach out to our Guest Service team, and we’ll be happy to assist you.
                                   </p>
                                   <p className="box-content min-h-6 block min-w-0 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-38">
-                                    {"Email us at"}
+                                    {"Email us at "}
                                     <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-figure-13" target="_blank">
                                       info@pressed.com
                                     </a>

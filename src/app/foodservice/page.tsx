@@ -434,7 +434,7 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block" data-ditto-id="style-font">
                   <div className="block">
-                    <div className="grid relative px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
+                    <div className="grid relative px-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] leading-4 bg-background mx-auto max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]">
                       <div className="grid min-w-0 mb-13 gap-x-5 col-start-2 mx-auto grid-cols-12 max-lg:hidden" data-ditto-id="style-div-34">
                         <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-heading-28">
                           <div className="grid mb-13 shrink-0 gap-x-5 grid-cols-12" data-ditto-id="style-br-23">
@@ -468,7 +468,7 @@ export default function Page() {
                             <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-div-92">
                               <div className="grid shrink-0 gap-x-5 grid-cols-12 max-lg:hidden" data-ditto-id="style-link-13">
                                 <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-image-5">
-                                  <hr className="box-content w-255 h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-div-77" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-255 h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:border-t before:border-t-[#000] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-div-77" aria-hidden="true" role="presentation" />
                                 </div>
                               </div>
                             </div>
@@ -494,7 +494,7 @@ export default function Page() {
                           </div>
                           <div className="grid mb-13 shrink-0 gap-x-5 grid-cols-12 max-lg:hidden">
                             <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-p-46">
-                              <hr className="box-content w-255 h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-a" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-255 h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:border-t before:border-t-[#000] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-a" aria-hidden="true" role="presentation" />
                             </div>
                           </div>
                           <div className="grid mb-13 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[2.249] max-lg:hidden" data-ditto-id="style-p-50">
@@ -540,7 +540,7 @@ export default function Page() {
                           </div>
                           <div className="grid mb-13 shrink-0 gap-x-5 grid-cols-12 max-lg:hidden" data-ditto-id="style-p-18">
                             <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-br-20">
-                              <hr className="box-content w-255 h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-br-2" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-255 h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:border-t before:border-t-[#000] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-br-2" aria-hidden="true" role="presentation" />
                             </div>
                           </div>
                           <div className="grid mb-10 shrink-0 gap-x-5 grid-cols-12 max-lg:hidden" data-ditto-id="style-br-21">
@@ -551,13 +551,13 @@ export default function Page() {
                               </h2>
                             </div>
                           </div>
-                          <a className="box-content w-20 min-h-5.5 block mb-10 px-6 rounded-[40px] self-center [justify-self:center] shrink-0 text-background [font-family:FTRegolaNeueBETA-Semibold,_stk] leading-11.5 tracking-[normal] text-center [overflow-wrap:break-word] bg-foreground cursor-pointer [pointer-events:all]" data-ditto-id="style-p-19" data-component="link" href="https://forms.monday.com/forms/0ec3277157901e8e1b47fd646efc51f8?r=use1">
+                          <a className="box-content w-max h-12 min-h-5.5 block mb-10 px-6 rounded-[40px] self-center [justify-self:center] shrink-0 text-background [font-family:FTRegolaNeueBETA-Semibold,_stk] leading-11.5 tracking-[normal] text-center [overflow-wrap:break-word] bg-foreground cursor-pointer [pointer-events:all]" data-ditto-id="style-p-19" data-component="link" href="https://forms.monday.com/forms/0ec3277157901e8e1b47fd646efc51f8?r=use1">
                             Contact Us
                           </a>
                           <div className="grid mb-13 shrink-0 gap-x-5 grid-cols-12 max-lg:hidden" data-ditto-id="style-div-16">
                             {Logo4_data.map((d, i) => <Logo4 key={i} d={d} />)}
                           </div>
-                          <hr className="box-content w-255 h-5 min-h-5 flex relative mb-13 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-p-10" aria-hidden="true" role="presentation" />
+                          <hr className="box-content w-255 h-5 min-h-5 flex relative mb-13 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:border-t before:border-t-[#000] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-p-10" aria-hidden="true" role="presentation" />
                           <div className="grid mb-10 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[0.89]" data-ditto-id="style-div-26">
                             <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]">
                               <div className="grid mb-3 shrink-0 gap-x-5 grid-cols-12 grid-rows-1 aspect-[4.804] max-lg:hidden" data-ditto-id="style-figure-14">
@@ -596,7 +596,7 @@ export default function Page() {
                                 </div>
                                 <div className="flex min-w-0 flex-col justify-center basis-[calc(300%_+_40px)] col-start-[span_3]">
                                   <p className="box-content min-h-6 block p-6 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]">
-                                    {"Our process allows us to extract a substantial number of"}
+                                    {"Our process allows us to extract a substantial number of "}
                                     <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-p-24">
                                       {"vitamins and minerals"}
                                     </strong>
@@ -692,7 +692,7 @@ export default function Page() {
                                   <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-70" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] aspect-[6.132]" data-ditto-id="style-div-59">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:border-t before:border-t-[#000] before:block before:w-[9.582rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-full col-start-[span_1] max-lg:hidden" data-ditto-id="style-div-35">
                                   <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-hr-3" />
@@ -719,12 +719,12 @@ export default function Page() {
                                     <strong className="box-content min-h-7 inline [pointer-events:all]">
                                       We Are Mindful Of The
                                     </strong>
-                                    {""}
+                                    {" "}
                                     <br className="box-content inline [pointer-events:all]" data-ditto-id="style-heading-14" />
                                     <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-strong-22">
                                       Environmental Impact In
                                     </strong>
-                                    {""}
+                                    {" "}
                                     <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-37" />
                                     <strong className="box-content min-h-7 inline [pointer-events:all]" data-ditto-id="style-p-40">
                                       3 Key Areas
@@ -767,7 +767,7 @@ export default function Page() {
                                     <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]">
                                       {" 2 Million Followers"}
                                     </strong>
-                                    {"across all social platforms and the “it” juice among A-list celebrities, influencers, & models"}
+                                    {" across all social platforms and the “it” juice among A-list celebrities, influencers, & models"}
                                     <br className="box-content inline [pointer-events:all]" data-ditto-id="style-br-24" />
                                     {"• Health & Wellness Thought Leaders +"}
                                     <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-p-26">
@@ -793,7 +793,7 @@ export default function Page() {
                           </div>
                           <div className="h-[clamp(442.5px,_56.5vh,_451.47px)] grid shrink-0 gap-x-5 grid-cols-12 grid-rows-1 max-lg:hidden" data-ditto-id="style-div-66">
                             <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12]" data-ditto-id="style-p-27">
-                              <hr className="box-content w-255 h-5 min-h-5 flex relative mb-13 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-div-67" aria-hidden="true" role="presentation" />
+                              <hr className="box-content w-255 h-5 min-h-5 flex relative mb-13 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] before:content-[''] before:border-t before:border-t-[#000] before:block before:w-[63.7425rem] before:h-0 max-lg:before:w-full max-lg:before:h-auto" data-ditto-id="style-div-67" aria-hidden="true" role="presentation" />
                               <h2 className="box-content min-h-7 block mb-13 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-[2.8125rem] leading-[3.125rem] tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-82" data-component="heading">
                                 Product Breakouts
                                 <br className="box-content inline [pointer-events:all]" data-ditto-id="style-heading-16" />
@@ -836,7 +836,7 @@ export default function Page() {
                       </div>
                       <div className="hidden min-w-0 mb-10 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-p-28">
                         <div className="flex px-12 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-136">
-                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-hr-5" aria-hidden="true" role="presentation" />
+                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:border-t before:border-t-[#000] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-hr-5" aria-hidden="true" role="presentation" />
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-13 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-div-144">
@@ -921,7 +921,7 @@ export default function Page() {
                         <div className="flex min-w-0 flex-col basis-[calc(1200%_+_220px)] col-start-[span_12] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-figure-10">
                           <div className="hidden min-w-0 shrink-0 gap-x-5 grid-cols-12 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
                             <div className="flex px-12 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-76">
-                              <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-div-147" aria-hidden="true" role="presentation" />
+                              <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:border-t before:border-t-[#000] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-div-147" aria-hidden="true" role="presentation" />
                             </div>
                           </div>
                         </div>
@@ -936,7 +936,7 @@ export default function Page() {
                       {MediaTile_data.map((d, i) => <MediaTile key={i} d={d} styles={MediaTile_styles[i]} />)}
                       <div className="hidden min-w-0 mb-13 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
                         <div className="flex px-12 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-39">
-                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-div-40" aria-hidden="true" role="presentation" />
+                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:border-t before:border-t-[#000] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-div-40" aria-hidden="true" role="presentation" />
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-10 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1">
@@ -944,7 +944,7 @@ export default function Page() {
                           <h2 className="box-content min-h-7 block min-w-0 mb-10 shrink-0 [font-family:FTRegolaNeue-Medium,_stk] text-[2.8125rem] leading-[3.125rem] tracking-[normal] text-center [overflow-wrap:break-word] [pointer-events:all]">
                             Where To Find Us?
                           </h2>
-                          <a className="box-content min-h-5.5 block min-w-0 px-6 rounded-[40px] self-center [justify-self:center] shrink-0 text-background [font-family:FTRegolaNeueBETA-Semibold,_stk] leading-11.5 tracking-[normal] text-center [overflow-wrap:break-word] bg-foreground cursor-pointer [pointer-events:all] max-lg:w-20" data-ditto-id="style-h2-3" href="https://forms.monday.com/forms/0ec3277157901e8e1b47fd646efc51f8?r=use1">
+                          <a className="box-content min-h-5.5 block min-w-0 px-6 rounded-[40px] self-center [justify-self:center] shrink-0 text-background [font-family:FTRegolaNeueBETA-Semibold,_stk] leading-11.5 tracking-[normal] text-center [overflow-wrap:break-word] bg-foreground cursor-pointer [pointer-events:all] max-lg:w-max" data-ditto-id="style-h2-3" href="https://forms.monday.com/forms/0ec3277157901e8e1b47fd646efc51f8?r=use1">
                             Contact Us
                           </a>
                         </div>
@@ -983,7 +983,7 @@ export default function Page() {
                       </div>
                       <div className="hidden min-w-0 mb-13 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-div-154">
                         <div className="flex px-12 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-img">
-                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-h3" aria-hidden="true" role="presentation" />
+                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[16.3125rem] max-lg:h-5 md:max-lg:w-163.5 before:content-[''] before:border-t before:border-t-[#000] before:block before:w-full max-lg:before:h-0" data-ditto-id="style-h3" aria-hidden="true" role="presentation" />
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-10 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-strong-47">
@@ -1018,7 +1018,7 @@ export default function Page() {
                                                 </strong>
                                               </p>
                                               <p className="box-content min-h-6 block min-w-0 px-12 shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-41">
-                                                {"Our process allows us to extract a substantial number of"}
+                                                {"Our process allows us to extract a substantial number of "}
                                                 <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]">
                                                   {"vitamins and minerals"}
                                                 </strong>
@@ -1135,7 +1135,7 @@ export default function Page() {
                                         <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]" data-ditto-id="style-div-43">
                                           {" 2 Million Followers"}
                                         </strong>
-                                        {"across all social platforms and the “it” juice among A-list celebrities, influencers, & models"}
+                                        {" across all social platforms and the “it” juice among A-list celebrities, influencers, & models"}
                                         <br className="box-content inline [pointer-events:all]" />
                                         {"• Health & Wellness Thought Leaders +"}
                                         <strong className="box-content min-h-6 inline [font-family:FTRegolaNeue-Semibold,_stk] [pointer-events:all]">
@@ -1154,7 +1154,7 @@ export default function Page() {
                       </div>
                       <div className="hidden min-w-0 mb-13 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-p-66">
                         <div className="flex flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:min-w-0 max-lg:col-start-[span_1] max-lg:basis-[initial]">
-                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] max-lg:h-5 md:max-lg:w-187 before:content-[''] before:block before:w-full max-lg:before:h-0" aria-hidden="true" role="presentation" />
+                          <hr className="box-content min-h-5 flex relative min-w-0 justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] max-lg:h-5 md:max-lg:w-187 before:content-[''] before:border-t before:border-t-[#000] before:block before:w-full max-lg:before:h-0" aria-hidden="true" role="presentation" />
                         </div>
                       </div>
                       <div className="hidden min-w-0 mb-13 gap-x-5 grid-cols-[repeat(12,_minmax(0px,_66.6667px))] col-start-2 max-lg:grid max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-div-158">
@@ -1298,7 +1298,7 @@ export default function Page() {
                         </ul>
                       </div>
                     </div>
-                    <div className="grid gap-x-[5%] grid-cols-[3224fr_1184fr_1475fr_1097fr_3100fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-figure-7">
+                    <div className="grid gap-x-[5%] grid-cols-[25236fr_9270fr_11550fr_8592fr_23658fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-figure-7">
                       <div className="block max-lg:border-b max-lg:border-solid max-lg:border-b-background max-lg:mb-6 max-lg:pb-6">
                         <h2 className="block pb-2 [font-family:regola-neue-semibold,_sans-serif]" data-component="heading">
                           Membership

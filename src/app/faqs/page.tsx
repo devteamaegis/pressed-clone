@@ -176,7 +176,7 @@ const Logo_styles = [
 ];
 // Uniform tab styling; the active accent bar is applied by CSS on [aria-selected="true"]
 // so JS can move the selection between categories (see .faq-tab in globals.css).
-const Tile_styles = Array.from({ length: 14 }, () => ({ className: "faq-tab block text-left mb-2 pl-1" }));
+const Tile_styles = Array.from({ length: 14 }, () => ({ className: "faq-tab block text-left" }));
 const ListRow2_styles = [
     { className:"w-[92.7031px] pb-2 max-md:w-[150.406px] md:max-lg:w-[323.828px]" },
     { className:"w-[92.7px] pb-2 max-md:w-[calc(46.01vw_-_22.126px)] md:max-lg:w-[calc(46vw_-_29.45px)]" },

@@ -447,7 +447,7 @@ export default function Page() {
                         </ul>
                       </div>
                     </div>
-                    <div className="grid gap-x-[5%] grid-cols-[3224fr_1184fr_1475fr_1097fr_3100fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-figure-12">
+                    <div className="grid gap-x-[5%] grid-cols-[252.359fr_92.703fr_115.5fr_85.922fr_236.578fr] max-lg:block max-lg:mb-6 max-lg:grid-cols-[auto_auto_auto_auto_auto]" data-ditto-id="style-figure-12">
                       <div className="block max-lg:border-b max-lg:border-solid max-lg:border-b-background max-lg:mb-6 max-lg:pb-6" data-ditto-id="style-div-22">
                         <h2 className="block pb-2 [font-family:regola-neue-semibold,_sans-serif]" data-ditto-id="style-image-11" data-component="heading">
                           Membership

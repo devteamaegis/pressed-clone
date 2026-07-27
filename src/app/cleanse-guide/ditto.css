@@ -1,3 +1,23 @@
+/* --- tt-commons -> Regola Neue aliases ---------------------------------
+   cleanse-guide is the only route built in the Setka/stk editor, so every one
+   of its 191 text classes asks for `tt-commons-regular|medium|demibold, stk`.
+   The capture recorded those references but no @font-face, and `stk` is not a
+   real family either, so the whole article fell through to the UA serif.
+   The names are a red herring: live loads Setka's tt-commons-fonts.css first,
+   then overrides all three faces to Pressed's own Regola Neue. Verified with
+   CDP CSS.getPlatformFontsForNode on https://pressed.com/cleanse-guide —
+   tt-commons-regular renders as FTRegolaNeue-Regular, tt-commons-medium as
+   FTRegolaNeue-Medium, tt-commons-demibold as FTRegolaNeue-Semibold. Metrics
+   confirm it: live's H1 first line measures 620.17px, which is exactly what
+   regola-neue-medium.woff2 produces for that string at 30px.
+   Live declares all three at font-weight:normal and gets "bold" purely by
+   swapping family (regular -> medium), which is why the inline <strong> spans
+   flattened out too — same root cause, not a font-weight bug.
+   ---------------------------------------------------------------------- */
+@font-face{font-family:"tt-commons-regular";font-style:normal;font-weight:normal;font-display:swap;src:url("/assets/cloned/fonts/regola-neue-regular.woff2") format("woff2")}
+@font-face{font-family:"tt-commons-medium";font-style:normal;font-weight:normal;font-display:swap;src:url("/assets/cloned/fonts/regola-neue-medium.woff2") format("woff2")}
+@font-face{font-family:"tt-commons-demibold";font-style:normal;font-weight:normal;font-display:swap;src:url("/assets/cloned/fonts/regola-neue-semibold.woff2") format("woff2")}
+
 .cn0{height:auto;display:block;overflow-x:hidden;overflow-y:hidden;color:var(--foreground);font-family:regola-neue-regular, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:24px;letter-spacing:0.54px;word-spacing:0px;text-align:start;text-transform:none;white-space:normal;word-break:normal;overflow-wrap:normal;text-indent:0px;text-shadow:none;font-variant-caps:normal;font-feature-settings:normal;list-style-position:outside;writing-mode:horizontal-tb;direction:ltr}
 
 @media (max-width: 571px) {

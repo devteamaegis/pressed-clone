@@ -12,7 +12,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 }
 export default function MediaCard({ d, styles }: { d: MediaCardData; styles: MediaCardStyles }) {
   return (
-    <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-color-006">
+    <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] text-center bg-[#f0dae6]">
       <p className="box-content min-h-6 block shrink-0 [font-family:FTRegolaNeue-Regular,_stk] leading-[1.5625rem] tracking-[normal] [overflow-wrap:break-word] [pointer-events:all]" />
       <figure className="box-content grid relative max-w-full mb-6.5 shrink-0 [overflow-wrap:break-word] [pointer-events:all] grid-cols-1">
         <div className={cn("box-content block col-start-1 row-start-1 overflow-hidden [pointer-events:all]", styles.className)}>

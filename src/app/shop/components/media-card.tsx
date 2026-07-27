@@ -17,7 +17,7 @@ export default function MediaCard({ d, styles }: { d: MediaCardData; styles: Med
   return (
     <div className="flex relative flex-col">
       <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-        <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src={d.imgSrc} />
+        <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src={d.imgSrc} />
       </div>
       <a className={cn("block cursor-pointer", styles.className)} data-component="link" href={d.href}>
         <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">

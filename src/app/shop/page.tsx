@@ -793,7 +793,7 @@ export default function Page() {
                           <h1 className="border-b border-solid border-b-clr-2 block pb-6 text-[2rem] leading-10 max-md:[font-family:regola-neue-medium,_sans-serif]" data-ditto-id="style-heading-17" data-component="heading">
                             Shop
                           </h1>
-                          <div className="h-[44.3125rem] block sticky top-[5.6875rem] -mt-14 pt-14 shrink-0 overflow-auto max-md:hidden md:max-lg:h-[58.3125rem]">
+                          <div className="h-[calc(100vh_-_91px)] block sticky top-[5.6875rem] -mt-14 pt-14 shrink-0 overflow-auto max-md:hidden">
                             <div className="block" data-ditto-id="style-span">
                               <div className="block mt-6 mb-2 p-4 bg-primary">
                                 <h2 className="block mb-4 text-xl font-bold leading-7" data-ditto-id="style-font" data-component="heading">
@@ -893,7 +893,7 @@ export default function Page() {
                                   {" new"}
                                 </div>
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/45adf9c03855.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/45adf9c03855.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-ditto-id="style-link-30" data-component="link" href="https://pressed.com/products/disney-descendants-wicked-wonderland-bundle">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
@@ -954,7 +954,7 @@ export default function Page() {
                                   {" new"}
                                 </div>
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/ada16821e7b1.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/ada16821e7b1.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-ditto-id="style-link-31" data-component="link" href="https://pressed.com/products/weekend-rescue-pack">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
@@ -1038,7 +1038,7 @@ export default function Page() {
                                   {" new"}
                                 </div>
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/ada16821e7b1.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/ada16821e7b1.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-component="link" href="https://pressed.com/products/weekend-rescue-pack">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
@@ -1119,14 +1119,14 @@ export default function Page() {
                                   {" new"}
                                 </div>
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/bfaa65733cd0.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/bfaa65733cd0.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-component="link" href="https://pressed.com/products/dubai-style-chocolate-sundae">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
                                     Dubai-Style Chocolate Sundae
                                   </h3>
                                 </a>
-                                <div className="block mb-4 px-4">
+                                <div className="block mb-4 px-4 mt-auto">
                                   <div className="flex mb-4 justify-center">
                                     <div className="grow basis-0 block text-center">
                                       <div className="block">
@@ -1178,14 +1178,14 @@ export default function Page() {
                               {MediaCard3_data.map((d, i) => <MediaCard3 key={i} d={d} styles={MediaCard3_styles[i]} />)}
                               <div className="flex relative flex-col">
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/14ef3a6ccbc1.jpg" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/14ef3a6ccbc1.jpg" />
                                 </div>
                                 <a className="block cursor-pointer" data-component="link" href="https://pressed.com/products/glow-up-sundae-vegan-ice-cream">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
                                     Glow Up Sundae
                                   </h3>
                                 </a>
-                                <div className="block mb-4 px-4 max-md:mt-7 md:max-lg:mt-1">
+                                <div className="block mb-4 px-4 mt-auto">
                                   <div className="flex mb-4 justify-center">
                                     <div className="grow basis-0 block text-center">
                                       <div className="block">
@@ -1266,14 +1266,14 @@ export default function Page() {
                             <div className="grid gap-4 grid-cols-6 justify-items-stretch max-md:grid-cols-2 md:max-lg:grid-cols-3 max-md:gap-2">
                               <div className="flex relative flex-col">
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/f4008b90d696.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/f4008b90d696.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-component="link" href="https://pressed.com/products/vanilla-almond-milk">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
                                     Vanilla Almond Milk
                                   </h3>
                                 </a>
-                                <div className="block mb-4 px-4">
+                                <div className="block mb-4 px-4 mt-auto">
                                   <div className="flex mb-4 justify-center">
                                     <div className="grow basis-0 block text-center">
                                       <div className="block">
@@ -1346,7 +1346,7 @@ export default function Page() {
                             <div className="grid gap-4 grid-cols-6 justify-items-stretch max-md:grid-cols-2 md:max-lg:grid-cols-3 max-md:gap-2">
                               <div className="flex relative flex-col">
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/e4e4e177bddb.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/e4e4e177bddb.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-component="link" href="https://pressed.com/products/cymbiotika-liposomal-vitamin-c-citrus-vanilla">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
@@ -1404,14 +1404,14 @@ export default function Page() {
                               </div>
                               <div className="flex relative flex-col">
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/52155ca1f1f9.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/52155ca1f1f9.png" />
                                 </div>
                                 <a className="block cursor-pointer" data-component="link" href="https://pressed.com/products/akasha-liposomal-sea-moss-gel">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
                                     Akasha Superfoods: Liposomal Sea Moss Gel
                                   </h3>
                                 </a>
-                                <div className="block mb-4 px-4">
+                                <div className="block mb-4 px-4 mt-auto">
                                   <div className="flex mb-4 justify-center">
                                     <div className="grow basis-0 block text-center">
                                       <div className="block">
@@ -1471,14 +1471,14 @@ export default function Page() {
                             <div className="grid gap-4 grid-cols-6 justify-items-stretch max-md:grid-cols-2 md:max-lg:grid-cols-3 max-md:gap-2">
                               <div className="flex relative flex-col">
                                 <div className="block rounded-2xl bg-primary cursor-pointer aspect-square">
-                                  <img className="w-[10.6875rem] h-[10.6875rem] block max-w-60 overflow-clip max-md:w-44 max-md:h-44 md:max-lg:w-40 md:max-lg:h-40" data-component="image" alt="" src="/assets/cloned/images/334f2c6f68a1.png" />
+                                  <img className="w-full block max-w-60 mx-auto overflow-clip" data-component="image" alt="" src="/assets/cloned/images/334f2c6f68a1.png" />
                                 </div>
                                 <a className="h-14 block cursor-pointer" data-component="link" href="https://pressed.com/products/healthy-gifts-wellness-membership">
                                   <h3 className="block my-4 px-4 font-bold text-center max-md:[font-family:regola-neue-medium,_sans-serif]" data-component="heading">
                                     Gift of Wellness
                                   </h3>
                                 </a>
-                                <div className="block mb-4 px-4">
+                                <div className="block mb-4 px-4 mt-auto">
                                   <div className="flex mb-4 justify-center">
                                     <div className="w-1/2 block text-center">
                                       <div className="block">

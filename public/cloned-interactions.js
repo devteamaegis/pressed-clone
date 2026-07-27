@@ -465,9 +465,33 @@
      `javascript:void(0)` buttons — so it could never be dismissed. Wire "Continue to site"
      (and "Do Not Sell") to close it, and persist the choice in localStorage so it stays
      dismissed across every page and revisit. Real content links (Privacy Policy) still work. */
+  /* Ditto captured the banner markup on only 11 of 19 pages (it depends on which
+     pages were loaded cold during capture). Live shows it on every page, so build
+     it on the pages that lack it, using the captured markup verbatim. */
+  var COOKIE_BANNER_HTML =
+    '<div class="block mb-2 [font-family:regola-neue-semibold,_sans-serif] text-xl leading-7.5">This website uses cookies and other tracking technology</div>' +
+    '<div class="block mb-6">We use cookies and other tracking technology to personalize content and ads, provide social media features and to analyze our traffic. We also share information about you and your use of our site with our social media, advertising and analytics partners who may combine this information with other information that you have provided to them or that they have collected from your use of their services, as detailed in our ' +
+    '<a class="inline underline cursor-pointer" href="https://pressed.com/legal/privacy-policy">Privacy Policy</a>' +
+    '. By continuing to our website, you consent to our uses of cookies and other tracking technologies.</div>' +
+    '<div class="block">' +
+    '<a class="h-10 flex mb-4 px-4 rounded-sm justify-center items-center text-color-002 [font-family:regola-neue-semibold,_sans-serif] leading-[0.9375rem] text-center uppercase bg-background cursor-pointer" href="javascript:void(0)" role="button"><span class="block">Continue to site</span></a>' +
+    '<a class="block text-center underline cursor-pointer" href="javascript:void(0)" role="button"><span class="inline">Do Not Sell or Share My Personal Information</span></a>' +
+    "</div>";
+
+  function ensureCookieBanner() {
+    if (d.getElementById("cookie-banner")) return d.getElementById("cookie-banner");
+    var el = d.createElement("div");
+    el.id = "cookie-banner";
+    el.setAttribute("name", "cookie-banner");
+    el.className = "h-[488.5px] block fixed right-214 bottom-6 left-6 z-99999999 max-w-100 p-6 rounded-[10px] text-background text-[0.9375rem] leading-[1.4375rem] bg-color-002 max-md:h-[31.9375rem] max-md:bottom-0 max-md:inset-x-0 max-md:max-w-none max-md:rounded-br-[initial] max-md:rounded-bl-[initial] md:max-lg:right-86";
+    el.innerHTML = COOKIE_BANNER_HTML;
+    d.body.appendChild(el);
+    return el;
+  }
+
   function cookieBanner() {
     var KEY = "pressed-clone-cookie-dismissed";
-    var banner = d.getElementById("cookie-banner");
+    var banner = ensureCookieBanner();
     if (!banner) return;
     var dismissed = false;
     try { dismissed = localStorage.getItem(KEY) === "1"; } catch (e) {}

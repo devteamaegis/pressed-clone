@@ -400,7 +400,7 @@ export default function Page() {
                   <div className="block">
                     <div className="block mx-auto">
                       <div className="block mx-auto">
-                        <div className="grid relative mt-8 px-5 grid-cols-[110px_1020px_110px] [grid-auto-rows:max-content] text-color-001 leading-4 bg-background max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]" data-ditto-id="style-div-12">
+                        <div className="grid relative mt-8 px-5 grid-cols-[1fr_1020px_1fr] [grid-auto-rows:max-content] text-color-001 leading-4 bg-background max-lg:px-2.5 max-lg:grid-cols-[auto_1fr_auto]" data-ditto-id="style-div-12">
                           <div className="grid min-w-0 mb-10 gap-x-5 col-start-2 grid-cols-12 max-lg:mb-3 max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-heading-17">
                             <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] max-lg:col-start-[span_1] max-lg:basis-[initial]">
                               <div className="grid shrink-0 gap-x-5 grid-cols-4 max-lg:flex-col max-lg:gap-y-5 max-lg:grid-cols-1" data-ditto-id="style-span">
@@ -525,7 +525,7 @@ export default function Page() {
                                     </strong>
                                   </h3>
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-117">
-                                    {"Rich in antioxidant-packed ingredients and 100% plant-based, the juices offered in our cleanses provide essential nutrients to support your overall well-being. Focused on gut health, our cleanses can help unlock optimal wellness and energy. Learn more in"}
+                                    {"Rich in antioxidant-packed ingredients and 100% plant-based, the juices offered in our cleanses provide essential nutrients to support your overall well-being. Focused on gut health, our cleanses can help unlock optimal wellness and energy. Learn more in "}
                                     <em className="box-content min-h-6.5 inline [pointer-events:all]" data-ditto-id="style-image-10">
                                       <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-heading-3" data-component="link" href="https://pressed.com/blog/importance-of-gut-health">
                                         <u className="box-content min-h-6.5 inline mb-6.5 underline [pointer-events:all]" data-ditto-id="style-strong-2">
@@ -542,7 +542,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-51" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-figure-12">
-                                  <hr className="box-content w-[20.4375rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-div-22" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[20.4375rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-div-22" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:hidden" data-ditto-id="style-image-11">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-22" />
@@ -560,7 +560,7 @@ export default function Page() {
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-32" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-image-4">
-                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-heading-7" aria-hidden="true" role="presentation" />
+                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-heading-7" aria-hidden="true" role="presentation" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-strong-40">
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-9" />
@@ -630,7 +630,7 @@ export default function Page() {
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-4" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-br-5">
-                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-br-14" aria-hidden="true" role="presentation" />
+                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-br-14" aria-hidden="true" role="presentation" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-figure-3">
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-25" />
@@ -685,7 +685,7 @@ export default function Page() {
                                       <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]" data-ditto-id="style-link-5">
                                         Post-Cleanse Maintenance:
                                       </strong>
-                                      {"1 Gut Biome+ Shot per day for 7 days. Learn more in"}
+                                      {" 1 Gut Biome+ Shot per day for 7 days. Learn more in "}
                                       <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-br-29" data-component="link" href="/gut-biome-sulforaphane-benefits">
                                         our guide
                                       </a>
@@ -710,7 +710,7 @@ export default function Page() {
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-24" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-br-35">
-                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-br-22" aria-hidden="true" role="presentation" />
+                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-br-22" aria-hidden="true" role="presentation" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-div-151">
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-heading-9" />
@@ -742,20 +742,20 @@ export default function Page() {
                                         <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]" data-ditto-id="style-div-100">
                                           {"3pm:"}
                                         </strong>
-                                        {"Debloat Tonic & Probiotic Shot"}
+                                        {" Debloat Tonic & Probiotic Shot"}
                                         <br className="box-content inline [pointer-events:all]" data-ditto-id="style-div-17" />
                                       </li>
                                       <li className="box-content min-h-6.5 list-item ml-9 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [list-style-type:disc] [pointer-events:all]" data-ditto-id="style-div-131">
                                         <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]" data-ditto-id="style-div-101">
                                           {"6pm-7pm:"}
                                         </strong>
-                                        {"Vanilla Protein Smoothie"}
+                                        {" Vanilla Protein Smoothie"}
                                       </li>
                                       <li className="box-content min-h-6.5 list-item ml-9 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [list-style-type:disc] [pointer-events:all]" data-ditto-id="style-p-13">
                                         <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]">
                                           {"9pm-10pm:"}
                                         </strong>
-                                        {"Unwind Tonic & Calm Shot"}
+                                        {" Unwind Tonic & Calm Shot"}
                                       </li>
                                     </ul>
                                     {""}
@@ -789,14 +789,14 @@ export default function Page() {
                                         <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]" data-ditto-id="style-heading-13">
                                           {"9pm-10pm:"}
                                         </strong>
-                                        {"Unwind Tonic & Calm Shot"}
+                                        {" Unwind Tonic & Calm Shot"}
                                       </li>
                                     </ul>
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] text-left [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-br-69">
                                       <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]" data-ditto-id="style-br-75">
                                         {"Post-Cleanse Maintenance:"}
                                       </strong>
-                                      {"Pair with wholesome meals, learn more in"}
+                                      {" Pair with wholesome meals, learn more in "}
                                       <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-p-32" data-component="link" href="/detox-cleanse-gut-health">
                                         our guide
                                       </a>
@@ -867,7 +867,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-143" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-64">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-div-65">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -907,7 +907,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-strong-48" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-br-48">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-heading-30" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-heading-30" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-strong-26">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-47" />
@@ -947,7 +947,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-144" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-div-133" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-div-133" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -991,7 +991,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-5" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-div-75">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-hr" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-hr" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-full col-start-[span_1] max-lg:hidden">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-code" />
@@ -1066,7 +1066,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-h1-2" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-strong-50">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-strong-28" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-strong-28" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-84" />
@@ -1132,7 +1132,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(400%_+_60px)] col-start-[span_4] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-h2-3">
-                                  <hr className="box-content w-[20.4375rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[20.4375rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:hidden" data-ditto-id="style-div-87">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -1186,7 +1186,7 @@ export default function Page() {
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-p-58" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]">
-                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" aria-hidden="true" role="presentation" />
+                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" aria-hidden="true" role="presentation" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-figure-15">
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -1235,7 +1235,7 @@ export default function Page() {
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-strong-32" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]">
-                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" aria-hidden="true" role="presentation" />
+                                    <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" aria-hidden="true" role="presentation" />
                                   </div>
                                   <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden" data-ditto-id="style-p-45">
                                     <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-figure-17" />
@@ -1286,7 +1286,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" data-ditto-id="style-div-156" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" data-ditto-id="style-div-156" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
@@ -1331,7 +1331,7 @@ export default function Page() {
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(200%_+_20px)] col-start-[span_2] max-lg:col-start-[span_1] max-lg:basis-[initial]" data-ditto-id="style-p-66">
-                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0" aria-hidden="true" role="presentation" />
+                                  <hr className="box-content w-[9.5625rem] h-5 min-h-5 flex relative justify-center items-center shrink-0 text-0 leading-0 tracking-[normal] [overflow-wrap:break-word] [pointer-events:all] max-md:w-[22.1875rem] md:max-lg:w-187 before:content-[''] before:block before:w-full before:h-0 before:[border-top:1px_solid_rgba(0,0,0,0.15)]" aria-hidden="true" role="presentation" />
                                 </div>
                                 <div className="flex min-w-0 flex-col basis-[calc(300%_+_40px)] col-start-[span_3] max-lg:hidden">
                                   <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]" data-ditto-id="style-div-158" />
@@ -1346,7 +1346,7 @@ export default function Page() {
                                 </strong>
                               </h3>
                               <p className="box-content min-h-6.5 block mb-6.5 shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]">
-                                {"Eat something! Always listen to your body. Try a warm plant-based broth or some almonds to help tide you over. If you’re looking for more options, check out our article,"}
+                                {"Eat something! Always listen to your body. Try a warm plant-based broth or some almonds to help tide you over. If you’re looking for more options, check out our article, "}
                                 <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-img-3" data-component="link" href="https://pressed.com/blog/3-ways-cheat-juice-cleanse">
                                   <u className="box-content min-h-6.5 inline mb-6.5 underline [pointer-events:all]" data-ditto-id="style-p-30">
                                     3 Ways To Cheat On A Juice Cleanse
@@ -1360,7 +1360,7 @@ export default function Page() {
                                 </strong>
                               </h3>
                               <p className="box-content min-h-6.5 block mb-6.5 shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]">
-                                {"Yes! You need water in addition to your juices to stay hydrated. Try our"}
+                                {"Yes! You need water in addition to your juices to stay hydrated. Try our "}
                                 <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-p-31" data-component="link" href="https://pressed.com/shop#hydration-recovery">
                                   <u className="box-content min-h-6.5 inline mb-6.5 underline [pointer-events:all]" data-ditto-id="style-br-27">
                                     Hydration+
@@ -1401,13 +1401,13 @@ export default function Page() {
                                   <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]">
                                     Boost your cleanse:
                                   </strong>
-                                  {" Add"}
+                                  {" Add "}
                                   <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-figure-6" data-component="link" href="https://pressed.com/products/ginger-lemon-cayenne" target="_blank">
                                     <u className="box-content inline underline [pointer-events:all]" data-ditto-id="style-div-44">
                                       Wellness
                                     </u>
                                   </a>
-                                  {" or"}
+                                  {" or "}
                                   <a className="box-content inline cursor-pointer [pointer-events:all]" data-ditto-id="style-a-4" data-component="link" href="https://pressed.com/products/turmeric-ginger-lemon-vitamin-c-shot">
                                     <u className="box-content min-h-6.5 inline mb-6.5 underline [pointer-events:all]" data-ditto-id="style-img-4">
                                       Immunity
@@ -1420,7 +1420,7 @@ export default function Page() {
                                   <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]">
                                     Exercise:
                                   </strong>
-                                  {" Feel free to do light to moderate exercise, but"}
+                                  {" Feel free to do light to moderate exercise, but "}
                                   <em className="box-content min-h-6.5 inline [pointer-events:all]">
                                     <strong className="box-content min-h-6.5 inline [font-family:tt-commons-medium,_stk] [pointer-events:all]" data-ditto-id="style-p-48">
                                       always
@@ -1437,7 +1437,7 @@ export default function Page() {
                                 <br className="box-content inline [pointer-events:all]" />
                               </p>
                               <p className="box-content min-h-6.5 block shrink-0 [font-family:tt-commons-regular,_stk] text-lg leading-6.5 tracking-[0.1px] [overflow-wrap:break-word] [pointer-events:all]">
-                                {"Have additional questions that you don’t see here? Reach out to us at"}
+                                {"Have additional questions that you don’t see here? Reach out to us at "}
                                 <a className="box-content inline underline cursor-pointer [pointer-events:all]" data-ditto-id="style-strong-13" data-component="link" href="mailto:info@pressedjuicery.com" target="_blank">
                                   info@pressed.com
                                 </a>

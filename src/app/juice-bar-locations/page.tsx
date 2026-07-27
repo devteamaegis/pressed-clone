@@ -149,12 +149,12 @@ const Logo_styles = [
     { className:"w-3.5 h-4" }
 ];
 const MediaTile_styles = [
-    { className:"h-10 mt-[2.1084rem]", className2:"mt-[2.1084rem]" },
-    { className:"h-7 mt-10", className2:"mt-10" },
-    { className:"h-7 mt-10", className2:"mt-10" },
+    { className:"h-[38.5469px] mt-[2.1084rem]", className2:"mt-[2.1084rem]" },
+    { className:"h-[26.5156px] mt-[39.75px]", className2:"mt-[39.75px]" },
+    { className:"h-[27.7656px] mt-[39.125px]", className2:"mt-[39.125px]" },
     { className:"h-25.5 mt-0.5", className2:"mt-0.5" },
-    { className:"h-5.5 mt-[41.8438px]", className2:"mt-[41.8438px]" },
-    { className:"h-5 mt-11", className2:"mt-11" }
+    { className:"h-[22.3281px] mt-[41.8438px]", className2:"mt-[41.8438px]" },
+    { className:"h-[18.6875px] mt-[43.6562px]", className2:"mt-[43.6562px]" }
 ];
 const ListRow2_styles = [
     { className:"w-[92.7031px] pb-2 max-md:w-[150.406px] md:max-lg:w-[323.828px]" },
@@ -318,10 +318,10 @@ export default function Page() {
               </header>
               <main className="block" id="maincontent">
                 <div className="block" data-ditto-id="style-font">
-                  <div className="h-[37.4375rem] block mt-16 max-lg:my-6 max-lg:h-auto">
+                  <div className="h-[43.6875rem] block mt-16 max-lg:my-6 max-lg:h-auto">
                     <div className="block max-w-360 px-16 mx-auto max-md:px-6 md:max-lg:px-8">
                       <div className="block mx-auto" data-ditto-id="style-div-34">
-                        <div className="w-320 h-[37.3125rem] flex absolute top-[12.6875rem] left-0 px-16 justify-between max-md:w-[20.4375rem] max-md:h-[1979.55px] max-md:px-6 max-lg:flex-col max-lg:static max-lg:top-auto max-lg:left-auto md:max-lg:w-176 md:max-lg:h-[1315.78px] md:max-lg:px-8" data-ditto-id="style-heading-28">
+                        <div className="w-360 h-[43.5625rem] flex absolute top-[12.6875rem] left-0 px-16 justify-between max-md:w-[20.4375rem] max-md:h-[1979.55px] max-md:px-6 max-lg:flex-col max-lg:static max-lg:top-auto max-lg:left-auto md:max-lg:w-176 md:max-lg:h-[1315.78px] md:max-lg:px-8" data-ditto-id="style-heading-28">
                           <div className="w-[46%] block pr-16 order-[1] overflow-auto max-lg:w-full max-lg:order-[2] max-lg:pr-0" data-ditto-id="style-br-23">
                             <div className="block max-lg:hidden" data-ditto-id="style-p-49">
                               <div className="block mb-6" data-ditto-id="style-p-25">
@@ -339,7 +339,7 @@ export default function Page() {
                                       </button>
                                     </div>
                                     <div className="block relative" data-ditto-id="style-br-12">
-                                      <div className="block relative aspect-[6.665]" data-ditto-id="style-link">
+                                      <div className="block relative" data-ditto-id="style-link">
                                         <img className="w-4 h-4 block absolute top-4 right-0 max-w-full mx-4 overflow-clip" data-ditto-id="style-div-91" data-component="image" alt="" src="/assets/cloned/svg/ed992f7e2b57.svg" />
                                         <input className="w-full h-12 border border-solid border-foreground block py-3 px-4 rounded-[10px] overflow-clip leading-5.5 tracking-[normal] bg-background cursor-text" data-ditto-id="style-figure-11" data-component="select" aria-activedescendant="" aria-autocomplete="list" aria-controls="searchResults" aria-haspopup="listbox" aria-label={"Zip Code or City, Start typing,\n\t\t\t\t\t\t\t\t\tthen navigate using the arrow keys or the tab key to access an option from the list"} placeholder="ZIP code or city, state" role="combobox" />
                                       </div>
@@ -420,7 +420,7 @@ export default function Page() {
                               </div>
                             </div>
                             <div className="block" data-ditto-id="style-heading-3">
-                              <div className="h-[37.3125rem] block relative rounded-[10px] overflow-hidden max-lg:h-65" data-ditto-id="style-strong-2" id="mapContainer" title="Pressed Juicery® Locations on Google Map">
+                              <div className="h-[43.5625rem] block relative rounded-[10px] overflow-hidden max-lg:h-65" data-ditto-id="style-strong-2" id="mapContainer" title="Pressed Juicery® Locations on Google Map">
                                 <div className="h-full block absolute top-0 inset-x-0 bg-clr-3" data-ditto-id="style-p-7">
                                   <div className="block" data-ditto-id="style-div-31">
                                     <button className="w-0 h-10 block absolute right-0 bottom-0 z-1000002 rounded-full justify-center items-center text-background leading-[1.125rem] tracking-[normal] text-center whitespace-nowrap cursor-pointer" data-ditto-id="style-p-51" data-component="button" aria-label="Keyboard shortcuts" title="Keyboard shortcuts" type="button" />
@@ -428,7 +428,7 @@ export default function Page() {
                                   <div className="h-full block absolute top-0 inset-x-0" data-ditto-id="style-figure-12" aria-describedby="7839C43F-FC71-411D-A4CD-B80E2F86C617" aria-label="Map" aria-roledescription="map" role="region" />
                                   <div className="h-full block absolute top-0 inset-x-0 z-0 [font-family:Roboto,_Arial,_sans-serif] text-[0.6875rem] leading-[0.8125rem]" data-ditto-id="style-div-22">
                                     <div className="h-full block absolute top-0 inset-x-0 z-0" style={{ cursor:"url(\"https://maps.gstatic.com/mapfiles/openhand_8_8.cur\"), default" }} data-ditto-id="style-image-11">
-                                      <div className="h-0 block absolute top-[clamp(130px,_50%,_calc(100%_-_130px))] right-[-311.031px] left-[311.031px] z-1 max-md:right-[-139.5px] max-md:left-[139.5px] md:max-lg:-right-80 md:max-lg:left-80" data-ditto-id="style-heading-22">
+                                      <div className="h-0 block absolute top-[clamp(130px,_50%,_calc(100%_-_130px))] right-[-354.234px] left-[354.234px] z-1 max-md:right-[-139.5px] max-md:left-[139.5px] md:max-lg:-right-80 md:max-lg:left-80" data-ditto-id="style-heading-22">
                                         <div className="h-0 block absolute inset-x-0 z-100" data-ditto-id="style-strong-3">
                                           <div className="w-0 h-0 block absolute top-0 left-0 z-0" data-ditto-id="style-p-60">
                                             <div className="w-0 h-0 block absolute top-0 left-0 z-985 transform-[matrix(1,0,0,1,-117,-87)]" data-ditto-id="style-div-118">
@@ -497,7 +497,7 @@ export default function Page() {
                                         </div>
                                       </div>
                                       <div className="h-full block absolute top-0 inset-x-0 z-3" data-ditto-id="style-p-23">
-                                        <div className="h-0 block absolute top-[clamp(130px,_50%,_calc(100%_-_130px))] right-[-311.031px] left-[311.031px] z-4 max-md:right-[-139.5px] max-md:left-[139.5px] md:max-lg:-right-80 md:max-lg:left-80" data-ditto-id="style-strong-34">
+                                        <div className="h-0 block absolute top-[clamp(130px,_50%,_calc(100%_-_130px))] right-[-354.234px] left-[354.234px] z-4 max-md:right-[-139.5px] max-md:left-[139.5px] md:max-lg:-right-80 md:max-lg:left-80" data-ditto-id="style-strong-34">
                                           <div className="h-0 block absolute inset-x-0 z-104" data-ditto-id="style-p-20" />
                                           <div className="h-0 block absolute inset-x-0 z-105" data-ditto-id="style-br-6" />
                                           <div className="h-0 block absolute inset-x-0 z-106" data-ditto-id="style-br-15">
@@ -546,7 +546,7 @@ export default function Page() {
                                     </div>
                                     <div className="block" data-ditto-id="style-p-24" />
                                     <div className="block" data-ditto-id="style-br-35">
-                                      <div className="h-3.5 flex absolute right-0 bottom-0 left-[386.078px] max-md:left-[115.359px] md:max-lg:left-101" data-ditto-id="style-br-22">
+                                      <div className="h-3.5 flex absolute right-0 bottom-0 left-[472.469px] max-md:left-[115.359px] md:max-lg:left-101" data-ditto-id="style-br-22">
                                         <div className="block z-1000001" data-ditto-id="style-div-151">
                                           <div className="h-3.5 block relative leading-3.5" data-ditto-id="style-heading-9">
                                             <div className="h-full block absolute top-0 inset-x-0 opacity-70" data-ditto-id="style-br-56">

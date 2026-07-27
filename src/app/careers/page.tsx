@@ -304,10 +304,10 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block max-w-360 mx-auto" data-ditto-id="style-font">
                   <div className="block relative mb-25">
-                    <img className="w-320 h-[39.6875rem] block max-w-full overflow-clip max-md:hidden md:max-lg:w-192 md:max-lg:h-[23.8125rem]" data-component="image" alt="Three Pressed Juicery® Employees standing in front of a Pressed Juicery® fridge." src="/assets/cloned/images/ab0ca1f4dbae.png" />
+                    <img className="w-full h-auto block max-w-full overflow-clip max-md:hidden md:max-lg:w-192 md:max-lg:h-[23.8125rem]" data-component="image" alt="Three Pressed Juicery® Employees standing in front of a Pressed Juicery® fridge." src="/assets/cloned/images/ab0ca1f4dbae.png" />
                     <img className="w-full hidden max-w-full overflow-clip max-md:w-140 max-md:h-[24.8125rem] max-md:block" data-ditto-id="style-div-34" alt="Three Pressed Juicery® Employees standing in front of a Pressed Juicery® fridge." src="/assets/cloned/images/fbb6ffd469ae.jpg" />
-                    <div className="w-320 h-[634.516px] flex absolute top-0 left-0 max-w-360 px-5 flex-col justify-center bg-clr-7 max-md:w-140 max-md:h-[13.249rem] max-lg:relative max-lg:right-0 max-lg:bottom-0 max-lg:bg-background md:max-lg:w-192 md:max-lg:h-42.5" data-ditto-id="style-heading-28">
-                      <div className="block ml-37.5 max-w-[350px] max-md:max-w-full max-md:ml-5 max-md:text-left md:max-lg:mx-auto md:max-lg:text-center" data-ditto-id="style-br-23">
+                    <div className="w-full h-full flex absolute top-0 left-0 max-w-360 px-5 flex-col justify-center bg-[rgba(0,0,0,0.36)] max-md:w-140 max-md:h-[13.249rem] max-lg:relative max-lg:right-0 max-lg:bottom-0 max-lg:bg-background md:max-lg:w-192 md:max-lg:h-42.5" data-ditto-id="style-heading-28">
+                      <div className="block ml-32.5 max-w-[350px] max-md:max-w-full max-md:ml-5 max-md:text-left md:max-lg:mx-auto md:max-lg:text-center" data-ditto-id="style-br-23">
                         <h1 className="w-0 h-0 block absolute top-52 left-42.5 overflow-hidden text-[2rem] leading-10" data-ditto-id="style-p-49">
                           Job Opportunities
                         </h1>
@@ -377,12 +377,10 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-                    <div className="block mb-25 aspect-video max-lg:aspect-[1.75]" data-ditto-id="style-u">
-                      <div className="w-full h-[40.8125rem] flex relative max-w-full justify-center items-center overflow-clip bg-cover bg-center cursor-pointer max-md:h-[19.6875rem] md:max-lg:h-108" style={{ backgroundImage: "url('/assets/cloned/images/careers-video-poster.jpg')" }} data-video-facade="/assets/cloned/video/careers-page.mp4" role="button" aria-label="Play video">
-                        <span className="w-20 h-20 flex justify-center items-center rounded-full" style={{ backgroundColor: "rgba(0,0,0,0.55)" }}>
-                          <svg width="26" height="30" viewBox="0 0 26 30" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M25 13.27a2 2 0 0 1 0 3.46L3 29.32A2 2 0 0 1 0 27.6V2.4A2 2 0 0 1 3 .68l22 12.6z" /></svg>
-                        </span>
-                      </div>
+                    <div className="block mb-25 aspect-video max-lg:aspect-[1.75] lg:h-[657.5px]" data-ditto-id="style-u">
+                      <video className="w-full h-[40.8125rem] block max-w-full object-contain max-md:h-[19.6875rem] md:max-lg:h-108" controls poster="/assets/cloned/images/careers-video-poster.jpg" preload="metadata">
+                        <source src="/assets/cloned/video/careers-page.mp4" type="video/mp4" />
+                      </video>
                     </div>
                   </div>
                 </div>
