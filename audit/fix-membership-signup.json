@@ -1,0 +1,56 @@
+[
+ {
+  "id": "F027",
+  "severity": "P1",
+  "type": "layout",
+  "section": "hero pricing cards (1st block)",
+  "description": "Monthly VIP card body is detached from its 'Most Popular' ribbon and shifted down ~20px. On live the yellow body sits flush under the ribbon (ribbon 553-585, body 585-840); in the clone there is a white gap between ribbon and body (ribbon 553-583, body 603-875). The Yearly VIP card is correct (flush), making the Monthly card visibly odd.",
+  "live": "ribbon and yellow body flush, body top y=585, colored section ends y=840",
+  "clone": "~20px white gap under ribbon, body top y=603, colored section ends y=875"
+ },
+ {
+  "id": "F028",
+  "severity": "P1",
+  "type": "layout",
+  "section": "hero pricing cards (1st block)",
+  "description": "Free Loyalty card is vertically misaligned and its header zone is taller. Live: card top y=585, aligned with the Monthly/Yearly colored body tops. Clone: card top y=625 (~40px lower) and the title/price header is ~40px taller, so the checklist starts ~115px lower (first item abs ~999 vs ~884) and the empty space between the last checklist item and the 'Sign Up For Free' button shrinks from ~230px (live) to ~120px (clone). Card bottoms still align at the same y, so only the top/internal spacing is wrong.",
+  "live": "card top aligned with sibling card bodies (y=585); checklist starts abs y~884; large blank area above button",
+  "clone": "card top 40px lower (y=625); checklist starts abs y~999; blank area above button roughly half as tall"
+ },
+ {
+  "id": "F029",
+  "severity": "P1",
+  "type": "layout",
+  "section": "VIP Pricing? Say Less. rail",
+  "description": "The 2-column category-savings card grid (Cleanses/Bundles/Juices/Shots/etc.) is ~100px narrower and shifted left, leaving a ~195px empty margin on the right instead of extending to the page margin like live.",
+  "live": "cards span x=525-955 and x=975-1405 (each ~430px wide, right edge at page margin ~1405)",
+  "clone": "cards span x=470-845 and x=870-1245 (each ~375px wide, dead space from x=1245 to 1440)"
+ },
+ {
+  "id": "F031",
+  "severity": "P2",
+  "type": "layout",
+  "section": "compact pricing cards (2nd block, after Earn/Redeem)",
+  "description": "In the second (compact, 'View More') card block the Free Loyalty card top sits ~23px HIGHER than the Monthly/Yearly colored body tops; on live it aligns exactly with them. Opposite direction from the first block's misalignment.",
+  "live": "Free card top y=628 = yellow/green body tops (ribbons 593-628)",
+  "clone": "Free card top y=600 vs body tops y=622 (drift-adjusted ~23px too high)"
+ },
+ {
+  "id": "F032",
+  "severity": "P2",
+  "type": "typography",
+  "section": "VIP Pricing? Say Less. intro paragraph",
+  "description": "Intro paragraph wraps at different words (text column narrower in clone). Same 3 lines but different break points.",
+  "live": "3 lines: 'save up to 25% on juices,' / 'smoothies, ... because wellness' / 'should feel rewarding.'",
+  "clone": "3 lines: 'save up to 25% on' / 'juices, ... + more—because' / 'wellness should feel rewarding.'"
+ },
+ {
+  "id": "F033",
+  "severity": "P3",
+  "type": "typography",
+  "section": "footer Membership column",
+  "description": "'Enjoy VIP pricing...' blurb wraps at different words (clone column slightly narrower). 3 lines in both.",
+  "live": "wraps: 'and earn treats' / 'when you subscribe to a' / 'Pressed Juicery® Membership.'",
+  "clone": "wraps: 'and earn' / 'treats when you subscribe to a' / 'Pressed Juicery® Membership.'"
+ }
+]

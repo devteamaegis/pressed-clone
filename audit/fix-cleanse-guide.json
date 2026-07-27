@@ -1,0 +1,29 @@
+[
+ {
+  "id": "F080",
+  "severity": "P1",
+  "type": "typography",
+  "section": "entire article content (TOC, H1, all headings, body, bullets)",
+  "description": "The whole content region renders in a serif fallback (Times-like) instead of the brand sans-serif; header nav, promo bar, and footer are correct, so only the article/content font-family is lost. This changes every line wrap on the page (e.g. H1 breaks after 'Support' on clone vs after 'Can' on live) and is the likely driver of the -586px desktop / +1299px mobile document-height deltas.",
+  "live": "All content in Pressed's grotesque sans-serif; H1 wraps 'Juice Cleanses: The Benefits & How They Can / Support Detox + Wellness'",
+  "clone": "All content in serif (Times fallback); H1 wraps '...How They Can Support / Detox + Wellness'; every paragraph and bullet re-wraps"
+ },
+ {
+  "id": "F082",
+  "severity": "P2",
+  "type": "typography",
+  "section": "cleanse schedule lists, 'Post-Cleanse Maintenance', 'Hydration Tip', all FAQ questions",
+  "description": "Bold inline spans are rendered at regular weight throughout the clone: time prefixes in every 'Consume in the following order' list ('6am-8am:', '3pm:', etc.), the 'Post-Cleanse Maintenance:' labels, and every FAQ question line ('What Should I Do If I Get Hungry?', 'Do I Need To Drink Water?', 'Can I Drink Coffee?', 'What Should I Do To Prepare For My Cleanse?', 'What About During My Cleanse?', 'Post Cleanse Tips?').",
+  "live": "Bold: '6am-8am:', '9pm-10pm:', 'Post-Cleanse Maintenance:', FAQ questions all heavy weight (live t02/t04/t12/t13)",
+  "clone": "All of these render at regular weight — no bold anywhere in the article body"
+ },
+ {
+  "id": "F085",
+  "severity": "P3",
+  "type": "layout",
+  "section": "between cleanse sections (Benefits→Full-Day, above Gut Biome+, above 2-Day Pro, above Cleanse 3, above Half-Day Juice Fasts, above Renewal, above 7-Day sections)",
+  "description": "Live has a thin centered hairline divider (~1px light gray, ~330px wide) separating each cleanse/program subsection — visible in live t02 (y90), t03 (y85, y737), t05 (y858), t08 (y75, y830), t11 (y840). The clone has none anywhere; sections are separated by whitespace only.",
+  "live": "~8 hairline hr dividers between subsections",
+  "clone": "0 dividers — verified via zoomed crops of the gaps (plain white)"
+ }
+]

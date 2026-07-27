@@ -1,0 +1,163 @@
+[
+ {
+  "feature": "promo-rotation",
+  "page": "homepage",
+  "live_behavior": "rotates every 5s",
+  "clone_behavior": "rotates every 5s",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "promo-next/prev",
+  "page": "homepage",
+  "live_behavior": "arrows advance offer",
+  "clone_behavior": "arrows advance offer",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "promo-pause",
+  "page": "homepage",
+  "live_behavior": "pause control present (script probe hit wrong element)",
+  "clone_behavior": "pause stops rotation, aria-pressed toggles",
+  "status": "match",
+  "evidence": "clone scripted; live manual"
+ },
+ {
+  "feature": "mega-menu (Shop hover)",
+  "page": "homepage",
+  "live_behavior": "submenu opens on hover (script probe could not detect Nuxt markup)",
+  "clone_behavior": "opens on hover+click, 7 links",
+  "status": "match",
+  "evidence": "clone scripted; live manual"
+ },
+ {
+  "feature": "mobile-drawer",
+  "page": "homepage (mobile)",
+  "live_behavior": "opens, 14 links",
+  "clone_behavior": "opens, 12 links (submenu links revealed on expand)",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "hero-video",
+  "page": "homepage",
+  "live_behavior": "mux-player 1440x706 autoplay loop (probe could not pierce shadow DOM in time)",
+  "clone_behavior": "same box 1440x706, same Mux asset, autoplay loop, visible pause control",
+  "status": "match",
+  "evidence": "clone scripted; live manual (verified in real Chrome earlier)"
+ },
+ {
+  "feature": "faq-accordion",
+  "page": "faqs",
+  "live_behavior": "expands with answer",
+  "clone_behavior": "expands with answer (139 real answers)",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "faq-category-tabs",
+  "page": "faqs",
+  "live_behavior": "14 tabs, switching works",
+  "clone_behavior": "14 tabs, switching works",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "cookie-banner",
+  "page": "all",
+  "live_behavior": "shown on every page; dismiss persists",
+  "clone_behavior": "dismiss+persist WORK, but banner markup is missing on /, /shop, /our-journey (present on faqs/careers/allergens/catering)",
+  "status": "partial",
+  "evidence": "scripted + curl per page",
+  "suspected_fix": "inject banner from cloned-interactions.js when #cookie-banner absent"
+ },
+ {
+  "feature": "product-hover-swap",
+  "page": "shop",
+  "live_behavior": "2nd image on hover (probe missed: images lazy-load below fold)",
+  "clone_behavior": ".cloned-hoverswap CSS applied to 2-image cards; swap verified manually in earlier round",
+  "status": "match",
+  "evidence": "manual both"
+ },
+ {
+  "feature": "shop-filters-deeplink",
+  "page": "shop?filters=juices",
+  "live_behavior": "27 juice products",
+  "clone_behavior": "23 juice products, other categories correctly hidden",
+  "status": "partial",
+  "evidence": "scripted",
+  "suspected_fix": "4 juice products missing from capture — recover cards or accept"
+ },
+ {
+  "feature": "sticky-header",
+  "page": "all",
+  "live_behavior": "position:sticky top:0",
+  "clone_behavior": "position:sticky top:0 z:100 — pinned at scrollY 1400 (script row was a probe artifact)",
+  "status": "match",
+  "evidence": "manual re-verified on deployed"
+ },
+ {
+  "feature": "scroll-reveals",
+  "page": "homepage",
+  "live_behavior": "none (0 parked elements)",
+  "clone_behavior": "none (0 parked elements) — correctly not invented",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "our-journey-video",
+  "page": "our-journey",
+  "live_behavior": "eager YouTube iframe plays",
+  "clone_behavior": "click-to-play facade spawns YouTube player",
+  "status": "match",
+  "evidence": "scripted"
+ },
+ {
+  "feature": "careers-video",
+  "page": "careers",
+  "live_behavior": "native <video controls> with poster",
+  "clone_behavior": "poster facade swaps to <video> on click; plays in real Chrome (headless lacks H.264 so probe reports false)",
+  "status": "match",
+  "evidence": "manual (real browser)"
+ },
+ {
+  "feature": "add-to-cart",
+  "page": "shop",
+  "live_behavior": "gated behind fulfillment/store selection modal",
+  "clone_behavior": "local-storage cart with badge count (simulation; verified in earlier round)",
+  "status": "partial",
+  "evidence": "manual",
+  "suspected_fix": "acceptable for static clone; noted for scope"
+ },
+ {
+  "feature": "carousel-arrows",
+  "page": "homepage/shop",
+  "live_behavior": "native prev/next arrows on rails",
+  "clone_behavior": "injected .cloned-carousel-btn arrows scroll the track (verified earlier round; probe inconclusive on both sites due to lazy-loaded rails)",
+  "status": "match",
+  "evidence": "manual both"
+ },
+ {
+  "feature": "store-locator-map",
+  "page": "juice-bar-locations",
+  "live_behavior": "Google Maps embed with live store data",
+  "clone_behavior": "no map (third-party, keyed API)",
+  "status": "unclonable"
+ },
+ {
+  "feature": "flavor-quiz-flow",
+  "page": "flavor-quiz",
+  "live_behavior": "interactive multi-step quiz (JS bundle)",
+  "clone_behavior": "static capture; first-question UI missing (see visual finding F017/F018)",
+  "status": "unclonable",
+  "suspected_fix": "static first-question UI CAN be reproduced visually even though the flow cannot"
+ },
+ {
+  "feature": "personalized-most-popular",
+  "page": "homepage",
+  "live_behavior": "personalized product rail (per-visitor API)",
+  "clone_behavior": "static snapshot of one variant",
+  "status": "unclonable"
+ }
+]

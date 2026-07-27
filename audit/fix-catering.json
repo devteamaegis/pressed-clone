@@ -1,0 +1,11 @@
+[
+ {
+  "id": "F025",
+  "severity": "P3",
+  "type": "layout",
+  "section": "footer — Policies column",
+  "description": "The right-most footer column (Policies) sits ~4px further left in the clone; consistent across t02 and t03 for the heading and every link (e.g. 'Member Terms and Conditions' spans x1136-1372 in clone vs x1140-1375 live). Left columns (logo x84, newsletter x169) align exactly, so it's a slight footer column-width/gap difference, not a global shift.",
+  "live": "Policies column left edge at x=1140",
+  "clone": "Policies column left edge at x=1136 (~4px left)"
+ }
+]

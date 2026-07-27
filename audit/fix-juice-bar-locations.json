@@ -1,0 +1,11 @@
+[
+ {
+  "id": "F013",
+  "severity": "P1",
+  "type": "layout",
+  "section": "store retailer tiles (left column, above footer)",
+  "description": "Retailer tile section is truncated in the clone: first row cards are clipped ~55px shorter so the 'Find us at Vons/Sprouts/Costco' link labels are cut off, and the second retailer row (Albertsons/Ralphs/Safeway per the mobile grid) that peeks above the footer on live is missing entirely. The footer starts ~100px earlier in the clone; this accounts for the -148px desktop document-height delta.",
+  "live": "Row-1 cards ~145px tall with visible 'Find us at Vons/Sprouts/Costco' links (links at abs y~835, card bottom ~853); tops of a second row of 3 tile cards visible at abs y~875 before the footer begins ~y903",
+  "clone": "Row-1 cards clipped at ~95px tall — logos visible but no 'Find us at ...' links; no second row; black footer begins immediately at abs y~800"
+ }
+]

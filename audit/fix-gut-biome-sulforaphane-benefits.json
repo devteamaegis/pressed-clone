@@ -1,0 +1,92 @@
+[
+ {
+  "id": "F106",
+  "severity": "P0",
+  "type": "layout",
+  "section": "ingredient marquee (below hero)",
+  "description": "Full-width black scrolling ingredient ticker band below the hero is missing in the clone.",
+  "live": "Black band at ~y750-800 with white keywords: 'Prebiotic Fiber, Live Probiotics, Glucoraphanin, Sulforaphane, Detox, Cellular Support, Microbiome Balance, Non-GMO Project Verified, Gluten-Free...'",
+  "clone": "Band absent entirely - plain white gap between hero image (ends ~y675) and the next section (~y800); not found in any later tile either"
+ },
+ {
+  "id": "F107",
+  "severity": "P0",
+  "type": "layout",
+  "section": "Benefits of Sulforaphane row",
+  "description": "Dark-green text card with the 'The Benefits of Sulforaphane' heading is missing on desktop; the row shows only the MICROBIOME diagram image with an empty left column.",
+  "live": "Dark near-black-green rounded card x17-433 beside the diagram panel, white heading 'The Benefits of Sulforaphane' (~40px)",
+  "clone": "Left column blank white; heading appears nowhere on desktop (clone mobile does render it, as plain black text above the diagram, so the copy exists but desktop hides/omits the card)"
+ },
+ {
+  "id": "F108",
+  "severity": "P0",
+  "type": "layout",
+  "section": "How It Works section",
+  "description": "'How It Works' section lost its full-width dark-green background and its heading block; only the three ACTIVATE/NEUTRALIZE/REBALANCE cards render, floating on white.",
+  "live": "Full-width dark-green band (abs ~3735-4160) with light heading 'How It Works' + subtitle '(The Science, Simply)' on the left, three cards on the right",
+  "clone": "White background, no 'How It Works'/'(The Science, Simply)' text anywhere, three cards alone on the right with an empty white left column"
+ },
+ {
+  "id": "F109",
+  "severity": "P0",
+  "type": "layout",
+  "section": "Gut Biome+ tastes like row",
+  "description": "Dark-green 'Gut Biome+ tastes like:' card is missing; the celery/bottle photo renders alone with a blank left column.",
+  "live": "Dark-green rounded card x17-433 with 'Gut Biome+ tastes like:' + 'a crisp green refresh: sweet apple up front, greens-forward in the middle, & a pinch of sea salt to finish.'",
+  "clone": "Card and all its text absent on desktop; celery image (x447-1424) sits beside empty white space"
+ },
+ {
+  "id": "F111",
+  "severity": "P1",
+  "type": "text",
+  "section": "What Is Sulforaphane H2",
+  "description": "Missing space before '&' in the section heading (whitespace-join).",
+  "live": "Heading tail visible as '...Why Should You Care?' (join point occluded by popup; live copy is 'What Is Sulforaphane & Why...')",
+  "clone": "Reads 'What Is Sulforaphane& Why Should You Care?' - '&' fused to 'Sulforaphane'"
+ },
+ {
+  "id": "F114",
+  "severity": "P1",
+  "type": "image",
+  "section": "testimonial quotes",
+  "description": "Quote sections use the wrong icon: clone shows a small shopping-bag/package outline (same glyph as the header cart icon) instead of the large double-quote mark.",
+  "live": "Large filled '❝' double-quote glyph (~48px) above the Dr. Fahey quote (second quote's icon occluded by popup)",
+  "clone": "~36px outlined bag icon above both the Fahey quote and the Ratanatriwong quote"
+ },
+ {
+  "id": "F115",
+  "severity": "P1",
+  "type": "layout",
+  "section": "all image blocks (systemic)",
+  "description": "Every major image block renders ~11% shorter than live (several also narrower), changing crops and shifting the whole page up - this is most of the -389px doc-height delta.",
+  "live": "Hero 607x605 (right edge x1424); 3-bottle photo 610x617; quote#1 photo height ~530; quote#2 538-wide photo ~530 tall; benefits-diagram row ~650 tall",
+  "clone": "Hero 535x535 (right edge x1352, 88px white gap); 3-bottle 536x533; quote#1 height ~473 (same width, tighter crop); quote#2 538x473; diagram row ~573 tall"
+ },
+ {
+  "id": "F116",
+  "severity": "P2",
+  "type": "layout",
+  "section": "Choose Your Pack cards",
+  "description": "Pack-card grid is narrower with much larger gutters than live.",
+  "live": "Cards ~450px wide, ~25px gutters, ~17px outer margins (card1 x17-467, card2 x492-947, card3 x970-1424)",
+  "clone": "Cards ~401px wide, ~76px gutters, ~42px outer margins (card1 x42-443, card2 x519-920, card3 x996-1397)"
+ },
+ {
+  "id": "F117",
+  "severity": "P2",
+  "type": "typography",
+  "section": "hero copy",
+  "description": "The two benefit lines lose their list styling - no disc bullets, no indent.",
+  "live": "'• Assists natural cleansing processes...' / '• Supports digestive balance...' rendered as an indented bulleted list",
+  "clone": "Same two lines rendered as plain flush-left paragraph lines with no bullet markers"
+ },
+ {
+  "id": "F118",
+  "severity": "P2",
+  "type": "layout",
+  "section": "FAQ to footnote gap",
+  "description": "Extra vertical space between the last FAQ row and the '*TrueBroc(R)...' footnote.",
+  "live": "~146px from last FAQ chevron (abs 7097) to footnote text (abs 7243)",
+  "clone": "~194px (last chevron abs 6711 to footnote abs 6905) - ~48px larger gap"
+ }
+]

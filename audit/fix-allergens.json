@@ -1,0 +1,20 @@
+[
+ {
+  "id": "F049",
+  "severity": "P1",
+  "type": "image",
+  "section": "main content right column (Mindfully Crafted / Need Assistance)",
+  "description": "The right-column image stack has wrong content/order. Live: top slot (abs ~900-1080) is a lemon-slice photo; bottom slot (abs ~1430-1595, beside 'Need Assistance?') is the mint-leaves photo. Clone: top slot is the mint-leaves photo (abs ~930-1150), middle is a large 'Download on the App Store' badge (abs ~1210-1360), bottom is a large boxed 'Get it on Google Play' badge (abs ~1390-1620). The clone is missing the lemon image, places mint in the wrong slot, and shows two app-store badge images in the body where live shows mint (live's middle slot is obscured by the modal, but its top and bottom slots definitively differ). The clone's body badges also look like raw/unstyled assets (white box with gray border + drop shadow) unlike anything visible on live.",
+  "live": "Right column: lemon slice at top, mint leaves at bottom next to 'Need Assistance?' (middle hidden by modal)",
+  "clone": "Right column: mint leaves at top, oversized App Store badge in middle, boxed Google Play badge at bottom; no lemon image anywhere"
+ },
+ {
+  "id": "F052",
+  "severity": "P2",
+  "type": "layout",
+  "section": "hero → H1 gap",
+  "description": "Extra ~20-25px vertical gap between the hero image and the 'Pressed Juicery Nutritional Information' H1 in the clone. At scroll 0 both hero images end at y≈640, but live H1 glyphs start at y≈705 while clone starts at y≈730. The offset propagates down the whole page and accounts for the 24px document-height delta (2352 vs 2328).",
+  "live": "H1 top at y≈705 (≈65px below hero bottom edge)",
+  "clone": "H1 top at y≈730 (≈90px below hero bottom edge); all subsequent sections sit ~20-25px lower"
+ }
+]

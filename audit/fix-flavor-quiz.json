@@ -1,0 +1,20 @@
+[
+ {
+  "id": "F017",
+  "severity": "P0",
+  "type": "layout",
+  "section": "quiz main section",
+  "description": "Entire quiz content is missing on the clone. Live renders the '1 / 5' progress indicator with a black progress bar, the heading 'Have you tried Pressed before?', three black answer cards ('Yes, I'm a regular', 'I've tried it once or twice', 'Not yet - this will be my first time') with white line icons, decorative fruit photos (pineapple/green apple/lemon/mint top-right, orange slices bottom-left) and a light-gray (#f5f4f2) section background. Clone's main area between header and footer is completely blank white (t00 and the pre-footer strip in t01). Heights match only because the empty container preserves the section height.",
+  "live": "Full quiz step 1: progress bar '1/5', centered heading, 3 answer cards, fruit imagery, light-gray background; orange-slice photos still visible above footer in t01",
+  "clone": "Blank white area from header (y~140) to footer (y~890 in t00); pre-footer strip in t01 also plain white, no images, no gray background"
+ },
+ {
+  "id": "F021",
+  "severity": "P3",
+  "type": "typography",
+  "section": "footer Membership column",
+  "description": "Membership blurb wraps at a different word — the clone's Membership column is slightly narrower, breaking after 'earn' instead of after 'treats'. Both are 3 lines but the shape differs; the adjacent Shop/Learn/Support/Policies columns also sit ~3-4px further left in the clone.",
+  "live": "Line 1 'Enjoy VIP pricing and earn treats', line 2 'when you subscribe to a', line 3 'Pressed Juicery® Membership.'",
+  "clone": "Line 1 'Enjoy VIP pricing and earn', line 2 'treats when you subscribe to a', line 3 'Pressed Juicery® Membership.'"
+ }
+]

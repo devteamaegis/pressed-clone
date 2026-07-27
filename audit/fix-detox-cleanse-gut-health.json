@@ -1,0 +1,47 @@
+[
+ {
+  "id": "F093",
+  "severity": "P1",
+  "type": "layout",
+  "section": "below hero / above The Science of Reset",
+  "description": "The dark-green scrolling marquee ticker strip (claims like '64g Plant Protein | Promotes Gut Health | Supports Detox & Digestion | Nutrient Replenishment Support | Commit To Your Goals Deliciously') is entirely missing in the clone. This accounts for the bulk of the -211px desktop height delta and shifts all later sections up ~90-210px.",
+  "live": "~66px-tall dark olive-green full-width ticker bar at y~695-730 (t00), white text items separated, scrolling",
+  "clone": "No bar at all - plain white gap between hero image (ends y618) and 'The Science of Reset' heading (t00)"
+ },
+ {
+  "id": "F095",
+  "severity": "P1",
+  "type": "image",
+  "section": "Ingredient Insight: The Gut-Body Connection",
+  "description": "The three line-item icons (bacteria icon next to PROBIOTICS, plant/fiber icon next to PREBIOTIC FIBER, circled honeycomb icon next to SULFORAPHANE) are missing in the clone. Text keeps its x97 indent leaving an empty gutter. Also absent on mobile (clone-mobile-t06, blank space left of x165 indent).",
+  "live": "Three ~50px black line-art icons at x~15-65 beside each ingredient line (visible live-desktop-t05/t06)",
+  "clone": "No icons - blank white space in the left gutter, text indented at same x97 (clone-desktop-t05)"
+ },
+ {
+  "id": "F096",
+  "severity": "P1",
+  "type": "layout",
+  "section": "hero + Flexible for Every Stage + Gut-Body Connection images",
+  "description": "Three right-column section photos are rendered ~12% smaller in the clone: they stop at x=1352 instead of extending to ~1424-1440 like live, and are correspondingly shorter (anchored top-left, so a white strip appears on the right and sections lose height). Affects the hero woman-drinking photo, the 'Flexible for Every Stage' kitchen photo, and the 'Gut-Body Connection' woman-with-shot photo. The Day 1/Day 2 product photos are correct (both reach 1424).",
+  "live": "Hero image 817->~1440 wide, ~555px tall; Flexible image 812->1424, >=509px tall; Gut-Body image 797->1424, ~655px tall",
+  "clone": "Hero 817->1352, 478px tall; Flexible 813->1352, 448px tall; Gut-Body 797->1352, ~581px tall - 72-88px of white gap at right edge"
+ },
+ {
+  "id": "F097",
+  "severity": "P1",
+  "type": "color",
+  "section": "Gut Support Meets Performance Nutrition cards (1/2/3)",
+  "description": "The three numbered feature cards have a neutral gray background in the clone; on live they read as muted sage/olive green (live viewed through the popup scrim, which darkens but would not add a green hue - the underlying live card color is green-tinted, likely a translucent light-sage over the green section background). Clone mobile cards are the same flat gray.",
+  "live": "Card fill reads olive/sage (~#8b9a5c under scrim) on the dark green section background (live-desktop-t01/t02)",
+  "clone": "Flat neutral gray (~#b0b0b0) cards on the bright green background (clone-desktop-t01/t02, clone-mobile-t02)"
+ },
+ {
+  "id": "F099",
+  "severity": "P2",
+  "type": "typography",
+  "section": "hero copy (Built to Perform)",
+  "description": "The three-line list under the intro paragraph loses its bullet markers in the clone (rendered as plain paragraph lines, not a <ul>). Verified on both viewports: live desktop t00 and live mobile t00 show '•' markers; clone shows none. On mobile this also changes line wrapping ('...greens-/forward blends.' live vs '...greens-forward/blends.' clone; 'with 5 days of/post-cleanse' vs 'with 5 days of post-/cleanse').",
+  "live": "Bulleted list: '• Ease in with Day One's protein support.' etc., text indented past the marker",
+  "clone": "Same three sentences flush-left with no bullet characters and different mobile wraps"
+ }
+]

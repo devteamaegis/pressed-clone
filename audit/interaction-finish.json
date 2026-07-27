@@ -1,0 +1,46 @@
+[
+ {
+  "site": "live",
+  "check": "careers-video",
+  "r": {
+   "mech": "native",
+   "plays": false
+  }
+ },
+ {
+  "site": "clone",
+  "check": "careers-video",
+  "r": {
+   "mech": "facade",
+   "plays": false
+  }
+ },
+ {
+  "site": "live",
+  "check": "add-to-cart",
+  "r": {
+   "control": false
+  }
+ },
+ {
+  "site": "clone",
+  "check": "add-to-cart",
+  "r": {
+   "control": false
+  }
+ },
+ {
+  "site": "live",
+  "check": "carousel-arrows",
+  "r": {
+   "tracks": 0
+  }
+ },
+ {
+  "site": "clone",
+  "check": "carousel-arrows",
+  "r": {
+   "tracks": 0
+  }
+ }
+]

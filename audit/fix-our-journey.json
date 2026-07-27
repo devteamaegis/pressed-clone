@@ -1,0 +1,20 @@
+[
+ {
+  "id": "F009",
+  "severity": "P1",
+  "type": "layout",
+  "section": "hero",
+  "description": "Hero image treatment differs: live hero is full-bleed edge-to-edge (verified via zoom crop — kale photo content reaches x=0), clone renders it as an inset box with cream margins (asymmetric: ~110px left, ~270px right, consistent with the 1280 container). Clone hero is also slightly shorter (~505px vs ~555px) with a white gap between header and image top.",
+  "live": "hero photo spans x 0-1440, y ~140-695, no margins",
+  "clone": "hero photo inset at x 110-1170, y 155-660, cream margins on both sides (wider on right)"
+ },
+ {
+  "id": "F012",
+  "severity": "P2",
+  "type": "layout",
+  "section": "anchor tab bar (Our Journey / Our Values / Our Philosophy / Our Stores)",
+  "description": "Tab spacing and rules differ beyond the container shift: clone spreads the four anchor tabs ~21% wider apart, and the tab-strip divider rules stop at x=1280 leaving a visible 160px un-ruled gap at the right edge (live rules span the full viewport width).",
+  "live": "tab centers at x 455/632/808/984 (~176px steps, row centered at 720); divider rules full-width",
+  "clone": "tab centers at x 320/533/747/959 (~213px steps, row centered at 640); divider rules end at x=1280"
+ }
+]

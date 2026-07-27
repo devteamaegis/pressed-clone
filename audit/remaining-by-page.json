@@ -1,0 +1,595 @@
+[
+ {
+  "page": "shop",
+  "findings": [
+   {
+    "id": "F003",
+    "severity": "P1",
+    "type": "layout",
+    "section": "left filter sidebar",
+    "description": "The clone is missing the entire 'Function' filter group that appears below the 'Product Type' checkbox group in the left sidebar. On live it renders as a second boxed group with the heading 'Function' immediately under the Gift Cards item (visible in pair D1, live y~117). In the clone the sidebar ends after 'Gift Cards' and the rail below is empty for the rest of the page.",
+    "live": "Two sidebar groups: 'Product Type' (15 checkboxes ending at Gift Cards) followed by a second boxed group headed 'Function'",
+    "clone": "Only the 'Product Type' group; sidebar ends after 'Gift Cards', no 'Function' group anywhere below"
+   },
+   {
+    "id": "F004",
+    "severity": "P2",
+    "type": "layout",
+    "section": "Freeze (Dairy-Free Soft Serve) row — Glow Up Sundae tile",
+    "description": "In the Freeze row (pair D11), the clone does not reserve the two-line title height on the 'Glow Up Sundae' tile (single-line title), so its price row and quantity stepper sit ~43px higher than the other five tiles in the row. On live, every tile's price row and button/stepper align on a shared baseline regardless of title line count.",
+    "live": "Title-to-price gap 87px on Glow Up Sundae; its $7.95/$6.50 price row aligns with neighboring Tropical Protein Freeze (y443 vs y440), steppers/buttons aligned (y506 vs y505)",
+    "clone": "Title-to-price gap only 40px; Glow Up Sundae price at y475 vs y518 for the rest of the row (43px high), stepper at y537 vs Shop-now buttons at y583 (46px high)"
+   },
+   {
+    "id": "F006",
+    "severity": "P3",
+    "type": "layout",
+    "section": "all product grids (cumulative)",
+    "description": "Clone page is 145px taller (15408 vs 15263) with no missing or extra content found; the delta is evenly distributed as ~4px of extra vertical pitch per product-grid row, accumulating from 0px offset at the header to ~90px by the Refreshers section and ~145px total. Measured row pitch (stepper row to next stepper row) in the Shots section: live 447px vs clone 451px. Suggests a few px extra card/title block height or row-gap per grid row in the clone.",
+    "live": "Document 15263px; Shots grid row pitch 447px; sections align with header at 0px offset",
+    "clone": "Document 15408px (+145); Shots grid row pitch 451px (+4/row); content drifts steadily lower down the page"
+   }
+  ]
+ },
+ {
+  "page": "our-journey",
+  "findings": [
+   {
+    "id": "F009",
+    "severity": "P1",
+    "type": "layout",
+    "section": "hero",
+    "description": "Hero image treatment differs: live hero is full-bleed edge-to-edge (verified via zoom crop — kale photo content reaches x=0), clone renders it as an inset box with cream margins (asymmetric: ~110px left, ~270px right, consistent with the 1280 container). Clone hero is also slightly shorter (~505px vs ~555px) with a white gap between header and image top.",
+    "live": "hero photo spans x 0-1440, y ~140-695, no margins",
+    "clone": "hero photo inset at x 110-1170, y 155-660, cream margins on both sides (wider on right)"
+   },
+   {
+    "id": "F012",
+    "severity": "P2",
+    "type": "layout",
+    "section": "anchor tab bar (Our Journey / Our Values / Our Philosophy / Our Stores)",
+    "description": "Tab spacing and rules differ beyond the container shift: clone spreads the four anchor tabs ~21% wider apart, and the tab-strip divider rules stop at x=1280 leaving a visible 160px un-ruled gap at the right edge (live rules span the full viewport width).",
+    "live": "tab centers at x 455/632/808/984 (~176px steps, row centered at 720); divider rules full-width",
+    "clone": "tab centers at x 320/533/747/959 (~213px steps, row centered at 640); divider rules end at x=1280"
+   }
+  ]
+ },
+ {
+  "page": "juice-bar-locations",
+  "findings": [
+   {
+    "id": "F013",
+    "severity": "P1",
+    "type": "layout",
+    "section": "store retailer tiles (left column, above footer)",
+    "description": "Retailer tile section is truncated in the clone: first row cards are clipped ~55px shorter so the 'Find us at Vons/Sprouts/Costco' link labels are cut off, and the second retailer row (Albertsons/Ralphs/Safeway per the mobile grid) that peeks above the footer on live is missing entirely. The footer starts ~100px earlier in the clone; this accounts for the -148px desktop document-height delta.",
+    "live": "Row-1 cards ~145px tall with visible 'Find us at Vons/Sprouts/Costco' links (links at abs y~835, card bottom ~853); tops of a second row of 3 tile cards visible at abs y~875 before the footer begins ~y903",
+    "clone": "Row-1 cards clipped at ~95px tall — logos visible but no 'Find us at ...' links; no second row; black footer begins immediately at abs y~800"
+   }
+  ]
+ },
+ {
+  "page": "flavor-quiz",
+  "findings": [
+   {
+    "id": "F017",
+    "severity": "P0",
+    "type": "layout",
+    "section": "quiz main section",
+    "description": "Entire quiz content is missing on the clone. Live renders the '1 / 5' progress indicator with a black progress bar, the heading 'Have you tried Pressed before?', three black answer cards ('Yes, I'm a regular', 'I've tried it once or twice', 'Not yet - this will be my first time') with white line icons, decorative fruit photos (pineapple/green apple/lemon/mint top-right, orange slices bottom-left) and a light-gray (#f5f4f2) section background. Clone's main area between header and footer is completely blank white (t00 and the pre-footer strip in t01). Heights match only because the empty container preserves the section height.",
+    "live": "Full quiz step 1: progress bar '1/5', centered heading, 3 answer cards, fruit imagery, light-gray background; orange-slice photos still visible above footer in t01",
+    "clone": "Blank white area from header (y~140) to footer (y~890 in t00); pre-footer strip in t01 also plain white, no images, no gray background"
+   },
+   {
+    "id": "F021",
+    "severity": "P3",
+    "type": "typography",
+    "section": "footer Membership column",
+    "description": "Membership blurb wraps at a different word — the clone's Membership column is slightly narrower, breaking after 'earn' instead of after 'treats'. Both are 3 lines but the shape differs; the adjacent Shop/Learn/Support/Policies columns also sit ~3-4px further left in the clone.",
+    "live": "Line 1 'Enjoy VIP pricing and earn treats', line 2 'when you subscribe to a', line 3 'Pressed Juicery® Membership.'",
+    "clone": "Line 1 'Enjoy VIP pricing and earn', line 2 'treats when you subscribe to a', line 3 'Pressed Juicery® Membership.'"
+   }
+  ]
+ },
+ {
+  "page": "catering",
+  "findings": [
+   {
+    "id": "F025",
+    "severity": "P3",
+    "type": "layout",
+    "section": "footer — Policies column",
+    "description": "The right-most footer column (Policies) sits ~4px further left in the clone; consistent across t02 and t03 for the heading and every link (e.g. 'Member Terms and Conditions' spans x1136-1372 in clone vs x1140-1375 live). Left columns (logo x84, newsletter x169) align exactly, so it's a slight footer column-width/gap difference, not a global shift.",
+    "live": "Policies column left edge at x=1140",
+    "clone": "Policies column left edge at x=1136 (~4px left)"
+   }
+  ]
+ },
+ {
+  "page": "membership-signup",
+  "findings": [
+   {
+    "id": "F027",
+    "severity": "P1",
+    "type": "layout",
+    "section": "hero pricing cards (1st block)",
+    "description": "Monthly VIP card body is detached from its 'Most Popular' ribbon and shifted down ~20px. On live the yellow body sits flush under the ribbon (ribbon 553-585, body 585-840); in the clone there is a white gap between ribbon and body (ribbon 553-583, body 603-875). The Yearly VIP card is correct (flush), making the Monthly card visibly odd.",
+    "live": "ribbon and yellow body flush, body top y=585, colored section ends y=840",
+    "clone": "~20px white gap under ribbon, body top y=603, colored section ends y=875"
+   },
+   {
+    "id": "F028",
+    "severity": "P1",
+    "type": "layout",
+    "section": "hero pricing cards (1st block)",
+    "description": "Free Loyalty card is vertically misaligned and its header zone is taller. Live: card top y=585, aligned with the Monthly/Yearly colored body tops. Clone: card top y=625 (~40px lower) and the title/price header is ~40px taller, so the checklist starts ~115px lower (first item abs ~999 vs ~884) and the empty space between the last checklist item and the 'Sign Up For Free' button shrinks from ~230px (live) to ~120px (clone). Card bottoms still align at the same y, so only the top/internal spacing is wrong.",
+    "live": "card top aligned with sibling card bodies (y=585); checklist starts abs y~884; large blank area above button",
+    "clone": "card top 40px lower (y=625); checklist starts abs y~999; blank area above button roughly half as tall"
+   },
+   {
+    "id": "F029",
+    "severity": "P1",
+    "type": "layout",
+    "section": "VIP Pricing? Say Less. rail",
+    "description": "The 2-column category-savings card grid (Cleanses/Bundles/Juices/Shots/etc.) is ~100px narrower and shifted left, leaving a ~195px empty margin on the right instead of extending to the page margin like live.",
+    "live": "cards span x=525-955 and x=975-1405 (each ~430px wide, right edge at page margin ~1405)",
+    "clone": "cards span x=470-845 and x=870-1245 (each ~375px wide, dead space from x=1245 to 1440)"
+   },
+   {
+    "id": "F031",
+    "severity": "P2",
+    "type": "layout",
+    "section": "compact pricing cards (2nd block, after Earn/Redeem)",
+    "description": "In the second (compact, 'View More') card block the Free Loyalty card top sits ~23px HIGHER than the Monthly/Yearly colored body tops; on live it aligns exactly with them. Opposite direction from the first block's misalignment.",
+    "live": "Free card top y=628 = yellow/green body tops (ribbons 593-628)",
+    "clone": "Free card top y=600 vs body tops y=622 (drift-adjusted ~23px too high)"
+   },
+   {
+    "id": "F032",
+    "severity": "P2",
+    "type": "typography",
+    "section": "VIP Pricing? Say Less. intro paragraph",
+    "description": "Intro paragraph wraps at different words (text column narrower in clone). Same 3 lines but different break points.",
+    "live": "3 lines: 'save up to 25% on juices,' / 'smoothies, ... because wellness' / 'should feel rewarding.'",
+    "clone": "3 lines: 'save up to 25% on' / 'juices, ... + more—because' / 'wellness should feel rewarding.'"
+   },
+   {
+    "id": "F033",
+    "severity": "P3",
+    "type": "typography",
+    "section": "footer Membership column",
+    "description": "'Enjoy VIP pricing...' blurb wraps at different words (clone column slightly narrower). 3 lines in both.",
+    "live": "wraps: 'and earn treats' / 'when you subscribe to a' / 'Pressed Juicery® Membership.'",
+    "clone": "wraps: 'and earn' / 'treats when you subscribe to a' / 'Pressed Juicery® Membership.'"
+   }
+  ]
+ },
+ {
+  "page": "faqs",
+  "findings": [
+   {
+    "id": "F034",
+    "severity": "P2",
+    "type": "layout",
+    "section": "left sidebar category nav",
+    "description": "Vertical rhythm of the 14 category links is looser in the clone (~36px per row vs ~32px live), making the list ~54px taller and accounting for nearly all of the 64px document-height delta (live 1579 vs clone 1643). Same items, same order, same bold+bar active state on 'General FAQs'.",
+    "live": "14 links at ~32px spacing; first item y~352, last item 'Pressed® App' at y~768",
+    "clone": "14 links at ~36px spacing; first item y~354, last item 'Pressed® App' at y~822"
+   },
+   {
+    "id": "F035",
+    "severity": "P3",
+    "type": "layout",
+    "section": "left sidebar category nav",
+    "description": "Non-active category links are indented ~8-9px to the right in the clone, creating a nested look; on live all 14 links (active and inactive) share one flush left edge.",
+    "live": "'General FAQs' text x~65, all other links x~64 (single left edge)",
+    "clone": "'General FAQs' text x~67, all other links x~73 (inactive links indented ~8px)"
+   }
+  ]
+ },
+ {
+  "page": "careers",
+  "findings": [
+   {
+    "id": "F038",
+    "severity": "P0",
+    "type": "image",
+    "section": "'As We Grow, You Grow.' section (right column)",
+    "description": "The interior photo on the right side of the 'As We Grow, You Grow.' section (dark wall reading 'SPOON YOUR JUICE') is completely missing in the clone — the area renders as blank white. Section height is preserved (next section lands at the expected offset), so the img element is likely absent or collapsed inside a fixed-height block.",
+    "live": "Photo of store interior with 'SPOON YOUR JUICE' wall art, approx x745-1300, ~395px tall, top-aligned near the 'As We Grow' heading",
+    "clone": "Blank white space where the image should be; nothing rendered right of the text column until the full-width fridge photo below"
+   },
+   {
+    "id": "F041",
+    "severity": "P1",
+    "type": "layout",
+    "section": "hero",
+    "description": "Hero image is not full-bleed in the clone: it stops at x=1280 leaving a ~160px white gutter on the right, and is correspondingly shorter (~635px vs ~705px tall, same aspect ratio), which accounts for most of the -84px desktop height delta.",
+    "live": "Hero spans full 1440px viewport width, image region ~140-845 (705px tall); product shelf visible at right edge",
+    "clone": "Hero image spans 0-1280 only, white strip from 1280-1440; image region ~140-775 (635px tall)"
+   },
+   {
+    "id": "F045",
+    "severity": "P2",
+    "type": "stray-element",
+    "section": "culture video (above footer)",
+    "description": "Video player chrome differs: live renders a native HTML5 <video controls> bar (play, 0:00, mute, fullscreen along the bottom edge); the clone instead shows a large dark centered play-button overlay and no native controls. Box size and position match (x140-1300, same height).",
+    "live": "Native browser controls bar docked at the bottom of the video box, no center overlay",
+    "clone": "Dark circular play-button overlay centered on the poster, no controls bar"
+   }
+  ]
+ },
+ {
+  "page": "allergens",
+  "findings": [
+   {
+    "id": "F049",
+    "severity": "P1",
+    "type": "image",
+    "section": "main content right column (Mindfully Crafted / Need Assistance)",
+    "description": "The right-column image stack has wrong content/order. Live: top slot (abs ~900-1080) is a lemon-slice photo; bottom slot (abs ~1430-1595, beside 'Need Assistance?') is the mint-leaves photo. Clone: top slot is the mint-leaves photo (abs ~930-1150), middle is a large 'Download on the App Store' badge (abs ~1210-1360), bottom is a large boxed 'Get it on Google Play' badge (abs ~1390-1620). The clone is missing the lemon image, places mint in the wrong slot, and shows two app-store badge images in the body where live shows mint (live's middle slot is obscured by the modal, but its top and bottom slots definitively differ). The clone's body badges also look like raw/unstyled assets (white box with gray border + drop shadow) unlike anything visible on live.",
+    "live": "Right column: lemon slice at top, mint leaves at bottom next to 'Need Assistance?' (middle hidden by modal)",
+    "clone": "Right column: mint leaves at top, oversized App Store badge in middle, boxed Google Play badge at bottom; no lemon image anywhere"
+   },
+   {
+    "id": "F052",
+    "severity": "P2",
+    "type": "layout",
+    "section": "hero → H1 gap",
+    "description": "Extra ~20-25px vertical gap between the hero image and the 'Pressed Juicery Nutritional Information' H1 in the clone. At scroll 0 both hero images end at y≈640, but live H1 glyphs start at y≈705 while clone starts at y≈730. The offset propagates down the whole page and accounts for the 24px document-height delta (2352 vs 2328).",
+    "live": "H1 top at y≈705 (≈65px below hero bottom edge)",
+    "clone": "H1 top at y≈730 (≈90px below hero bottom edge); all subsequent sections sit ~20-25px lower"
+   }
+  ]
+ },
+ {
+  "page": "acai-bowls",
+  "findings": [
+   {
+    "id": "F053",
+    "severity": "P0",
+    "type": "image",
+    "section": "hero (More Than A Pretty Bowl)",
+    "description": "Right half of the hero shows a completely wrong image: a giant black-and-white flexed-arm line-art icon (blown up, blurry) instead of the acai-bowl photo on blue hex tile. The correct photo IS used on the mobile clone, so this is a desktop-only wrong-asset swap.",
+    "live": "Photo of acai bowl (banana/blueberry/strawberry/granola) on light-blue hex-tile counter, fills right column of hero",
+    "clone": "Huge pixelated muscle-arm line icon on white, fills right column (t00-t01)"
+   },
+   {
+    "id": "F054",
+    "severity": "P0",
+    "type": "image",
+    "section": "app/brand banner above 'The Pressed Difference'",
+    "description": "The full-width image section between 'What Makes Acai So Special?' and 'The Pressed Difference' is broken: the terrazzo lifestyle image is gone and an 'Download on the App Store' badge is rendered at ~854px wide, heavily pixelated.",
+    "live": "Full-width terrazzo-pattern lifestyle image block (x209-1230, ~470px tall) (live t04)",
+    "clone": "No terrazzo image; giant blurry Apple App Store badge (~854px wide) on white background (clone t04)"
+   },
+   {
+    "id": "F055",
+    "severity": "P0",
+    "type": "image",
+    "section": "How To Enjoy Your Acai Bowl (left column)",
+    "description": "Left-column image of the serving-suggestions section is broken: shows a giant pixelated 'GET IT ON Google Play' badge in a rounded frame instead of the bowl-on-yellow-board photo.",
+    "live": "Lifestyle photo: acai bowl on yellow cutting board, strawberries, pink/tile background (live t05-t06)",
+    "clone": "Huge blurry Google Play badge inside a gray rounded frame (clone t05-t06)"
+   },
+   {
+    "id": "F056",
+    "severity": "P0",
+    "type": "color",
+    "section": "Explore Our Acai Bowls + Perfect For cards",
+    "description": "All six card blocks lost their purple backgrounds and render as neutral grays. Because the text stays white, headings and bullet lists on the two lighter cards (Original and Superfood columns) are white-on-light-gray and barely readable.",
+    "live": "Three purple shades (dark purple / medium purple / lighter purple) with legible white text (live t02-t03)",
+    "clone": "Light-beige / medium-gray / light-gray cards; white text on cards 1 and 3 nearly invisible (clone t02-t03)"
+   },
+   {
+    "id": "F057",
+    "severity": "P1",
+    "type": "image",
+    "section": "Explore Our Acai Bowls cards 2-3 images",
+    "description": "Power Bowl and Superfood Bowl card images are the wrong asset/treatment: clone shows full-bleed rectangular lifestyle photos edge-to-edge (Superfood card even reuses the yellow-board photo that belongs to the How To Enjoy section), while live shows round bowl cut-outs floating on the purple card background. Original card (card 1) uses the correct cut-out.",
+    "live": "Round cut-out bowl images centered on purple card background (card 3 clearly visible: dark bowl on white plate against purple)",
+    "clone": "Full-width rectangular lifestyle photos (card 2: bowl on terrazzo counter; card 3: bowl on yellow board with pink backdrop)"
+   },
+   {
+    "id": "F063",
+    "severity": "P1",
+    "type": "color",
+    "section": "hero left panel",
+    "description": "Hero text panel background color is wrong: live is a light steel-blue (clearly blue-hued even through the modal dim overlay), clone is a neutral light gray.",
+    "live": "Light steel-blue / slate panel behind 'More Than A Pretty Bowl' copy (visible below modal in live t00)",
+    "clone": "Neutral light gray (#d3d3d3-ish) panel (clone t00)"
+   },
+   {
+    "id": "F064",
+    "severity": "P1",
+    "type": "stray-element",
+    "section": "FAQ accordion rows",
+    "description": "All 15 FAQ rows are missing the '+' expand icon at the right edge of each row (also absent on the mobile clone). Rows are otherwise present with correct text and hairline separators.",
+    "live": "'+' icon right-aligned on every FAQ row (live t06-t07)",
+    "clone": "No '+' icons on any FAQ row (clone t06-t07, mobile t10)"
+   },
+   {
+    "id": "F068",
+    "severity": "P2",
+    "type": "stray-element",
+    "section": "section dividers (below hero, below Why Our Acai Bowls CTA, above app banner)",
+    "description": "The centered ~150px hairline dividers between major sections are missing on the desktop clone (verified by pixel crops of the corresponding regions — pure white). The mobile clone renders only a ~20px dash, suggesting the divider element exists but is collapsed/short.",
+    "live": "~150px centered horizontal rule between sections (live t01 y118/y845, t04 y145)",
+    "clone": "No visible divider at any of those positions on desktop; tiny ~20px dash on mobile (clone mobile t06/t10)"
+   },
+   {
+    "id": "F069",
+    "severity": "P2",
+    "type": "color",
+    "section": "info cards (Why Our Acai Bowls, Acai Experience/Berry To Bowl, Real Ingredients row)",
+    "description": "Systemic tint loss on the small info cards: through the uniform modal dim, live cards read consistently warm (blush/greige) versus the surrounding dimmed white page, while clone cards are neutral near-white (#f6f6f6). Lower confidence than the purple-card finding because the live capture is dimmed, but the warm-vs-neutral difference repeats across three separate sections (t01, t03, t05).",
+    "live": "Card backgrounds show a warm blush/greige tint relative to page background",
+    "clone": "Neutral light gray (#f6f6f6-ish) card backgrounds"
+   }
+  ]
+ },
+ {
+  "page": "foodservice",
+  "findings": [
+   {
+    "id": "F072",
+    "severity": "P2",
+    "type": "layout",
+    "section": "Where To Find Us?",
+    "description": "The 'Contact Us' CTA pill wraps to two lines ('Contact' / 'Us') and is ~90px tall in the clone. Live's button is hidden behind the newsletter modal in the capture, so direct comparison wasn't possible, but the clone button is visibly broken (too narrow for its label) and the extra ~46px of button height exactly accounts for the +56px desktop document-height delta: all sections above it align vertically live-vs-clone, all sections below it sit ~48-56px lower in the clone. Same two-line wrap occurs on mobile clone (M3).",
+    "live": "expected single-line 'Contact Us' pill (~44px tall); obscured by email popup in capture — sections above it have 0px vertical drift, sections below drift +48-56px",
+    "clone": "pill at x576-704, y269-358 (~128w x 90h) with 'Contact' and 'Us' on separate lines"
+   },
+   {
+    "id": "F074",
+    "severity": "P2",
+    "type": "stray-element",
+    "section": "section dividers (5 locations)",
+    "description": "Live has thin full-content-width horizontal rules separating major sections at 5 places; all are missing in the clone: (1) below the hero/Inquire section (~y608), (2) below the three mission cards (~y1238), (3) above 'Where To Find Us?' below the segment icons (~y1817), (4) below the distributor logo row (~y2208), (5) above 'Product Breakouts' (~y3466).",
+    "live": "1px black hr spanning x210-1230 at each of the 5 section boundaries",
+    "clone": "no horizontal rules at any of the corresponding locations"
+   },
+   {
+    "id": "F078",
+    "severity": "P3",
+    "type": "typography",
+    "section": "footer — Membership blurb",
+    "description": "Membership paragraph wraps one word earlier in the clone (both are 3 lines but break points differ), suggesting the clone's column is a few px narrower or letter-spacing differs slightly.",
+    "live": "'Enjoy VIP pricing and earn treats / when you subscribe to a / Pressed Juicery® Membership.'",
+    "clone": "'Enjoy VIP pricing and earn / treats when you subscribe to a / Pressed Juicery® Membership.'"
+   }
+  ]
+ },
+ {
+  "page": "cleanse-guide",
+  "findings": [
+   {
+    "id": "F080",
+    "severity": "P1",
+    "type": "typography",
+    "section": "entire article content (TOC, H1, all headings, body, bullets)",
+    "description": "The whole content region renders in a serif fallback (Times-like) instead of the brand sans-serif; header nav, promo bar, and footer are correct, so only the article/content font-family is lost. This changes every line wrap on the page (e.g. H1 breaks after 'Support' on clone vs after 'Can' on live) and is the likely driver of the -586px desktop / +1299px mobile document-height deltas.",
+    "live": "All content in Pressed's grotesque sans-serif; H1 wraps 'Juice Cleanses: The Benefits & How They Can / Support Detox + Wellness'",
+    "clone": "All content in serif (Times fallback); H1 wraps '...How They Can Support / Detox + Wellness'; every paragraph and bullet re-wraps"
+   },
+   {
+    "id": "F082",
+    "severity": "P2",
+    "type": "typography",
+    "section": "cleanse schedule lists, 'Post-Cleanse Maintenance', 'Hydration Tip', all FAQ questions",
+    "description": "Bold inline spans are rendered at regular weight throughout the clone: time prefixes in every 'Consume in the following order' list ('6am-8am:', '3pm:', etc.), the 'Post-Cleanse Maintenance:' labels, and every FAQ question line ('What Should I Do If I Get Hungry?', 'Do I Need To Drink Water?', 'Can I Drink Coffee?', 'What Should I Do To Prepare For My Cleanse?', 'What About During My Cleanse?', 'Post Cleanse Tips?').",
+    "live": "Bold: '6am-8am:', '9pm-10pm:', 'Post-Cleanse Maintenance:', FAQ questions all heavy weight (live t02/t04/t12/t13)",
+    "clone": "All of these render at regular weight — no bold anywhere in the article body"
+   },
+   {
+    "id": "F085",
+    "severity": "P3",
+    "type": "layout",
+    "section": "between cleanse sections (Benefits→Full-Day, above Gut Biome+, above 2-Day Pro, above Cleanse 3, above Half-Day Juice Fasts, above Renewal, above 7-Day sections)",
+    "description": "Live has a thin centered hairline divider (~1px light gray, ~330px wide) separating each cleanse/program subsection — visible in live t02 (y90), t03 (y85, y737), t05 (y858), t08 (y75, y830), t11 (y840). The clone has none anywhere; sections are separated by whitespace only.",
+    "live": "~8 hairline hr dividers between subsections",
+    "clone": "0 dividers — verified via zoomed crops of the gaps (plain white)"
+   }
+  ]
+ },
+ {
+  "page": "cold-pressed-juices",
+  "findings": [
+   {
+    "id": "F087",
+    "severity": "P1",
+    "type": "color",
+    "section": "hero band (also mobile hero)",
+    "description": "Hero section background color is wrong. Live uses a light sand/sage band; clone renders a dark saturated olive. Verified with hard evidence: live mobile full-page capture (undimmed region) samples rgb(222,216,190) ~#DED8BE; clone samples rgb(94,80,8) #5E5008, which traces to `--clr-9: rgb(94, 80, 8)` at src/app/globals.css:116 (hero uses bg-clr-9 in src/app/cold-pressed-juices/page.tsx). Desktop overlay-corrected math gives the same live value (footer-black check proves the popup overlay is neutral black, so channel ratios are trustworthy: live B/R=0.86 near-neutral vs clone B/R=0.085 saturated). Affects BOTH viewports; on mobile the black 'Cold-Pressed Juices' heading sits on dark olive instead of light sand, flipping the intended contrast.",
+    "live": "hero band bg rgb(222,216,190) light sand; black heading text on light background",
+    "clone": "hero band bg rgb(94,80,8) dark olive (--clr-9 in globals.css:116); black heading on dark background"
+   },
+   {
+    "id": "F089",
+    "severity": "P2",
+    "type": "layout",
+    "section": "Cold Pressed Juice FAQs (also mobile FAQs)",
+    "description": "All five 1px horizontal divider rules in the FAQ section are missing in the clone: the rule directly under the 'Cold Pressed Juice FAQs' heading and the rule after each of the 4 Q&A items. Verified in clean (unobscured) regions of both full-page captures on desktop (live rules at abs y=2264, 2428, 2567, 2706, 2895; clone has none) and mobile (unpaired single-row diff bands at css y~3737, 4001, 4190, 4379, 4659 present only in live). Affects BOTH viewports. Spacing between items is otherwise preserved, so it is likely a suppressed border/hr, not a removed element with height.",
+    "live": "5 thin black divider lines: below FAQs heading and after each of the 4 answers",
+    "clone": "0 divider lines; blank whitespace where each rule should be"
+   },
+   {
+    "id": "F091",
+    "severity": "P3",
+    "type": "typography",
+    "section": "footer, Membership column",
+    "description": "The Membership paragraph wraps at different words in the desktop footer. Live breaks after 'treats' (line 1 = 'Enjoy VIP pricing and earn treats'); clone breaks after 'earn' (line 1 = 'Enjoy VIP pricing and earn'). Both are 3 lines, columns start at identical x positions, so the clone's paragraph box is slightly narrower or letter-spacing slightly wider. Mobile footer wraps identically to live (verified), so this is desktop-only.",
+    "live": "3 lines: 'Enjoy VIP pricing and earn treats' / 'when you subscribe to a' / 'Pressed Juicery® Membership.'",
+    "clone": "3 lines: 'Enjoy VIP pricing and earn' / 'treats when you subscribe to a' / 'Pressed Juicery® Membership.'"
+   }
+  ]
+ },
+ {
+  "page": "detox-cleanse-gut-health",
+  "findings": [
+   {
+    "id": "F093",
+    "severity": "P1",
+    "type": "layout",
+    "section": "below hero / above The Science of Reset",
+    "description": "The dark-green scrolling marquee ticker strip (claims like '64g Plant Protein | Promotes Gut Health | Supports Detox & Digestion | Nutrient Replenishment Support | Commit To Your Goals Deliciously') is entirely missing in the clone. This accounts for the bulk of the -211px desktop height delta and shifts all later sections up ~90-210px.",
+    "live": "~66px-tall dark olive-green full-width ticker bar at y~695-730 (t00), white text items separated, scrolling",
+    "clone": "No bar at all - plain white gap between hero image (ends y618) and 'The Science of Reset' heading (t00)"
+   },
+   {
+    "id": "F095",
+    "severity": "P1",
+    "type": "image",
+    "section": "Ingredient Insight: The Gut-Body Connection",
+    "description": "The three line-item icons (bacteria icon next to PROBIOTICS, plant/fiber icon next to PREBIOTIC FIBER, circled honeycomb icon next to SULFORAPHANE) are missing in the clone. Text keeps its x97 indent leaving an empty gutter. Also absent on mobile (clone-mobile-t06, blank space left of x165 indent).",
+    "live": "Three ~50px black line-art icons at x~15-65 beside each ingredient line (visible live-desktop-t05/t06)",
+    "clone": "No icons - blank white space in the left gutter, text indented at same x97 (clone-desktop-t05)"
+   },
+   {
+    "id": "F096",
+    "severity": "P1",
+    "type": "layout",
+    "section": "hero + Flexible for Every Stage + Gut-Body Connection images",
+    "description": "Three right-column section photos are rendered ~12% smaller in the clone: they stop at x=1352 instead of extending to ~1424-1440 like live, and are correspondingly shorter (anchored top-left, so a white strip appears on the right and sections lose height). Affects the hero woman-drinking photo, the 'Flexible for Every Stage' kitchen photo, and the 'Gut-Body Connection' woman-with-shot photo. The Day 1/Day 2 product photos are correct (both reach 1424).",
+    "live": "Hero image 817->~1440 wide, ~555px tall; Flexible image 812->1424, >=509px tall; Gut-Body image 797->1424, ~655px tall",
+    "clone": "Hero 817->1352, 478px tall; Flexible 813->1352, 448px tall; Gut-Body 797->1352, ~581px tall - 72-88px of white gap at right edge"
+   },
+   {
+    "id": "F097",
+    "severity": "P1",
+    "type": "color",
+    "section": "Gut Support Meets Performance Nutrition cards (1/2/3)",
+    "description": "The three numbered feature cards have a neutral gray background in the clone; on live they read as muted sage/olive green (live viewed through the popup scrim, which darkens but would not add a green hue - the underlying live card color is green-tinted, likely a translucent light-sage over the green section background). Clone mobile cards are the same flat gray.",
+    "live": "Card fill reads olive/sage (~#8b9a5c under scrim) on the dark green section background (live-desktop-t01/t02)",
+    "clone": "Flat neutral gray (~#b0b0b0) cards on the bright green background (clone-desktop-t01/t02, clone-mobile-t02)"
+   },
+   {
+    "id": "F099",
+    "severity": "P2",
+    "type": "typography",
+    "section": "hero copy (Built to Perform)",
+    "description": "The three-line list under the intro paragraph loses its bullet markers in the clone (rendered as plain paragraph lines, not a <ul>). Verified on both viewports: live desktop t00 and live mobile t00 show '•' markers; clone shows none. On mobile this also changes line wrapping ('...greens-/forward blends.' live vs '...greens-forward/blends.' clone; 'with 5 days of/post-cleanse' vs 'with 5 days of post-/cleanse').",
+    "live": "Bulleted list: '• Ease in with Day One's protein support.' etc., text indented past the marker",
+    "clone": "Same three sentences flush-left with no bullet characters and different mobile wraps"
+   }
+  ]
+ },
+ {
+  "page": "featured-cleanses-juice-packs",
+  "findings": [
+   {
+    "id": "F102",
+    "severity": "P2",
+    "type": "layout",
+    "section": "hero (CleanseYourWay banner)",
+    "description": "Clone is missing the ~32px vertical gap between the sticky header and the hero banner; the hero sits flush against the header. Hero height itself matches (260px both).",
+    "live": "hero top edge at y=172, header bottom ~140 → ~32px gap above hero",
+    "clone": "hero top edge at y=140 → 0px gap, flush under header"
+   },
+   {
+    "id": "F103",
+    "severity": "P2",
+    "type": "layout",
+    "section": "Cleanses section heading",
+    "description": "Gap between the hero banner bottom and the 'Cleanses' section heading is ~32px smaller in the clone. Together with the missing header→hero gap this fully accounts for the −67px document height delta; measured drift stays constant (~66px) at Juice Packs (t02) and More to Discover (t05), so no other desktop vertical spacing defects exist.",
+    "live": "hero bottom y=432 → heading glyphs start y=498 (66px gap)",
+    "clone": "hero bottom y=400 → heading glyphs start y=434 (34px gap)"
+   }
+  ]
+ },
+ {
+  "page": "gut-biome-sulforaphane-benefits",
+  "findings": [
+   {
+    "id": "F106",
+    "severity": "P0",
+    "type": "layout",
+    "section": "ingredient marquee (below hero)",
+    "description": "Full-width black scrolling ingredient ticker band below the hero is missing in the clone.",
+    "live": "Black band at ~y750-800 with white keywords: 'Prebiotic Fiber, Live Probiotics, Glucoraphanin, Sulforaphane, Detox, Cellular Support, Microbiome Balance, Non-GMO Project Verified, Gluten-Free...'",
+    "clone": "Band absent entirely - plain white gap between hero image (ends ~y675) and the next section (~y800); not found in any later tile either"
+   },
+   {
+    "id": "F107",
+    "severity": "P0",
+    "type": "layout",
+    "section": "Benefits of Sulforaphane row",
+    "description": "Dark-green text card with the 'The Benefits of Sulforaphane' heading is missing on desktop; the row shows only the MICROBIOME diagram image with an empty left column.",
+    "live": "Dark near-black-green rounded card x17-433 beside the diagram panel, white heading 'The Benefits of Sulforaphane' (~40px)",
+    "clone": "Left column blank white; heading appears nowhere on desktop (clone mobile does render it, as plain black text above the diagram, so the copy exists but desktop hides/omits the card)"
+   },
+   {
+    "id": "F108",
+    "severity": "P0",
+    "type": "layout",
+    "section": "How It Works section",
+    "description": "'How It Works' section lost its full-width dark-green background and its heading block; only the three ACTIVATE/NEUTRALIZE/REBALANCE cards render, floating on white.",
+    "live": "Full-width dark-green band (abs ~3735-4160) with light heading 'How It Works' + subtitle '(The Science, Simply)' on the left, three cards on the right",
+    "clone": "White background, no 'How It Works'/'(The Science, Simply)' text anywhere, three cards alone on the right with an empty white left column"
+   },
+   {
+    "id": "F109",
+    "severity": "P0",
+    "type": "layout",
+    "section": "Gut Biome+ tastes like row",
+    "description": "Dark-green 'Gut Biome+ tastes like:' card is missing; the celery/bottle photo renders alone with a blank left column.",
+    "live": "Dark-green rounded card x17-433 with 'Gut Biome+ tastes like:' + 'a crisp green refresh: sweet apple up front, greens-forward in the middle, & a pinch of sea salt to finish.'",
+    "clone": "Card and all its text absent on desktop; celery image (x447-1424) sits beside empty white space"
+   },
+   {
+    "id": "F111",
+    "severity": "P1",
+    "type": "text",
+    "section": "What Is Sulforaphane H2",
+    "description": "Missing space before '&' in the section heading (whitespace-join).",
+    "live": "Heading tail visible as '...Why Should You Care?' (join point occluded by popup; live copy is 'What Is Sulforaphane & Why...')",
+    "clone": "Reads 'What Is Sulforaphane& Why Should You Care?' - '&' fused to 'Sulforaphane'"
+   },
+   {
+    "id": "F114",
+    "severity": "P1",
+    "type": "image",
+    "section": "testimonial quotes",
+    "description": "Quote sections use the wrong icon: clone shows a small shopping-bag/package outline (same glyph as the header cart icon) instead of the large double-quote mark.",
+    "live": "Large filled '❝' double-quote glyph (~48px) above the Dr. Fahey quote (second quote's icon occluded by popup)",
+    "clone": "~36px outlined bag icon above both the Fahey quote and the Ratanatriwong quote"
+   },
+   {
+    "id": "F115",
+    "severity": "P1",
+    "type": "layout",
+    "section": "all image blocks (systemic)",
+    "description": "Every major image block renders ~11% shorter than live (several also narrower), changing crops and shifting the whole page up - this is most of the -389px doc-height delta.",
+    "live": "Hero 607x605 (right edge x1424); 3-bottle photo 610x617; quote#1 photo height ~530; quote#2 538-wide photo ~530 tall; benefits-diagram row ~650 tall",
+    "clone": "Hero 535x535 (right edge x1352, 88px white gap); 3-bottle 536x533; quote#1 height ~473 (same width, tighter crop); quote#2 538x473; diagram row ~573 tall"
+   },
+   {
+    "id": "F116",
+    "severity": "P2",
+    "type": "layout",
+    "section": "Choose Your Pack cards",
+    "description": "Pack-card grid is narrower with much larger gutters than live.",
+    "live": "Cards ~450px wide, ~25px gutters, ~17px outer margins (card1 x17-467, card2 x492-947, card3 x970-1424)",
+    "clone": "Cards ~401px wide, ~76px gutters, ~42px outer margins (card1 x42-443, card2 x519-920, card3 x996-1397)"
+   },
+   {
+    "id": "F117",
+    "severity": "P2",
+    "type": "typography",
+    "section": "hero copy",
+    "description": "The two benefit lines lose their list styling - no disc bullets, no indent.",
+    "live": "'• Assists natural cleansing processes...' / '• Supports digestive balance...' rendered as an indented bulleted list",
+    "clone": "Same two lines rendered as plain flush-left paragraph lines with no bullet markers"
+   },
+   {
+    "id": "F118",
+    "severity": "P2",
+    "type": "layout",
+    "section": "FAQ to footnote gap",
+    "description": "Extra vertical space between the last FAQ row and the '*TrueBroc(R)...' footnote.",
+    "live": "~146px from last FAQ chevron (abs 7097) to footnote text (abs 7243)",
+    "clone": "~194px (last chevron abs 6711 to footnote abs 6905) - ~48px larger gap"
+   }
+  ]
+ }
+]

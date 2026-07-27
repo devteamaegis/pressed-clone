@@ -1,0 +1,29 @@
+[
+ {
+  "id": "F003",
+  "severity": "P1",
+  "type": "layout",
+  "section": "left filter sidebar",
+  "description": "The clone is missing the entire 'Function' filter group that appears below the 'Product Type' checkbox group in the left sidebar. On live it renders as a second boxed group with the heading 'Function' immediately under the Gift Cards item (visible in pair D1, live y~117). In the clone the sidebar ends after 'Gift Cards' and the rail below is empty for the rest of the page.",
+  "live": "Two sidebar groups: 'Product Type' (15 checkboxes ending at Gift Cards) followed by a second boxed group headed 'Function'",
+  "clone": "Only the 'Product Type' group; sidebar ends after 'Gift Cards', no 'Function' group anywhere below"
+ },
+ {
+  "id": "F004",
+  "severity": "P2",
+  "type": "layout",
+  "section": "Freeze (Dairy-Free Soft Serve) row — Glow Up Sundae tile",
+  "description": "In the Freeze row (pair D11), the clone does not reserve the two-line title height on the 'Glow Up Sundae' tile (single-line title), so its price row and quantity stepper sit ~43px higher than the other five tiles in the row. On live, every tile's price row and button/stepper align on a shared baseline regardless of title line count.",
+  "live": "Title-to-price gap 87px on Glow Up Sundae; its $7.95/$6.50 price row aligns with neighboring Tropical Protein Freeze (y443 vs y440), steppers/buttons aligned (y506 vs y505)",
+  "clone": "Title-to-price gap only 40px; Glow Up Sundae price at y475 vs y518 for the rest of the row (43px high), stepper at y537 vs Shop-now buttons at y583 (46px high)"
+ },
+ {
+  "id": "F006",
+  "severity": "P3",
+  "type": "layout",
+  "section": "all product grids (cumulative)",
+  "description": "Clone page is 145px taller (15408 vs 15263) with no missing or extra content found; the delta is evenly distributed as ~4px of extra vertical pitch per product-grid row, accumulating from 0px offset at the header to ~90px by the Refreshers section and ~145px total. Measured row pitch (stepper row to next stepper row) in the Shots section: live 447px vs clone 451px. Suggests a few px extra card/title block height or row-gap per grid row in the clone.",
+  "live": "Document 15263px; Shots grid row pitch 447px; sections align with header at 0px offset",
+  "clone": "Document 15408px (+145); Shots grid row pitch 451px (+4/row); content drifts steadily lower down the page"
+ }
+]

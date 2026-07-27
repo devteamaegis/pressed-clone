@@ -1,0 +1,29 @@
+[
+ {
+  "id": "F038",
+  "severity": "P0",
+  "type": "image",
+  "section": "'As We Grow, You Grow.' section (right column)",
+  "description": "The interior photo on the right side of the 'As We Grow, You Grow.' section (dark wall reading 'SPOON YOUR JUICE') is completely missing in the clone — the area renders as blank white. Section height is preserved (next section lands at the expected offset), so the img element is likely absent or collapsed inside a fixed-height block.",
+  "live": "Photo of store interior with 'SPOON YOUR JUICE' wall art, approx x745-1300, ~395px tall, top-aligned near the 'As We Grow' heading",
+  "clone": "Blank white space where the image should be; nothing rendered right of the text column until the full-width fridge photo below"
+ },
+ {
+  "id": "F041",
+  "severity": "P1",
+  "type": "layout",
+  "section": "hero",
+  "description": "Hero image is not full-bleed in the clone: it stops at x=1280 leaving a ~160px white gutter on the right, and is correspondingly shorter (~635px vs ~705px tall, same aspect ratio), which accounts for most of the -84px desktop height delta.",
+  "live": "Hero spans full 1440px viewport width, image region ~140-845 (705px tall); product shelf visible at right edge",
+  "clone": "Hero image spans 0-1280 only, white strip from 1280-1440; image region ~140-775 (635px tall)"
+ },
+ {
+  "id": "F045",
+  "severity": "P2",
+  "type": "stray-element",
+  "section": "culture video (above footer)",
+  "description": "Video player chrome differs: live renders a native HTML5 <video controls> bar (play, 0:00, mute, fullscreen along the bottom edge); the clone instead shows a large dark centered play-button overlay and no native controls. Box size and position match (x140-1300, same height).",
+  "live": "Native browser controls bar docked at the bottom of the video box, no center overlay",
+  "clone": "Dark circular play-button overlay centered on the poster, no controls bar"
+ }
+]

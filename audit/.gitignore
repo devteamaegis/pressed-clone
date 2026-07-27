@@ -1,0 +1,8 @@
+# Raw capture tiles + full-page screenshots (hundreds of MB) — regenerate with
+# ditto.site/compiler/scripts/pressedFullAudit.mjs. The composed PDF and the
+# findings JSON below are the durable artifacts.
+*/
+_small/
+_after/
+_tmp/
+_audit.html

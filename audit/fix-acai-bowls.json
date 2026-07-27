@@ -1,0 +1,83 @@
+[
+ {
+  "id": "F053",
+  "severity": "P0",
+  "type": "image",
+  "section": "hero (More Than A Pretty Bowl)",
+  "description": "Right half of the hero shows a completely wrong image: a giant black-and-white flexed-arm line-art icon (blown up, blurry) instead of the acai-bowl photo on blue hex tile. The correct photo IS used on the mobile clone, so this is a desktop-only wrong-asset swap.",
+  "live": "Photo of acai bowl (banana/blueberry/strawberry/granola) on light-blue hex-tile counter, fills right column of hero",
+  "clone": "Huge pixelated muscle-arm line icon on white, fills right column (t00-t01)"
+ },
+ {
+  "id": "F054",
+  "severity": "P0",
+  "type": "image",
+  "section": "app/brand banner above 'The Pressed Difference'",
+  "description": "The full-width image section between 'What Makes Acai So Special?' and 'The Pressed Difference' is broken: the terrazzo lifestyle image is gone and an 'Download on the App Store' badge is rendered at ~854px wide, heavily pixelated.",
+  "live": "Full-width terrazzo-pattern lifestyle image block (x209-1230, ~470px tall) (live t04)",
+  "clone": "No terrazzo image; giant blurry Apple App Store badge (~854px wide) on white background (clone t04)"
+ },
+ {
+  "id": "F055",
+  "severity": "P0",
+  "type": "image",
+  "section": "How To Enjoy Your Acai Bowl (left column)",
+  "description": "Left-column image of the serving-suggestions section is broken: shows a giant pixelated 'GET IT ON Google Play' badge in a rounded frame instead of the bowl-on-yellow-board photo.",
+  "live": "Lifestyle photo: acai bowl on yellow cutting board, strawberries, pink/tile background (live t05-t06)",
+  "clone": "Huge blurry Google Play badge inside a gray rounded frame (clone t05-t06)"
+ },
+ {
+  "id": "F056",
+  "severity": "P0",
+  "type": "color",
+  "section": "Explore Our Acai Bowls + Perfect For cards",
+  "description": "All six card blocks lost their purple backgrounds and render as neutral grays. Because the text stays white, headings and bullet lists on the two lighter cards (Original and Superfood columns) are white-on-light-gray and barely readable.",
+  "live": "Three purple shades (dark purple / medium purple / lighter purple) with legible white text (live t02-t03)",
+  "clone": "Light-beige / medium-gray / light-gray cards; white text on cards 1 and 3 nearly invisible (clone t02-t03)"
+ },
+ {
+  "id": "F057",
+  "severity": "P1",
+  "type": "image",
+  "section": "Explore Our Acai Bowls cards 2-3 images",
+  "description": "Power Bowl and Superfood Bowl card images are the wrong asset/treatment: clone shows full-bleed rectangular lifestyle photos edge-to-edge (Superfood card even reuses the yellow-board photo that belongs to the How To Enjoy section), while live shows round bowl cut-outs floating on the purple card background. Original card (card 1) uses the correct cut-out.",
+  "live": "Round cut-out bowl images centered on purple card background (card 3 clearly visible: dark bowl on white plate against purple)",
+  "clone": "Full-width rectangular lifestyle photos (card 2: bowl on terrazzo counter; card 3: bowl on yellow board with pink backdrop)"
+ },
+ {
+  "id": "F063",
+  "severity": "P1",
+  "type": "color",
+  "section": "hero left panel",
+  "description": "Hero text panel background color is wrong: live is a light steel-blue (clearly blue-hued even through the modal dim overlay), clone is a neutral light gray.",
+  "live": "Light steel-blue / slate panel behind 'More Than A Pretty Bowl' copy (visible below modal in live t00)",
+  "clone": "Neutral light gray (#d3d3d3-ish) panel (clone t00)"
+ },
+ {
+  "id": "F064",
+  "severity": "P1",
+  "type": "stray-element",
+  "section": "FAQ accordion rows",
+  "description": "All 15 FAQ rows are missing the '+' expand icon at the right edge of each row (also absent on the mobile clone). Rows are otherwise present with correct text and hairline separators.",
+  "live": "'+' icon right-aligned on every FAQ row (live t06-t07)",
+  "clone": "No '+' icons on any FAQ row (clone t06-t07, mobile t10)"
+ },
+ {
+  "id": "F068",
+  "severity": "P2",
+  "type": "stray-element",
+  "section": "section dividers (below hero, below Why Our Acai Bowls CTA, above app banner)",
+  "description": "The centered ~150px hairline dividers between major sections are missing on the desktop clone (verified by pixel crops of the corresponding regions — pure white). The mobile clone renders only a ~20px dash, suggesting the divider element exists but is collapsed/short.",
+  "live": "~150px centered horizontal rule between sections (live t01 y118/y845, t04 y145)",
+  "clone": "No visible divider at any of those positions on desktop; tiny ~20px dash on mobile (clone mobile t06/t10)"
+ },
+ {
+  "id": "F069",
+  "severity": "P2",
+  "type": "color",
+  "section": "info cards (Why Our Acai Bowls, Acai Experience/Berry To Bowl, Real Ingredients row)",
+  "description": "Systemic tint loss on the small info cards: through the uniform modal dim, live cards read consistently warm (blush/greige) versus the surrounding dimmed white page, while clone cards are neutral near-white (#f6f6f6). Lower confidence than the purple-card finding because the live capture is dimmed, but the warm-vs-neutral difference repeats across three separate sections (t01, t03, t05).",
+  "live": "Card backgrounds show a warm blush/greige tint relative to page background",
+  "clone": "Neutral light gray (#f6f6f6-ish) card backgrounds"
+ }
+]

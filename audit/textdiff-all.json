@@ -1,0 +1,392 @@
+{
+  "home": {
+    "path": "/",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "shop": {
+    "path": "/shop",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "our-journey": {
+    "path": "/our-journey",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "locations": {
+    "path": "/juice-bar-locations",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "flavor-quiz": {
+    "path": "/flavor-quiz",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "catering": {
+    "path": "/catering",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "membership": {
+    "path": "/juice-subscription-membership/signup",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "faqs": {
+    "path": "/faqs",
+    "count": 1,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      }
+    ]
+  },
+  "careers": {
+    "path": "/careers",
+    "count": 3,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "We aim to create a world class retail organization filled with educators, motivators, and providers of nourishing, wholesome foods. We are the face of the brand - the inspiration and the method of bringing better-for-you food to all people. Our stores are not just stores, they are physical communities to teach, learn, and influence the decisions that we make as a company.",
+        "clone": "We aim to create a world class retail organization filled with educators, motivators, and providers of nourishing, wholesome foods. We are the face of the brand - the inspiration and the method ofbringing better-for-you food to all people. Our stores are not just stores, they are physical communities to teach, learn, and influence the decisions that we make as a company."
+      },
+      {
+        "live": "We are connectors and rule breakers, disrupting the entire food and beverage industry. It's our goal to make sure our customers can access our products wherever and whenever. In HQ we are always thinking outside the box. Pressed Juicery® is not for everyone. It's messy, it's complex and we move a million miles a minute, but watching everything come to life is what makes it all worth it.",
+        "clone": "We are connectors and rule breakers, disrupting the entire food and beverage industry. It's our goal to make sure our customers can access our products wherever and whenever.In HQ we are always thinking outside the box. Pressed Juicery® is not for everyone. It's messy, it's complex and we move a million miles a minute, but watching everything come to life is what makes it all worth it."
+      }
+    ]
+  },
+  "allergens": {
+    "path": "/allergens",
+    "count": 2,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Email us at info@pressed.com.",
+        "clone": "Email us atinfo@pressed.com."
+      }
+    ]
+  },
+  "acai-bowls": {
+    "path": "/acai-bowls",
+    "count": 6,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Choose your bowl: Original, Power, or Superfood.",
+        "clone": "Choose your bowl:Original,Power, orSuperfood."
+      },
+      {
+        "live": "Cold-Pressed Juice Try our Greens 3 for a complete nutrient profile Shop Now Dairy-Free Almond Milk For an extra protein boost Shop Now Compact Wellness Shots When you want to support your wellness routine Shop Now",
+        "clone": "Cold-Pressed Juice Try ourGreens 3 for a complete nutrient profile Shop Now Dairy-Free Almond Milk For an extra protein boost Shop Now Compact Wellness Shots When you want to support your wellness routine Shop Now"
+      },
+      {
+        "live": "Acai Bowl FAQs: Everything You've Wanted To Know",
+        "clone": "Acai Bowl FAQs:Everything You've Wanted To Know"
+      },
+      {
+        "live": "Cold-Pressed JuiceTry our Greens 3 for a complete nutrient profileShop Now",
+        "clone": "Cold-Pressed JuiceTry ourGreens 3 for a complete nutrient profileShop Now"
+      },
+      {
+        "live": "Dairy-Free Almond Milk For an extra protein boostShop Now",
+        "clone": "Dairy-Free Almond MilkFor an extra protein boostShop Now"
+      }
+    ]
+  },
+  "foodservice": {
+    "path": "/foodservice",
+    "count": 4,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Our process allows us to extract a substantial number of vitamins and minerals for optimal nutrient absorption",
+        "clone": "Our process allows us to extract a substantial number ofvitamins and mineralsfor optimal nutrient absorption"
+      },
+      {
+        "live": "• Mindful Sourcing: Our juice is made using up-cycled or imperfect produce. • Purposeful Pressing: Our methods preserve flavor, + nutrients while minimizing waste, with pulp repurposed as animal feed. • Responsible Packaging: Our bottles are 100% rPET, a more sustainable + recyclable plastic.",
+        "clone": "•Mindful Sourcing: Our juice is made using up-cycled or imperfect produce. • Purposeful Pressing: Our methods preserve flavor, + nutrients while minimizing waste, with pulp repurposed as animal feed. •Responsible Packaging:Our bottles are 100% rPET, a more sustainable + recyclable plastic."
+      },
+      {
+        "live": "• 7 Billion+ Media impressions from top-tier outlets & 5B+ social impressions in the past year • 2 Million Followers across all social platforms and the “it” juice among A-list celebrities, influencers, & models • Health & Wellness Thought Leaders + owner of The Chalkboard Mag, an online guide to living well",
+        "clone": "•7 Billion+ Media impressions from top-tier outlets & 5B+ social impressions in the past year • 2 Million Followersacross all social platforms and the “it” juice among A-list celebrities, influencers, & models • Health & Wellness Thought Leaders +owner of The Chalkboard Mag, an online guide to living well"
+      }
+    ]
+  },
+  "cleanse-guide": {
+    "path": "/cleanse-guide",
+    "count": 37,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Rich in antioxidant-packed ingredients and 100% plant-based, the juices offered in our cleanses provide essential nutrients to support your overall well-being. Focused on gut health, our cleanses can help unlock optimal wellness and energy. Learn more in The Importance of Good Gut Health.",
+        "clone": "Rich in antioxidant-packed ingredients and 100% plant-based, the juices offered in our cleanses provide essential nutrients to support your overall well-being. Focused on gut health, our cleanses can help unlock optimal wellness and energy. Learn more inThe Importance of Good Gut Health."
+      },
+      {
+        "live": "6am-8am: Simple Cleanse",
+        "clone": "6am-8am:Simple Cleanse"
+      },
+      {
+        "live": "12pm: Dark Chocolate Protein Smoothie + Wellness Shot",
+        "clone": "12pm:Dark Chocolate Protein Smoothie + Wellness Shot"
+      },
+      {
+        "live": "3pm: Hilma Tonic + Probiotic Shot",
+        "clone": "3pm:Hilma Tonic + Probiotic Shot"
+      },
+      {
+        "live": "6pm-7pm: Vanilla Protein Smoothie",
+        "clone": "6pm-7pm:Vanilla Protein Smoothie"
+      },
+      {
+        "live": "9pm-10pm: Unwind Tonic + Calm Shot",
+        "clone": "9pm-10pm:Unwind Tonic + Calm Shot"
+      },
+      {
+        "live": "6am-8am: Simple Cleanse® + Gut Biome+ Shot",
+        "clone": "6am-8am:Simple Cleanse® + Gut Biome+ Shot"
+      },
+      {
+        "live": "10am: Greens 1.5 + Probiotic Shot + Multivitamin Shot + Gut Health Shot",
+        "clone": "10am:Greens 1.5 + Probiotic Shot + Multivitamin Shot + Gut Health Shot"
+      },
+      {
+        "live": "12pm: Celery Juice",
+        "clone": "12pm:Celery Juice"
+      },
+      {
+        "live": "2pm: Debloat Shot",
+        "clone": "2pm:Debloat Shot"
+      },
+      {
+        "live": "3pm: Debloat Tonic",
+        "clone": "3pm:Debloat Tonic"
+      },
+      {
+        "live": "6pm-7pm: Greens 1",
+        "clone": "6pm-7pm:Greens 1"
+      },
+      {
+        "live": "Post-Cleanse Maintenance:1 Gut Biome+ Shot per day for 7 days. Learn more in our guide.",
+        "clone": "Post-Cleanse Maintenance:1 Gut Biome+ Shot per day for 7 days. Learn more inour guide."
+      },
+      {
+        "live": "6am-8am: Simple Cleanse® Juice",
+        "clone": "6am-8am:Simple Cleanse® Juice"
+      },
+      {
+        "live": "3pm: Debloat Tonic & Probiotic Shot",
+        "clone": "3pm:Debloat Tonic & Probiotic Shot"
+      },
+      {
+        "live": "6am-8am: Simple Cleanse® Juice & Gut Biome+ Shot",
+        "clone": "6am-8am:Simple Cleanse® Juice & Gut Biome+ Shot"
+      },
+      {
+        "live": "Post-Cleanse Maintenance: Pair with wholesome meals, learn more in our guide.",
+        "clone": "Post-Cleanse Maintenance:Pair with wholesome meals, learn more inour guide."
+      },
+      {
+        "live": "10am-11am: Greens 2",
+        "clone": "10am-11am:Greens 2"
+      },
+      {
+        "live": "2pm-3pm: Citrus 2",
+        "clone": "2pm-3pm:Citrus 2"
+      },
+      {
+        "live": "4pm-5pm: Greens 3",
+        "clone": "4pm-5pm:Greens 3"
+      },
+      {
+        "live": "6pm-7pm: Chocolate Almond",
+        "clone": "6pm-7pm:Chocolate Almond"
+      },
+      {
+        "live": "2pm-3pm: Roots 3",
+        "clone": "2pm-3pm:Roots 3"
+      },
+      {
+        "live": "6pm-7pm: Vanilla Almond",
+        "clone": "6pm-7pm:Vanilla Almond"
+      },
+      {
+        "live": "8am-9am: Celery Juice",
+        "clone": "8am-9am:Celery Juice"
+      },
+      {
+        "live": "10am-11am: Greens 1",
+        "clone": "10am-11am:Greens 1"
+      },
+      {
+        "live": "12pm-1pm: Avocado Greens",
+        "clone": "12pm-1pm:Avocado Greens"
+      },
+      {
+        "live": "6pm-7pm: Chocolate Banana",
+        "clone": "6pm-7pm:Chocolate Banana"
+      },
+      {
+        "live": "10am-11am: Greens 3",
+        "clone": "10am-11am:Greens 3"
+      },
+      {
+        "live": "12pm-1pm: Citrus 2",
+        "clone": "12pm-1pm:Citrus 2"
+      },
+      {
+        "live": "2pm-3pm: Chocolate Almond",
+        "clone": "2pm-3pm:Chocolate Almond"
+      },
+      {
+        "live": "2pm-3pm: Vanilla Almond",
+        "clone": "2pm-3pm:Vanilla Almond"
+      },
+      {
+        "live": "Eat something! Always listen to your body. Try a warm plant-based broth or some almonds to help tide you over. If you’re looking for more options, check out our article, 3 Ways To Cheat On A Juice Cleanse, for recipes to keep you on track while satisfying your cravings.",
+        "clone": "Eat something! Always listen to your body. Try a warm plant-based broth or some almonds to help tide you over. If you’re looking for more options, check out our article,3 Ways To Cheat On A Juice Cleanse, for recipes to keep you on track while satisfying your cravings."
+      },
+      {
+        "live": "Yes! You need water in addition to your juices to stay hydrated. Try our Hydration+ juices or shots for an extra electrolyte boost to your cleanse, or just stick to plain old water, the elixir of life! 😊",
+        "clone": "Yes! You need water in addition to your juices to stay hydrated. Try ourHydration+ juices or shots for an extra electrolyte boost to your cleanse, or just stick to plain old water, the elixir of life! 😊"
+      },
+      {
+        "live": "Boost your cleanse: Add Wellness or Immunity shots for extra nutrients and flavor.",
+        "clone": "Boost your cleanse: AddWellness orImmunity shots for extra nutrients and flavor."
+      },
+      {
+        "live": "Exercise: Feel free to do light to moderate exercise, but always listen to your body.",
+        "clone": "Exercise: Feel free to do light to moderate exercise, butalways listen to your body."
+      },
+      {
+        "live": "Have additional questions that you don’t see here? Reach out to us at info@pressed.com!",
+        "clone": "Have additional questions that you don’t see here? Reach out to us atinfo@pressed.com!"
+      }
+    ]
+  },
+  "cold-pressed-juices": {
+    "path": "/cold-pressed-juices",
+    "count": 2,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "All Pressed juices, wellness shots and hydration shots are printed with \"best by\" dates. Our bottles have an imprint of \"Best if Used By MM/DD/YY\" on the back of the bottle. If you are buying our products at the grocery store, you'll find this date on top of the cap.",
+        "clone": "All Pressed juices, wellness shots and hydration shots are printed with\"best by\" dates. Our bottles have an imprint of\"Best if Used By MM/DD/YY\" on the back of the bottle. If you are buying our products at the grocery store, you'll find this date on top of the cap."
+      }
+    ]
+  },
+  "detox": {
+    "path": "/detox-cleanse-gut-health",
+    "count": 2,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Here's how the 2-Day Pro Cleanse+ goes beyond our traditional cleanse and detox programs:",
+        "clone": "Here's how the2-Day Pro Cleanse+ goes beyond our traditional cleanse and detox programs:"
+      }
+    ]
+  },
+  "featured": {
+    "path": "/featured-cleanses-juice-packs",
+    "count": 3,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Cleanse Your Way.",
+        "clone": "CleanseYourWay."
+      },
+      {
+        "live": "Customized cleanses and systems to kick off your year for total renewal. New year, new you.",
+        "clone": "Customized cleanses and systems to kick off your year for total renewal.New year, new you."
+      }
+    ]
+  },
+  "gut-biome": {
+    "path": "/gut-biome-sulforaphane-benefits",
+    "count": 5,
+    "diffs": [
+      {
+        "live": "Do not sell or share my personal information",
+        "clone": "Do Not Sell or Share My Personal Information"
+      },
+      {
+        "live": "Science Meets Gut Support: Gut Biome+",
+        "clone": "Science Meets Gut Support:Gut Biome+"
+      },
+      {
+        "live": "What Is Sulforaphane & Why Should You Care?",
+        "clone": "What Is Sulforaphane& Why Should You Care?"
+      },
+      {
+        "live": "Broccoli seeds are packed with glucoraphanin, which your body converts into sulforaphane. Sulforaphane supports cellular defense pathways (like Nrf2) linked to antioxidant activity and detox support.",
+        "clone": "Broccoli seeds are packed with glucoraphanin, which your body converts into sulforaphane. Sulforaphanesupports cellular defense pathways (like Nrf2) linked to antioxidant activity and detox support."
+      },
+      {
+        "live": "Support your gut with our Gut Biome+ Detox, a microbiome-friendly cleanse of functional blends designed to help promote digestive balance and overall wellness in one easy routine.",
+        "clone": "Support your gut with ourGut Biome+ Detox, a microbiome-friendly cleanse of functional blends designed to help promote digestive balance and overall wellness in one easy routine."
+      }
+    ]
+  }
+}

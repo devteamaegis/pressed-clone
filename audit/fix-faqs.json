@@ -1,0 +1,20 @@
+[
+ {
+  "id": "F034",
+  "severity": "P2",
+  "type": "layout",
+  "section": "left sidebar category nav",
+  "description": "Vertical rhythm of the 14 category links is looser in the clone (~36px per row vs ~32px live), making the list ~54px taller and accounting for nearly all of the 64px document-height delta (live 1579 vs clone 1643). Same items, same order, same bold+bar active state on 'General FAQs'.",
+  "live": "14 links at ~32px spacing; first item y~352, last item 'Pressed® App' at y~768",
+  "clone": "14 links at ~36px spacing; first item y~354, last item 'Pressed® App' at y~822"
+ },
+ {
+  "id": "F035",
+  "severity": "P3",
+  "type": "layout",
+  "section": "left sidebar category nav",
+  "description": "Non-active category links are indented ~8-9px to the right in the clone, creating a nested look; on live all 14 links (active and inactive) share one flush left edge.",
+  "live": "'General FAQs' text x~65, all other links x~64 (single left edge)",
+  "clone": "'General FAQs' text x~67, all other links x~73 (inactive links indented ~8px)"
+ }
+]

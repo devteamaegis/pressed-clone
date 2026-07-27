@@ -1,0 +1,29 @@
+[
+ {
+  "id": "F087",
+  "severity": "P1",
+  "type": "color",
+  "section": "hero band (also mobile hero)",
+  "description": "Hero section background color is wrong. Live uses a light sand/sage band; clone renders a dark saturated olive. Verified with hard evidence: live mobile full-page capture (undimmed region) samples rgb(222,216,190) ~#DED8BE; clone samples rgb(94,80,8) #5E5008, which traces to `--clr-9: rgb(94, 80, 8)` at src/app/globals.css:116 (hero uses bg-clr-9 in src/app/cold-pressed-juices/page.tsx). Desktop overlay-corrected math gives the same live value (footer-black check proves the popup overlay is neutral black, so channel ratios are trustworthy: live B/R=0.86 near-neutral vs clone B/R=0.085 saturated). Affects BOTH viewports; on mobile the black 'Cold-Pressed Juices' heading sits on dark olive instead of light sand, flipping the intended contrast.",
+  "live": "hero band bg rgb(222,216,190) light sand; black heading text on light background",
+  "clone": "hero band bg rgb(94,80,8) dark olive (--clr-9 in globals.css:116); black heading on dark background"
+ },
+ {
+  "id": "F089",
+  "severity": "P2",
+  "type": "layout",
+  "section": "Cold Pressed Juice FAQs (also mobile FAQs)",
+  "description": "All five 1px horizontal divider rules in the FAQ section are missing in the clone: the rule directly under the 'Cold Pressed Juice FAQs' heading and the rule after each of the 4 Q&A items. Verified in clean (unobscured) regions of both full-page captures on desktop (live rules at abs y=2264, 2428, 2567, 2706, 2895; clone has none) and mobile (unpaired single-row diff bands at css y~3737, 4001, 4190, 4379, 4659 present only in live). Affects BOTH viewports. Spacing between items is otherwise preserved, so it is likely a suppressed border/hr, not a removed element with height.",
+  "live": "5 thin black divider lines: below FAQs heading and after each of the 4 answers",
+  "clone": "0 divider lines; blank whitespace where each rule should be"
+ },
+ {
+  "id": "F091",
+  "severity": "P3",
+  "type": "typography",
+  "section": "footer, Membership column",
+  "description": "The Membership paragraph wraps at different words in the desktop footer. Live breaks after 'treats' (line 1 = 'Enjoy VIP pricing and earn treats'); clone breaks after 'earn' (line 1 = 'Enjoy VIP pricing and earn'). Both are 3 lines, columns start at identical x positions, so the clone's paragraph box is slightly narrower or letter-spacing slightly wider. Mobile footer wraps identically to live (verified), so this is desktop-only.",
+  "live": "3 lines: 'Enjoy VIP pricing and earn treats' / 'when you subscribe to a' / 'Pressed Juicery® Membership.'",
+  "clone": "3 lines: 'Enjoy VIP pricing and earn' / 'treats when you subscribe to a' / 'Pressed Juicery® Membership.'"
+ }
+]

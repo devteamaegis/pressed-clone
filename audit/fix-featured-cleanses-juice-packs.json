@@ -1,0 +1,20 @@
+[
+ {
+  "id": "F102",
+  "severity": "P2",
+  "type": "layout",
+  "section": "hero (CleanseYourWay banner)",
+  "description": "Clone is missing the ~32px vertical gap between the sticky header and the hero banner; the hero sits flush against the header. Hero height itself matches (260px both).",
+  "live": "hero top edge at y=172, header bottom ~140 → ~32px gap above hero",
+  "clone": "hero top edge at y=140 → 0px gap, flush under header"
+ },
+ {
+  "id": "F103",
+  "severity": "P2",
+  "type": "layout",
+  "section": "Cleanses section heading",
+  "description": "Gap between the hero banner bottom and the 'Cleanses' section heading is ~32px smaller in the clone. Together with the missing header→hero gap this fully accounts for the −67px document height delta; measured drift stays constant (~66px) at Juice Packs (t02) and More to Discover (t05), so no other desktop vertical spacing defects exist.",
+  "live": "hero bottom y=432 → heading glyphs start y=498 (66px gap)",
+  "clone": "hero bottom y=400 → heading glyphs start y=434 (34px gap)"
+ }
+]

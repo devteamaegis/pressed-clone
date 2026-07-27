@@ -1,0 +1,29 @@
+[
+ {
+  "id": "F072",
+  "severity": "P2",
+  "type": "layout",
+  "section": "Where To Find Us?",
+  "description": "The 'Contact Us' CTA pill wraps to two lines ('Contact' / 'Us') and is ~90px tall in the clone. Live's button is hidden behind the newsletter modal in the capture, so direct comparison wasn't possible, but the clone button is visibly broken (too narrow for its label) and the extra ~46px of button height exactly accounts for the +56px desktop document-height delta: all sections above it align vertically live-vs-clone, all sections below it sit ~48-56px lower in the clone. Same two-line wrap occurs on mobile clone (M3).",
+  "live": "expected single-line 'Contact Us' pill (~44px tall); obscured by email popup in capture — sections above it have 0px vertical drift, sections below drift +48-56px",
+  "clone": "pill at x576-704, y269-358 (~128w x 90h) with 'Contact' and 'Us' on separate lines"
+ },
+ {
+  "id": "F074",
+  "severity": "P2",
+  "type": "stray-element",
+  "section": "section dividers (5 locations)",
+  "description": "Live has thin full-content-width horizontal rules separating major sections at 5 places; all are missing in the clone: (1) below the hero/Inquire section (~y608), (2) below the three mission cards (~y1238), (3) above 'Where To Find Us?' below the segment icons (~y1817), (4) below the distributor logo row (~y2208), (5) above 'Product Breakouts' (~y3466).",
+  "live": "1px black hr spanning x210-1230 at each of the 5 section boundaries",
+  "clone": "no horizontal rules at any of the corresponding locations"
+ },
+ {
+  "id": "F078",
+  "severity": "P3",
+  "type": "typography",
+  "section": "footer — Membership blurb",
+  "description": "Membership paragraph wraps one word earlier in the clone (both are 3 lines but break points differ), suggesting the clone's column is a few px narrower or letter-spacing differs slightly.",
+  "live": "'Enjoy VIP pricing and earn treats / when you subscribe to a / Pressed Juicery® Membership.'",
+  "clone": "'Enjoy VIP pricing and earn / treats when you subscribe to a / Pressed Juicery® Membership.'"
+ }
+]
