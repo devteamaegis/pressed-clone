@@ -307,7 +307,7 @@ export default function Page() {
                     <img className="w-full h-auto block max-w-full overflow-clip max-md:hidden md:max-lg:w-192 md:max-lg:h-[23.8125rem]" data-component="image" alt="Three Pressed Juicery® Employees standing in front of a Pressed Juicery® fridge." src="/assets/cloned/images/ab0ca1f4dbae.png" />
                     <img className="w-full hidden max-w-full overflow-clip max-md:w-140 max-md:h-[24.8125rem] max-md:block" data-ditto-id="style-div-34" alt="Three Pressed Juicery® Employees standing in front of a Pressed Juicery® fridge." src="/assets/cloned/images/fbb6ffd469ae.jpg" />
                     <div className="w-full h-full flex absolute top-0 left-0 max-w-360 px-5 flex-col justify-center bg-[rgba(0,0,0,0.36)] max-md:w-140 max-md:h-[13.249rem] max-lg:relative max-lg:right-0 max-lg:bottom-0 max-lg:bg-background md:max-lg:w-192 md:max-lg:h-42.5" data-ditto-id="style-heading-28">
-                      <div className="block ml-32.5 max-w-[350px] max-md:max-w-full max-md:ml-5 max-md:text-left md:max-lg:mx-auto md:max-lg:text-center" data-ditto-id="style-br-23">
+                      <div className="block ml-37.5 max-w-[350px] max-md:max-w-full max-md:ml-5 max-md:text-left md:max-lg:mx-auto md:max-lg:text-center" data-ditto-id="style-br-23">
                         <h1 className="w-0 h-0 block absolute top-52 left-42.5 overflow-hidden text-[2rem] leading-10" data-ditto-id="style-p-49">
                           Job Opportunities
                         </h1>
