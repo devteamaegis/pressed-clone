@@ -402,7 +402,7 @@ export default function Page() {
               </header>
               <main className="block" id="maincontent">
                 <section className="block py-18 text-center bg-clr-8 max-lg:py-16" data-ditto-id="style-font">
-                  <div className="block max-w-360 px-8">
+                  <div className="block max-w-360 mx-auto px-8">
                     <h1 className="block mb-3 [font-family:regola-neue-semibold,_sans-serif] text-[2rem] leading-10" data-component="heading">
                       Pressed Rewards
                     </h1>
@@ -415,7 +415,7 @@ export default function Page() {
                   </div>
                 </section>
                 <section className="block py-26 max-lg:py-16" data-ditto-id="style-br-23">
-                  <div className="block max-w-360 px-8" data-ditto-id="style-p-49">
+                  <div className="block max-w-360 mx-auto px-8" data-ditto-id="style-p-49">
                     <div className="grid gap-x-10 grid-cols-3 max-lg:justify-center max-lg:grid-cols-1" data-ditto-id="style-p-25">
                       <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid max-lg:mb-10" data-ditto-id="style-p-22">
                         <div className="block" data-ditto-id="style-strong-6" />
@@ -560,7 +560,7 @@ export default function Page() {
                   </div>
                 </section>
                 <section className="block py-18 bg-primary max-lg:py-16">
-                  <div className="block max-w-360 px-8" data-ditto-id="style-link-16">
+                  <div className="block max-w-360 mx-auto px-8" data-ditto-id="style-link-16">
                     <div className="grid gap-6 grid-cols-[1fr_1.9fr] max-lg:gap-4 max-lg:grid-cols-1" data-ditto-id="style-image-16">
                       <div className="block p-2 max-lg:pb-6 max-lg:pt-0" data-ditto-id="style-p-11">
                         <h2 className="block mb-6 [font-family:regola-neue-semibold,_sans-serif] text-[2rem] leading-10" data-ditto-id="style-strong-23" data-component="heading">
@@ -604,7 +604,7 @@ export default function Page() {
                   </div>
                 </section>
                 <section className="block py-26 max-lg:py-16" data-ditto-id="style-strong-18">
-                  <div className="block max-w-360 px-8" data-ditto-id="style-p-39">
+                  <div className="block max-w-360 mx-auto px-8" data-ditto-id="style-p-39">
                     <div className="grid gap-x-10 grid-cols-3 max-lg:justify-center max-lg:grid-cols-1" data-ditto-id="style-div-62" title="Ready To Glow Up Your Wellness?">
                       <div className="grid row-start-[span_3] grid-cols-1 grid-rows-subgrid max-lg:mb-10">
                         <div className="block" data-ditto-id="style-heading-14" />

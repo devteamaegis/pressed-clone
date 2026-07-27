@@ -335,7 +335,7 @@ export default function Page() {
               <main className="block" id="maincontent">
                 <div className="block mx-auto">
                   <div className="block">
-                    <div className="block max-w-360">
+                    <div className="block max-w-360 mx-auto">
                       <div className="block relative -mb-1 aspect-[51/25] leading-0 bg-foreground bg-cover [background-position:50%_50%] bg-no-repeat" style={{ backgroundImage:"url(\"/assets/cloned/images/hero-poster.jpg\")" }}>
                         <video
                           className="w-full inline-block aspect-[51/25] object-fill"
@@ -662,7 +662,7 @@ export default function Page() {
             </div>
             <footer className="block py-20 text-background bg-foreground max-lg:pt-10 max-lg:pb-16" data-ditto-id="style-heading">
               <div className="h-full block" data-ditto-id="style-div-152">
-                <div className="h-full block max-w-360 px-16 max-md:px-6 md:max-lg:px-8" data-ditto-id="style-figure">
+                <div className="h-full block max-w-360 mx-auto px-16 max-md:px-6 md:max-lg:px-8" data-ditto-id="style-figure">
                   <div className="border-b border-solid border-b-background grid mb-6 pb-10 gap-x-[5%] grid-cols-[40px_162px_minmax(0,1fr)] max-lg:block max-lg:grid-cols-[40px_162px_auto] max-lg:border-b-[0] max-lg:border-initial max-lg:border-b-[initial] max-lg:pb-0" data-ditto-id="style-div-138">
                     <a className="h-11 block mb-10 cursor-pointer max-lg:inline-block" data-ditto-id="style-link-7" data-component="link" aria-current="page" href="/">
                       <img className="w-10 h-10 inline max-w-full overflow-clip" data-ditto-id="style-image-8" data-component="image" alt="Pressed Juicery logo" src={iconFor("Pressed Juicery logo")} />

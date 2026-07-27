@@ -463,7 +463,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="block max-w-360 px-4 mx-auto" data-ditto-id="style-div-95">
-                  <div className="grid max-w-360 mt-16 mb-24 items-center gap-12 grid-cols-[1fr_1.222fr] max-md:my-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mt-8 md:max-lg:mb-12" data-ditto-id="style-div-29">
+                  <div className="grid max-w-360 mx-auto mt-16 mb-24 items-center gap-12 grid-cols-[1fr_1.222fr] max-md:my-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mt-8 md:max-lg:mb-12" data-ditto-id="style-div-29">
                     <div className="block max-lg:hidden">
                       <img className="w-full h-auto inline max-w-full overflow-clip" data-ditto-id="style-div-116" data-component="image" src="/assets/cloned/images/1e0cb16672bb.jpg" />
                     </div>
@@ -524,7 +524,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="block max-w-360 px-4 mx-auto" data-ditto-id="style-strong-40">
-                  <div className="grid max-w-360 mt-16 mb-24 items-center gap-12 grid-cols-[1.222fr_1fr] max-md:my-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mt-8 md:max-lg:mb-12" data-ditto-id="style-p-9">
+                  <div className="grid max-w-360 mx-auto mt-16 mb-24 items-center gap-12 grid-cols-[1.222fr_1fr] max-md:my-8 max-lg:gap-6 max-lg:grid-cols-1 md:max-lg:mt-8 md:max-lg:mb-12" data-ditto-id="style-p-9">
                     <div className="block order-[2] aspect-[1.184] max-lg:hidden" data-ditto-id="style-link-2">
                       <img className="w-full h-auto inline max-w-full overflow-clip" data-ditto-id="style-div-23" data-component="image" src="/assets/cloned/images/610a99e1142f.jpg" />
                     </div>
@@ -562,7 +562,7 @@ export default function Page() {
                       </a>
                     </div>
                   </div>
-                  <div className="grid max-w-360 mb-6 gap-3 grid-cols-[1fr_2.333fr] max-md:mb-4 max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-br-13">
+                  <div className="grid max-w-360 mx-auto mb-6 gap-3 grid-cols-[1fr_2.333fr] max-md:mb-4 max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-br-13">
                     <div className="block p-8 rounded-2xl text-background bg-foreground max-lg:bg-clr-10" data-ditto-id="style-br">
                       <h2 className="block mb-2 text-[2.5rem] leading-12 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-xl max-lg:leading-7 max-lg:mb-0" data-ditto-id="style-figure-4" data-component="heading">
                         Day 1:
@@ -586,7 +586,7 @@ export default function Page() {
                       <img className="w-full h-[43.0625rem] block max-w-full overflow-clip object-cover max-lg:hidden" data-ditto-id="style-figure-3" data-component="image" src="/assets/cloned/images/54c1bd78c07c.jpg" />
                     </div>
                   </div>
-                  <div className="grid max-w-360 mb-6 gap-3 grid-cols-[2.333fr_1fr] max-md:mb-4 max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-div-25">
+                  <div className="grid max-w-360 mx-auto mb-6 gap-3 grid-cols-[2.333fr_1fr] max-md:mb-4 max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-div-25">
                     <div className="block p-8 rounded-2xl text-background bg-foreground max-lg:bg-clr-12" data-ditto-id="style-link-15">
                       <h2 className="block mb-2 text-[2.5rem] leading-12 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-xl max-lg:leading-7 max-lg:mb-0" data-ditto-id="style-image-6" data-component="heading">
                         Day 2:
@@ -610,7 +610,7 @@ export default function Page() {
                       <img className="w-full h-160 block max-w-full overflow-clip object-cover max-lg:hidden" data-component="image" src="/assets/cloned/images/da17b9a1860e.jpg" />
                     </div>
                   </div>
-                  <div className="grid max-w-360 mb-6 gap-3 grid-cols-[1fr_2.333fr] max-md:mb-4 max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-br-8">
+                  <div className="grid max-w-360 mx-auto mb-6 gap-3 grid-cols-[1fr_2.333fr] max-md:mb-4 max-lg:grid-cols-1 max-lg:gap-[initial]" data-ditto-id="style-br-8">
                     <div className="block p-8 rounded-2xl text-background bg-foreground" data-ditto-id="style-br-72">
                       <h2 className="block mb-2 text-[2.5rem] leading-12 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-xl max-lg:leading-7 max-lg:mb-0" data-ditto-id="style-br-9" data-component="heading">
                         Your Aftercare Plan
@@ -663,7 +663,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="block max-w-360 px-4 mx-auto max-md:-mt-8">
-                  <div className="grid max-w-360 my-24 gap-24 grid-cols-[1fr_1.5fr] max-md:mb-8 max-lg:gap-4 max-lg:grid-cols-1 md:max-lg:mb-12" data-ditto-id="style-div-18">
+                  <div className="grid max-w-360 mx-auto my-24 gap-24 grid-cols-[1fr_1.5fr] max-md:mb-8 max-lg:gap-4 max-lg:grid-cols-1 md:max-lg:mb-12" data-ditto-id="style-div-18">
                     <h2 className="block text-[3.5rem] leading-16 max-md:[font-family:regola-neue-medium,_sans-serif] max-lg:text-[2rem] max-lg:leading-10" data-ditto-id="style-p-35" data-component="heading">
                       Frequently Asked Questions
                     </h2>
