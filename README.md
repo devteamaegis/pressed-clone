@@ -63,16 +63,27 @@ pressed-clone/
 │   ├── cloned-interactions.js    hand-written interaction runtime (see ARCHITECTURE.md)
 │   ├── cloned-interactions.css   styles for the rebuilt widgets, all `.cloned-*` scoped
 │   └── assets/cloned/
-│       ├── images/ (429)         content-addressed captured imagery
-│       ├── svg/    (29)          captured vector artwork
+│       ├── images/ (466)         content-addressed captured imagery
+│       ├── svg/    (35)          captured vector artwork
 │       ├── fonts/  (141)         captured webfonts + the 5 recovered Pressed brand faces
-│       └── video/  (1)           hero footage recovered from Mux
+│       └── video/  (3)           hero footage recovered from Mux + the careers film
 │
-└── docs/
-    ├── pressed-clone-audit-BEFORE.pdf   raw Ditto output vs live, all 7 pages
-    ├── pressed-clone-audit-AFTER.pdf    after the fixes below
-    └── discrepancies.json               78 findings from a 7-way parallel visual audit
+├── docs/
+│   ├── pressed-clone-audit-BEFORE.pdf   raw Ditto output vs live
+│   ├── pressed-clone-audit-AFTER.pdf    after the first fix round
+│   ├── pressed-clone-audit-FINAL.pdf    deployed Vercel build vs live
+│   └── discrepancies.json               findings from the first parallel visual audit
+│
+└── audit/                        second, full-site audit (all 17 routes, desktop + mobile)
+    ├── findings-confirmed.json   119 findings that survived adversarial verification
+    ├── findings-by-page.json     the same set grouped per route
+    ├── interaction-audit.json    per-feature live-vs-clone behaviour results
+    ├── textdiff-all.json         exact live-vs-clone string mismatches
+    └── capture-manifest.json     document heights + heading maps per page/viewport
 ```
+
+Capture tiles and the composed PDF for the second audit are gitignored (~400 MB);
+regenerate them with `pressedFullAudit.mjs` / `pressedComposeAuditPdf.mjs`.
 
 ## Run locally
 
@@ -89,7 +100,8 @@ npx serve out          # or any static file server
 ## What was wrong with the raw clone, and what fixed it
 
 Every item was found by pixel-diffing against live and fixed at the root, not per page. Full
-before/after evidence is in the two PDFs under `docs/`.
+before/after evidence is in the PDFs under `docs/`, and the second, full-site audit
+data is under `audit/`.
 
 | Defect | Scope | Root cause |
 | --- | --- | --- |
